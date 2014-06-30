@@ -1,0 +1,30 @@
+/* linuxtotal.com.mx, sergio.gonzalez.duran@gmail.com
+   Este y todos los programas de linuxtotal.com.mx están
+	 bajo la licencia GPL */
+	 
+#menu { display:none }
+#camino { display:none }
+#cuerpo { padding:0; }
+#cuerpoi { display:none; }
+#cuerpod { width:100%; margin:0; padding:0}
+
+#contenidoizquierdo { width:100%; margin:0; padding:0}
+#contenidoderecho { display:none; }
+#encabezado_abajo  { display:none; }
+#encabezado_arriba { display:none; }
+#cuerpo_enmedio { display:none; }
+#fb_tw { display:none; }
+
+#subir { display:none }
+#ah { display:none }
+#gh { display:none }
+#cuerpodd { display:none }
+#menup { display:none }
+#favoritos { display:none }
+#finArticulo { display:none }
+#masArticulos { display:none }
+#busquedaArriba { display:none }
+#busquedaAbajo { display:none }
+#anunciosTLA { display:none }
+#gah5a { display:none }
+#anuncio_banner_inferior_pie { display:none }

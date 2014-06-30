@@ -1,0 +1,62 @@
+/*
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #fff;
+}
+
+.header_contenedor_CATED-DT{
+	background-color:#ccc;
+}
+
+.header_banner_CATED-DT{
+	background:url('../images/header.png') no-repeat;
+	background-position:center top;
+}
+
+.button_naranja:hover{
+	background-color:#CC6600;
+	color:#FFF;
+}
+
+
+
+#menu li a{
+    color:blue;
+}
+.contenidos{
+    display:none;
+    margin:10px; 
+    padding: 10px;
+    border:1px solid gray;
+}
+*/ 
+
+
+
+
+/*******		Modificaciones de CSS por Gustavo 		**********/
+/*::::::::::::::::::::::::::::		Menu de configuracion::Inicio		::::::::::::::::::::::::::::*/
+/*
+#moduloInicio_contenedor {
+  display: table;
+}
+
+#moduloInicio_contenidos {
+  display: table-row;
+}
+ 
+#moduloInicio_menu, #moduloInicio_contenidosMenu {
+  display: table-cell;
+}
+
+/*::::::::::::::::::::::::::::		Menu de configuracion::Configuracion		::::::::::::::::::::::::::::*/
+
+#moduloConfiguracion_contenidos {
+  display: table-row;
+}
+ 
+#moduloConfiguracion_contenidosMenu {
+  display: table-cell;
+}

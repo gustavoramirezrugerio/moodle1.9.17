@@ -1,0 +1,2912 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- saved from url=(0066)http://www.ajpdsoft.com/modules.php?file=article&name=news&sid=155 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><script type="text/javascript" src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/auth016.js"></script><link rel="stylesheet" type="text/css" href="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/widget119.css" media="all">
+<link rel="shortcut icon" href="http://www.ajpdsoft.com/ajpdsoft.ico"><meta name="google-site-verification" content="p_QNwoaJey73fQjUvfXTycucR4Su1OZ6vCFcilr750Q"><title> Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft</title>
+
+<meta http-equiv="EXPIRES" content="0">
+<meta name="RESOURCE-TYPE" content="DOCUMENT">
+<meta name="DISTRIBUTION" content="GLOBAL">
+<meta name="AUTHOR" content="Proyecto AjpdSoft">
+<meta name="COPYRIGHT" content="Copyright (c) 2003 by Proyecto AjpdSoft">
+<meta name="KEYWORDS" content="visual basic, android, eclipse, java, postgresql, sqlite, delphi, software, source code, programacion, código fuente, nuevas tecnologías, windows, linux, oracle, mysql, sql server">
+<meta name="DESCRIPTION" content="Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux  Proyecto AjpdSoft">
+<meta name="ROBOTS" content="INDEX, FOLLOW">
+<meta name="REVISIT-AFTER" content="5 DAYS">
+<meta name="RATING" content="GENERAL">
+<meta name="GENERATOR" content="Proyecto AjpdSoft">
+<link rel="StyleSheet" href="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/style.css" type="text/css">
+
+
+ <script id="LR1" type="text/javascript" async="" src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/client.js"></script><script id="twitter-wjs" src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/widgets.js"></script><script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><script id="facebook-jssdk" src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/all.js"></script><script src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/cb=gapi.loaded_0" async=""></script><script languaje="JavaScript"> 
+ var bookmarkurl="http://www.ajpdsoft.com" 
+ var bookmarktitle="Proyecto AjpdSoft" 
+ function addbookmark(){ 
+ if (document.all) 
+ window.external.AddFavorite(bookmarkurl,bookmarktitle) 
+ } 
+ </script><style type="text/css"></style> 
+
+
+
+<style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}
+.fb_invisible{display:none}
+.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}
+.fb_reset > div{overflow:hidden}
+.fb_link img{border:none}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}
+.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}
+.fb_dialog_content{background:#fff;color:#333}
+.fb_dialog_close_icon{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px;top:8px\9;right:7px\9}
+.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}
+.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}
+.fb_dialog_close_icon:hover{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}
+.fb_dialog_close_icon:active{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}
+.fb_dialog_loader{background-color:#f2f2f2;border:1px solid #606060;font-size:24px;padding:20px}
+.fb_dialog_top_left,
+.fb_dialog_top_right,
+.fb_dialog_bottom_left,
+.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}
+.fb_dialog_top_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}
+.fb_dialog_top_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}
+.fb_dialog_bottom_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}
+.fb_dialog_bottom_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}
+.fb_dialog_vert_left,
+.fb_dialog_vert_right,
+.fb_dialog_horiz_top,
+.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}
+.fb_dialog_vert_left,
+.fb_dialog_vert_right{width:10px;height:100%}
+.fb_dialog_vert_left{margin-left:-10px}
+.fb_dialog_vert_right{right:0;margin-right:-10px}
+.fb_dialog_horiz_top,
+.fb_dialog_horiz_bottom{width:100%;height:10px}
+.fb_dialog_horiz_top{margin-top:-10px}
+.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}
+.fb_dialog_iframe{line-height:0}
+.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #3b5998;color:#fff;font-size:14px;font-weight:bold;margin:0}
+.fb_dialog_content .dialog_title > span{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yd/r/Cou7n-nqK52.gif)
+no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}
+body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}
+.fb_dialog.fb_dialog_mobile.loading{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/ya/r/3rhSv5V8j3o.gif)
+white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}
+.fb_dialog.fb_dialog_mobile.loading.centered{max-height:590px;min-height:590px;max-width:500px;min-width:500px}
+#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;left:0;top:0;width:100%;min-height:100%;z-index:10000}
+#fb-root #fb_dialog_ipad_overlay.hidden{display:none}
+.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}
+.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}
+.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%
+}
+.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px
+}
+.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px
+}
+.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6),
+color-stop(0.5, #355492), to(#2A4887));border:1px solid #29447e;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset,
+rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}
+.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}
+.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}
+.fb_dialog_content .dialog_content{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}
+.fb_dialog_content .dialog_footer{background:#f2f2f2;border:1px solid #555;border-top-color:#ccc;height:40px}
+#fb_dialog_loader_close{float:left}
+.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}
+.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}
+.fb_iframe_widget{display:inline-block;position:relative}
+.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}
+.fb_iframe_widget iframe{position:absolute}
+.fb_iframe_widget_lift{z-index:1}
+.fb_hide_iframes iframe{position:relative;left:-10000px}
+.fb_iframe_widget_loader{position:relative;display:inline-block}
+.fb_iframe_widget_fluid{display:inline}
+.fb_iframe_widget_fluid span{width:100%}
+.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}
+.fb_iframe_widget_loader .FB_Loader{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}
+.fb_connect_bar_container div,
+.fb_connect_bar_container span,
+.fb_connect_bar_container a,
+.fb_connect_bar_container img,
+.fb_connect_bar_container strong{background:none;border-spacing:0;border:0;direction:ltr;font-style:normal;font-variant:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal;vertical-align:baseline}
+.fb_connect_bar_container{position:fixed;left:0 !important;right:0 !important;height:42px !important;padding:0 25px !important;margin:0 !important;vertical-align:middle !important;border-bottom:1px solid #333 !important;background:#3b5998 !important;z-index:99999999 !important;overflow:hidden !important}
+.fb_connect_bar_container_ie6{position:absolute;top:expression(document.compatMode=="CSS1Compat"? document.documentElement.scrollTop+"px":body.scrollTop+"px")}
+.fb_connect_bar{position:relative;margin:auto;height:100%;width:100%;padding:6px 0 0 0 !important;background:none;color:#fff !important;font-family:"lucida grande", tahoma, verdana, arial, sans-serif !important;font-size:13px !important;font-style:normal !important;font-variant:normal !important;font-weight:normal !important;letter-spacing:normal !important;line-height:1 !important;text-decoration:none !important;text-indent:0 !important;text-shadow:none !important;text-transform:none !important;white-space:normal !important;word-spacing:normal !important}
+.fb_connect_bar a:hover{color:#fff}
+.fb_connect_bar .fb_profile img{height:30px;width:30px;vertical-align:middle;margin:0 6px 5px 0}
+.fb_connect_bar div a,
+.fb_connect_bar span,
+.fb_connect_bar span a{color:#bac6da;font-size:11px;text-decoration:none}
+.fb_connect_bar .fb_buttons{float:right;margin-top:7px}
+.fbpluginrecommendationsbarleft,
+.fbpluginrecommendationsbarright{position:fixed !important;bottom:0;z-index:999}
+.fbpluginrecommendationsbarleft{left:10px}
+.fbpluginrecommendationsbarright{right:10px}</style></head>
+
+<body data-twttr-rendered="true"><iframe id="twttrHubFrameSecure" allowtransparency="true" frameborder="0" scrolling="no" tabindex="0" name="twttrHubFrameSecure" style="position: absolute; top: -9999em; width: 10px; height: 10px;" src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/hub(1).html"></iframe><iframe id="twttrHubFrame" allowtransparency="true" frameborder="0" scrolling="no" tabindex="0" name="twttrHubFrame" style="position: absolute; top: -9999em; width: 10px; height: 10px;" src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/hub.html"></iframe><script type="text/javascript" src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/plusone.js" gapi_processed="true">{lang: 'es'}</script><div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe name="fb_xdm_frame_http" frameborder="0" allowtransparency="true" scrolling="no" id="fb_xdm_frame_http" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tab-index="-1" style="border: none;" src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/xd_arbiter.html"></iframe><iframe name="fb_xdm_frame_https" frameborder="0" allowtransparency="true" scrolling="no" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tab-index="-1" style="border: none;" src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/xd_arbiter(1).html"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div></div>
+          <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/es_ES/all.js#xfbml=1";
+          fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'facebook-jssdk'));</script><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-587417-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script><br>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+<tbody><tr> 
+<td width="10"><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/pl_bdr_1.gif" width="10" height="12"></td>
+<td background="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/pl_bdr_3.gif" class="gensmall" width="100%"><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/spacer.gif" width="200" height="12"></td>
+<td width="10"><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/pl_bdr_5.gif" width="10" height="12"></td>
+</tr>
+</tbody></table>
+<table width="100%" border="0" cellpadding="0" cellspacing="1" bgcolor="757575">
+  <tbody><tr>
+    <td><table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="eaf4f9">
+        <tbody><tr>
+          <td width="60%"><a href="http://www.ajpdsoft.com/"><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/logo.png" border="0" alt="Proyecto AjpdSoft"></a></td>
+          <td width="40%"><script type="text/javascript"><!--
+google_ad_client = "pub-9017794352345256";
+/* Anuncios banner superior web */
+google_ad_slot = "7317874694";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></td>
+        </tr>
+      </tbody></table></td>
+  </tr>
+</tbody></table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td width="7"><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/story-BL.gif" width="7" height="22"></td>
+    <td height="22" background="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/story-B.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tbody><tr>
+          <td width="160"><div align="left"><font class="content">&nbsp;&nbsp;<a href="http://www.ajpdsoft.com/modules.php?name=Your_Account&op=new_user">Nuevo usuario</a></font></div></td>
+          <td><div align="center"><font class="content">
+		  <a href="http://www.ajpdsoft.com/">Inicio</a> 
+        &nbsp;<strong>:</strong>&nbsp;<a href="http://www.ajpdsoft.com/modules.php?name=Downloads">Descargas</a> &nbsp;<strong>:</strong>&nbsp;         
+        <a href="http://www.ajpdsoft.com/modules.php?name=Content">Trucos VB.Net, PHP, Delphi</a> &nbsp;<strong>:</strong>&nbsp;
+        <a href="http://www.ajpdsoft.com/modules.php?name=Stories_Archive&sa=show_all">Manuales</a>
+        &nbsp;<strong>:</strong>&nbsp;<a href="http://www.ajpdsoft.com/modules.php?name=Downloads&d_op=viewdownload&cid=10">Código Fuente</a>		
+        </font></div></td>
+          <td width="160">
+            <div align="right"><font class="content">
+              </font></div></td>
+        </tr>
+      </tbody></table></td>
+    <td width="7"><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/story-BR.gif" width="7" height="22"></td>
+  </tr>
+</tbody></table>
+    <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center">
+      <tbody><tr valign="top">
+        <td><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/7px.gif" width="1" height="1" border="0" alt=""></td>
+</tr></tbody></table>
+<table width="100%" cellpadding="0" cellspacing="0" border="0" align="center">
+<tbody><tr valign="top">
+  <td valign="top" width="1" background="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/7px.gif"><table width="150" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/7px.gif" width="7" height="7"></td>
+  </tr>
+</tbody></table>
+<table width="150" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/block-top.gif" width="150" height="6"></td>
+  </tr>
+</tbody></table>
+<table width="150" height="23" border="0" cellpadding="0" cellspacing="0" background="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/block-title.gif">
+  <tbody><tr>
+    <td><table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tbody><tr>
+          <td><font class="block-title"><strong>Principal</strong></font></td>
+        </tr>
+      </tbody></table></td>
+  </tr>
+</tbody></table>
+<table width="150" border="0" cellpadding="1" cellspacing="0" bgcolor="757575">
+  <tbody><tr>
+    <td><table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="eaf4f9">
+        <tbody><tr>
+          <td><table width="100%" border="0" cellspacing="0" cellpadding="4">
+              <tbody><tr>
+                <td><font class="content"><strong><big>·</big></strong>&nbsp;<a href="http://www.ajpdsoft.com/">Inicio</a><br>
+<strong><big>·</big></strong>&nbsp;<a href="http://www.ajpdsoft.com/modules.php?name=Search">Buscar</a><br>
+<strong><big>·</big></strong>&nbsp;<a href="http://www.ajpdsoft.com/modules.php?name=Contactar">Contactar</a><br>
+<strong><big>·</big></strong>&nbsp;<a href="http://www.ajpdsoft.com/modules.php?name=Downloads">Descargas</a><br>
+<strong><big>·</big></strong>&nbsp;<a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia">Enciclopedia</a><br>
+<strong><big>·</big></strong>&nbsp;<a href="http://www.ajpdsoft.com/modules.php?name=Statistics">Estadísticas</a><br>
+<strong><big>·</big></strong>&nbsp;<a href="http://www.ajpdsoft.com/modules.php?name=NuCalendar">Eventos</a><br>
+<strong><big>·</big></strong>&nbsp;<a href="http://www.ajpdsoft.com/modules.php?name=Foros">Foros</a><br>
+<strong><big>·</big></strong>&nbsp;<a href="http://www.ajpdsoft.com/modules.php?name=Stories_Archive">Manuales, Artículos</a><br>
+<strong><big>·</big></strong>&nbsp;<a href="http://www.ajpdsoft.com/modules.php?name=Historia">Nuestra historia</a><br>
+<strong><big>·</big></strong>&nbsp;<a href="http://www.ajpdsoft.com/modules.php?name=Quienes_Somos">Quiénes somos</a><br>
+<strong><big>·</big></strong>&nbsp;<a href="http://www.ajpdsoft.com/modules.php?name=Recommend_Us">Recomiéndanos</a><br>
+<strong><big>·</big></strong>&nbsp;<a href="http://www.ajpdsoft.com/modules.php?name=Topics">Temas</a><br>
+<strong><big>·</big></strong>&nbsp;<a href="http://www.ajpdsoft.com/modules.php?name=Top">Top 10</a><br>
+<strong><big>·</big></strong>&nbsp;<a href="http://www.ajpdsoft.com/modules.php?name=Content">Trucos Delphi, PHP, Java, Visual Studio</a><br>
+<strong><big>·</big></strong>&nbsp;<a href="http://www.ajpdsoft.com/modules.php?name=Your_Account">Tu cuenta</a><br>
+</font></td>
+              </tr>
+            </tbody></table></td>
+        </tr>
+      </tbody></table></td>
+  </tr>
+</tbody></table>
+<table width="150" height="6" border="0" cellpadding="0" cellspacing="0" background="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/block-bottom.gif">
+  <tbody><tr>
+    <td></td>
+  </tr>
+</tbody></table>
+<table width="150" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/7px.gif" width="7" height="7"></td>
+  </tr>
+</tbody></table>
+<table width="150" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/block-top.gif" width="150" height="6"></td>
+  </tr>
+</tbody></table>
+<table width="150" height="23" border="0" cellpadding="0" cellspacing="0" background="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/block-title.gif">
+  <tbody><tr>
+    <td><table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tbody><tr>
+          <td><font class="block-title"><strong>Descargas</strong></font></td>
+        </tr>
+      </tbody></table></td>
+  </tr>
+</tbody></table>
+<table width="150" border="0" cellpadding="1" cellspacing="0" bgcolor="757575">
+  <tbody><tr>
+    <td><table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="eaf4f9">
+        <tbody><tr>
+          <td><table width="100%" border="0" cellspacing="0" cellpadding="4">
+              <tbody><tr>
+                <td><font class="content"><marquee behavior="Scroll" direction="Up" height="300" scrollamount="1" scrolldelay="80" onmouseover="this.stop()" onmouseout="this.start()"><br>Últimas Descargas<br>· <a href="http://www.ajpdsoft.com/modules.php?name=Downloads&d_op=viewdownloaddetails&lid=311">AjpdSoft Gestión Seguidores Twitter C#</a><br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Downloads&d_op=viewdownloaddetails&lid=310">AjpdSoft Información PC WMI en VB.Net</a><br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Downloads&d_op=viewdownloaddetails&lid=309">AjpdSoft Acceso PostgreSQL con Lazarus x64</a><br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Downloads&d_op=viewdownloaddetails&lid=307">Ejemplo acceso nativo a SQLite con ADO.Net en C# .Net</a><br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Downloads&d_op=viewdownloaddetails&lid=306">AjpdSoft Acceso MySQL Android</a><br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Downloads&d_op=viewdownloaddetails&lid=308">AjpdSoft Acceso SQLite C# ADO.NET</a><br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Downloads&d_op=viewdownloaddetails&lid=305">AjpdSoft Acceso MySQL con ADO.NET en C#</a><br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Downloads&d_op=viewdownloaddetails&lid=304">AjpdSoft Gestión Integral código fuente Delphi</a><br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Downloads&d_op=viewdownloaddetails&lid=303">AjpdSoft Indexar Texto PDF C# iTextSharp</a><br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Downloads&d_op=viewdownloaddetails&lid=302">AjpdSoft Capturar Pantalla C#</a><br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Downloads&d_op=viewdownloaddetails&lid=301">AjpdSoft Gestión de Transportes Ficheros instalación manual</a><br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Downloads&d_op=viewdownloaddetails&lid=300">AjpdSoft Separar Páginas PDF código fuente C# C Sharp .Net</a><br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Downloads&d_op=viewdownloaddetails&lid=299">AjpdSoft Convertir Texto a PDF código fuente VB.Net</a><br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Downloads&d_op=viewdownloaddetails&lid=298">AjpdSoft Generador y Lector códigos QR VB.Net</a><br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Downloads&d_op=viewdownloaddetails&lid=297">AjpdSoft Socket VB.Net</a><br><br><br>Lo más descargado<br>· <a href="http://www.ajpdsoft.com/modules.php?name=Downloads&d_op=viewdownloaddetails&lid=150">AjpdSoft Registro de OCX y DLL Código Fuente Delphi</a><br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Downloads&d_op=viewdownloaddetails&lid=10">AjpdSoft Generador de códigos de barras</a><br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Downloads&d_op=viewdownloaddetails&lid=199">Borland Database Desktop 7.0</a><br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Downloads&d_op=viewdownloaddetails&lid=160">AjpdSoft Conversor Hexadecimal, Decimal, Texto - Código Fuente Delphi</a><br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Downloads&d_op=viewdownloaddetails&lid=90">AjpdSoft Aviso cambio IP pública</a><br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Downloads&d_op=viewdownloaddetails&lid=145">AjpdSoft Administración Bases de Datos Código Fuente Delphi</a><br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Downloads&d_op=viewdownloaddetails&lid=46">AjpdSoft Inventario PCs</a><br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Downloads&d_op=viewdownloaddetails&lid=39">AjpdSoft Facturación Código Fuente Delphi</a><br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Downloads&d_op=viewdownloaddetails&lid=298">AjpdSoft Generador y Lector códigos QR VB.Net</a><br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Downloads&d_op=viewdownloaddetails&lid=116">AjpdSoft Puerto Paralelo Código Fuente Delphi</a><br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Downloads&d_op=viewdownloaddetails&lid=287">AjpdSoft Agenda Telefónica Android</a><br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Downloads&d_op=viewdownloaddetails&lid=70">AjpdSoft Inventario PCs  Código Fuente Delphi</a><br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Downloads&d_op=viewdownloaddetails&lid=206">AjpdSoft Conexión BD Visual Basic .Net</a><br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Downloads&d_op=viewdownloaddetails&lid=28">Cómo trabajar con tablas Paradox en red</a><br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Downloads&d_op=viewdownloaddetails&lid=200">Borland Database Engine BDE</a><br><br></marquee></font></td>
+              </tr>
+            </tbody></table></td>
+        </tr>
+      </tbody></table></td>
+  </tr>
+</tbody></table>
+<table width="150" height="6" border="0" cellpadding="0" cellspacing="0" background="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/block-bottom.gif">
+  <tbody><tr>
+    <td></td>
+  </tr>
+</tbody></table>
+<table width="150" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/7px.gif" width="7" height="7"></td>
+  </tr>
+</tbody></table>
+<table width="150" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/block-top.gif" width="150" height="6"></td>
+  </tr>
+</tbody></table>
+<table width="150" height="23" border="0" cellpadding="0" cellspacing="0" background="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/block-title.gif">
+  <tbody><tr>
+    <td><table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tbody><tr>
+          <td><font class="block-title"><strong>Términos enciclopedias</strong></font></td>
+        </tr>
+      </tbody></table></td>
+  </tr>
+</tbody></table>
+<table width="150" border="0" cellpadding="1" cellspacing="0" bgcolor="757575">
+  <tbody><tr>
+    <td><table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="eaf4f9">
+        <tbody><tr>
+          <td><table width="100%" border="0" cellspacing="0" cellpadding="4">
+              <tbody><tr>
+                <td><font class="content"><a name="scrollingCode"></a><marquee behavior="scroll" align="center" direction="up" height="300" scrollamount="1" scrolldelay="80" onmouseover="this.stop()" onmouseout="this.start()">Últimos<br>· <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=content&tid=1135">DATE_FORMAT(fecha, formato)</a> <br>Enc.: <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=list_content&eid=15">Funciones MySQL</a>
+<br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=content&tid=1134">SOAP</a> <br>Enc.: <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=list_content&eid=1">Informática</a>
+<br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=content&tid=1133">CSRF</a> <br>Enc.: <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=list_content&eid=1">Informática</a>
+<br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=content&tid=1132">SIG</a> <br>Enc.: <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=list_content&eid=1">Informática</a>
+<br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=content&tid=1131">Ruby</a> <br>Enc.: <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=list_content&eid=1">Informática</a>
+<br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=content&tid=1130">DATEDIFF (fecha1, fecha2)</a> <br>Enc.: <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=list_content&eid=15">Funciones MySQL</a>
+<br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=content&tid=1129">DaysBetween (fecha1, fecha2)</a> <br>Enc.: <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=list_content&eid=12">Funciones Delphi</a>
+<br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=content&tid=1128">Telnet</a> <br>Enc.: <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=list_content&eid=1">Informática</a>
+<br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=content&tid=1127">OSI</a> <br>Enc.: <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=list_content&eid=1">Informática</a>
+<br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=content&tid=1126">LTO</a> <br>Enc.: <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=list_content&eid=1">Informática</a>
+<br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=content&tid=1125">DoS, DDoS</a> <br>Enc.: <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=list_content&eid=1">Informática</a>
+<br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=content&tid=1124">NVRAM</a> <br>Enc.: <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=list_content&eid=1">Informática</a>
+<br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=content&tid=1123">DATE_SUB (date, INTERVAL)</a> <br>Enc.: <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=list_content&eid=15">Funciones MySQL</a>
+<br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=content&tid=1122">CURDATE ()</a> <br>Enc.: <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=list_content&eid=15">Funciones MySQL</a>
+<br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=content&tid=1121">DES</a> <br>Enc.: <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=list_content&eid=1">Informática</a>
+<br><br><br>Lo más visitado<br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=content&tid=291">Attrib</a> <br>Enc.: <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=list_content&eid=6">Comandos Windows XP/Windows 2000/2003 (consola MS-DOS)</a>
+<br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=content&tid=768">URL</a> <br>Enc.: <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=list_content&eid=1">Informática</a>
+<br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=content&tid=289">At</a> <br>Enc.: <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=list_content&eid=6">Comandos Windows XP/Windows 2000/2003 (consola MS-DOS)</a>
+<br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=content&tid=287">Arp</a> <br>Enc.: <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=list_content&eid=6">Comandos Windows XP/Windows 2000/2003 (consola MS-DOS)</a>
+<br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=content&tid=664">net use unidad: \\nombrepc\recursocompartido</a> <br>Enc.: <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=list_content&eid=6">Comandos Windows XP/Windows 2000/2003 (consola MS-DOS)</a>
+<br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=content&tid=292">bootcfg addsw</a> <br>Enc.: <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=list_content&eid=6">Comandos Windows XP/Windows 2000/2003 (consola MS-DOS)</a>
+<br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=content&tid=760">ODBC</a> <br>Enc.: <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=list_content&eid=1">Informática</a>
+<br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=content&tid=186">MSKSrvr.exe</a> <br>Enc.: <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=list_content&eid=3">Procesos en memoria</a>
+<br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=content&tid=711">Mozilla Firefox</a> <br>Enc.: <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=list_content&eid=11">Programas/Software</a>
+<br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=content&tid=681">xcopy</a> <br>Enc.: <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=list_content&eid=6">Comandos Windows XP/Windows 2000/2003 (consola MS-DOS)</a>
+<br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=content&tid=295">Call</a> <br>Enc.: <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=list_content&eid=6">Comandos Windows XP/Windows 2000/2003 (consola MS-DOS)</a>
+<br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=content&tid=690">Gpupdate</a> <br>Enc.: <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=list_content&eid=6">Comandos Windows XP/Windows 2000/2003 (consola MS-DOS)</a>
+<br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=content&tid=820">Apache (Servidor HTTP)</a> <br>Enc.: <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=list_content&eid=1">Informática</a>
+<br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=content&tid=680">netstat -n</a> <br>Enc.: <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=list_content&eid=6">Comandos Windows XP/Windows 2000/2003 (consola MS-DOS)</a>
+<br><br>· <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=content&tid=288">Assoc</a> <br>Enc.: <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=list_content&eid=6">Comandos Windows XP/Windows 2000/2003 (consola MS-DOS)</a>
+<br></marquee></font></td>
+              </tr>
+            </tbody></table></td>
+        </tr>
+      </tbody></table></td>
+  </tr>
+</tbody></table>
+<table width="150" height="6" border="0" cellpadding="0" cellspacing="0" background="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/block-bottom.gif">
+  <tbody><tr>
+    <td></td>
+  </tr>
+</tbody></table>
+<table width="150" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/7px.gif" width="7" height="7"></td>
+  </tr>
+</tbody></table>
+<table width="150" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/block-top.gif" width="150" height="6"></td>
+  </tr>
+</tbody></table>
+<table width="150" height="23" border="0" cellpadding="0" cellspacing="0" background="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/block-title.gif">
+  <tbody><tr>
+    <td><table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tbody><tr>
+          <td><font class="block-title"><strong>Eventos</strong></font></td>
+        </tr>
+      </tbody></table></td>
+  </tr>
+</tbody></table>
+<table width="150" border="0" cellpadding="1" cellspacing="0" bgcolor="757575">
+  <tbody><tr>
+    <td><table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="eaf4f9">
+        <tbody><tr>
+          <td><table width="100%" border="0" cellspacing="0" cellpadding="4">
+              <tbody><tr>
+                <td><font class="content"><center><b>Febrero</b></center><br><table border="0" cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td nowrap="" align="center" valign="middle" width="15%">D</td><td nowrap="" align="center" valign="middle" width="15%">L</td><td nowrap="" align="center" valign="middle" width="15%">M</td><td nowrap="" align="center" valign="middle" width="15%">M</td><td nowrap="" align="center" valign="middle" width="15%">J</td><td nowrap="" align="center" valign="middle" width="15%">V</td><td nowrap="" align="center" valign="middle" width="15%">S</td></tr><tr><td nowrap="" align="center" valign="middle" width="15%"></td><td nowrap="" align="center" valign="middle" width="15%"></td><td nowrap="" align="center" valign="middle" width="15%"></td><td nowrap="" align="center" valign="middle" width="15%"></td><td nowrap="" align="center" valign="middle" width="15%"></td><td nowrap="" align="center" valign="middle" width="15%"></td><td nowrap="" align="center" valign="middle" width="15%">1<br><center><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/red_dot.gif"></center></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td nowrap="" align="center" valign="middle" width="15%">2<br><center><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/red_dot.gif"></center></td><td nowrap="" align="center" valign="middle" width="15%">3<br><center><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/red_dot.gif"></center></td><td nowrap="" align="center" valign="middle" width="15%">4<br><center><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/red_dot.gif"></center></td><td nowrap="" align="center" valign="middle" width="15%">5<br><center><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/red_dot.gif"></center></td><td nowrap="" align="center" valign="middle" width="15%">6<br><center><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/red_dot.gif"></center></td><td nowrap="" align="center" valign="middle" width="15%">7<br><center><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/red_dot.gif"></center></td><td nowrap="" align="center" valign="middle" width="15%">8<br><center><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/red_dot.gif"></center></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td nowrap="" align="center" valign="middle" width="15%">9<br><center><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/red_dot.gif"></center></td><td nowrap="" align="center" valign="middle" width="15%">10<br><center><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/red_dot.gif"></center></td><td nowrap="" align="center" valign="middle" width="15%">11<br><center><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/red_dot.gif"></center></td><td nowrap="" align="center" valign="middle" width="15%">12<br><center><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/red_dot.gif"></center></td><td nowrap="" align="center" valign="middle" width="15%">13<br><center><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/red_dot.gif"></center></td><td nowrap="" align="center" valign="middle" width="15%">14<br><center><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/red_dot.gif"></center></td><td nowrap="" align="center" valign="middle" width="15%">15<br><center><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/red_dot.gif"></center></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td nowrap="" align="center" valign="middle" width="15%">16<br><center><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/red_dot.gif"></center></td><td nowrap="" align="center" valign="middle" width="15%">17<br><center><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/red_dot.gif"></center></td><td nowrap="" align="center" valign="middle" width="15%">18<br><center><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/red_dot.gif"></center></td><td nowrap="" align="center" valign="middle" width="15%">19<br><center><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/red_dot.gif"></center></td><td nowrap="" align="center" valign="middle" width="15%">20<br><center><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/red_dot.gif"></center></td><td nowrap="" align="center" valign="middle" width="15%">21<br><center><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/red_dot.gif"></center></td><td nowrap="" align="center" valign="middle" width="15%">22<br><center><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/red_dot.gif"></center></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td nowrap="" align="center" valign="middle" width="15%">23<br><center><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/red_dot.gif"></center></td><td nowrap="" align="center" valign="middle" width="15%">24<br><center><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/red_dot.gif"></center></td><td nowrap="" align="center" valign="middle" width="15%">25<br><center><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/red_dot.gif"></center></td><td nowrap="" align="center" valign="middle" width="15%">26<br><center><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/red_dot.gif"></center></td><td nowrap="" align="center" valign="middle" width="15%">27<br><center><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/red_dot.gif"></center></td><td nowrap="" align="center" valign="middle" width="15%">28<br><center><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/red_dot.gif"></center></td><td nowrap="" align="center" valign="middle" width="15%"></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table></font></td>
+              </tr>
+            </tbody></table></td>
+        </tr>
+      </tbody></table></td>
+  </tr>
+</tbody></table>
+<table width="150" height="6" border="0" cellpadding="0" cellspacing="0" background="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/block-bottom.gif">
+  <tbody><tr>
+    <td></td>
+  </tr>
+</tbody></table>
+<table width="150" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/7px.gif" width="7" height="7"></td>
+  </tr>
+</tbody></table>
+<table width="150" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/block-top.gif" width="150" height="6"></td>
+  </tr>
+</tbody></table>
+<table width="150" height="23" border="0" cellpadding="0" cellspacing="0" background="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/block-title.gif">
+  <tbody><tr>
+    <td><table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tbody><tr>
+          <td><font class="block-title"><strong>Consejos</strong></font></td>
+        </tr>
+      </tbody></table></td>
+  </tr>
+</tbody></table>
+<table width="150" border="0" cellpadding="1" cellspacing="0" bgcolor="757575">
+  <tbody><tr>
+    <td><table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="eaf4f9">
+        <tbody><tr>
+          <td><table width="100%" border="0" cellspacing="0" cellpadding="4">
+              <tbody><tr>
+                <td><font class="content"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-9017794352345256";
+/* AjpdSoft - Banner - Vertical */
+google_ad_slot = "4001641500";
+google_ad_width = 120;
+google_ad_height = 600;
+//-->
+</script>
+<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></font></td>
+              </tr>
+            </tbody></table></td>
+        </tr>
+      </tbody></table></td>
+  </tr>
+</tbody></table>
+<table width="150" height="6" border="0" cellpadding="0" cellspacing="0" background="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/block-bottom.gif">
+  <tbody><tr>
+    <td></td>
+  </tr>
+</tbody></table>
+<table width="150" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/7px.gif" width="7" height="7"></td>
+  </tr>
+</tbody></table>
+<table width="150" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/block-top.gif" width="150" height="6"></td>
+  </tr>
+</tbody></table>
+<table width="150" height="23" border="0" cellpadding="0" cellspacing="0" background="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/block-title.gif">
+  <tbody><tr>
+    <td><table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tbody><tr>
+          <td><font class="block-title"><strong>Lenguajes</strong></font></td>
+        </tr>
+      </tbody></table></td>
+  </tr>
+</tbody></table>
+<table width="150" border="0" cellpadding="1" cellspacing="0" bgcolor="757575">
+  <tbody><tr>
+    <td><table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="eaf4f9">
+        <tbody><tr>
+          <td><table width="100%" border="0" cellspacing="0" cellpadding="4">
+              <tbody><tr>
+                <td><font class="content"><center><font class="content">Selecciona Idioma de la Interfaz:<br><br></font><form action="http://www.ajpdsoft.com/index.php" method="get"><select name="newlanguage" onchange="top.location.href=this.options[this.selectedIndex].value"><option value="index.php?newlang=english">English</option>
+<option value="index.php?newlang=spanish" selected="">Spanish</option>
+</select></form></center></font></td>
+              </tr>
+            </tbody></table></td>
+        </tr>
+      </tbody></table></td>
+  </tr>
+</tbody></table>
+<table width="150" height="6" border="0" cellpadding="0" cellspacing="0" background="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/block-bottom.gif">
+  <tbody><tr>
+    <td></td>
+  </tr>
+</tbody></table>
+<table width="150" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/7px.gif" width="7" height="7"></td>
+  </tr>
+</tbody></table>
+<table width="150" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/block-top.gif" width="150" height="6"></td>
+  </tr>
+</tbody></table>
+<table width="150" height="23" border="0" cellpadding="0" cellspacing="0" background="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/block-title.gif">
+  <tbody><tr>
+    <td><table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tbody><tr>
+          <td><font class="block-title"><strong>Webs recomendadas</strong></font></td>
+        </tr>
+      </tbody></table></td>
+  </tr>
+</tbody></table>
+<table width="150" border="0" cellpadding="1" cellspacing="0" bgcolor="757575">
+  <tbody><tr>
+    <td><table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="eaf4f9">
+        <tbody><tr>
+          <td><table width="100%" border="0" cellspacing="0" cellpadding="4">
+              <tbody><tr>
+                <td><font class="content"><a href="http://www.orasite.com/" target="blank">Orasite.com</a><br><br>
+
+
+<br><br>
+
+<a href="http://www.ajpdsoft.com/modules.php?name=Contactar">Coloca tu web aquí</a></font></td>
+              </tr>
+            </tbody></table></td>
+        </tr>
+      </tbody></table></td>
+  </tr>
+</tbody></table>
+<table width="150" height="6" border="0" cellpadding="0" cellspacing="0" background="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/block-bottom.gif">
+  <tbody><tr>
+    <td></td>
+  </tr>
+</tbody></table>
+<table width="150" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/7px.gif" width="7" height="7"></td>
+  </tr>
+</tbody></table>
+<table width="150" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/block-top.gif" width="150" height="6"></td>
+  </tr>
+</tbody></table>
+<table width="150" height="23" border="0" cellpadding="0" cellspacing="0" background="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/block-title.gif">
+  <tbody><tr>
+    <td><table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tbody><tr>
+          <td><font class="block-title"><strong>Language english</strong></font></td>
+        </tr>
+      </tbody></table></td>
+  </tr>
+</tbody></table>
+<table width="150" border="0" cellpadding="1" cellspacing="0" bgcolor="757575">
+  <tbody><tr>
+    <td><table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="eaf4f9">
+        <tbody><tr>
+          <td><table width="100%" border="0" cellspacing="0" cellpadding="4">
+              <tbody><tr>
+                <td><font class="content"><a href="http://www.ajpdsoft.com/?traducir=es-en">English</a></font></td>
+              </tr>
+            </tbody></table></td>
+        </tr>
+      </tbody></table></td>
+  </tr>
+</tbody></table>
+<table width="150" height="6" border="0" cellpadding="0" cellspacing="0" background="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/block-bottom.gif">
+  <tbody><tr>
+    <td></td>
+  </tr>
+</tbody></table>
+</td><td valign="top" width="100%"><table width="100%" border="0" cellspacing="0" cellpadding="7">
+  <tbody><tr>
+    <td>
+<table width="100%" border="0" cellpadding="0" cellspacing="1" bgcolor="757575">
+        <tbody><tr>
+          <td bgcolor="eaf4f9"><table width="100%" border="0" cellspacing="0" cellpadding="4">
+              <tbody><tr>
+                <td>  <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/follow_button.1392079123.html" class="twitter-follow-button twitter-follow-button" title="Twitter Follow Button" data-twttr-rendered="true" style="width: 234px; height: 20px;"></iframe>
+
+	<script>!function(d,s,id){
+	  var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+	  if(!d.getElementById(id)){
+	  js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);
+	  }
+	  }
+	  (document, 'script', 'twitter-wjs');</script>	  
+  
+  
+&nbsp;&nbsp;&nbsp; <div class="fb-like fb_iframe_widget" data-href="https://www.facebook.com/proyectoajpdsoft" data-send="true" data-layout="button_count" data-width="450" data-show-faces="false" data-font="verdana" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=&amp;font=verdana&amp;href=https%3A%2F%2Fwww.facebook.com%2Fproyectoajpdsoft&amp;layout=button_count&amp;locale=es_ES&amp;sdk=joey&amp;send=true&amp;show_faces=false&amp;width=450"><span style="vertical-align: bottom; width: 192px; height: 20px;"><iframe name="f44592f04" width="450px" height="1000px" frameborder="0" allowtransparency="true" scrolling="no" title="fb:like Facebook Social Plugin" style="border: none; visibility: visible; width: 192px; height: 20px;" src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/like(1).html" class=""></iframe></span></div><br><br><br><!-- AddThis Button BEGIN -->
+		<div class="addthis_toolbox addthis_default_style  addthis_16x16_style">
+		<a class="addthis_button_twitter at300b" title="Tweet" href="http://www.ajpdsoft.com/modules.php?file=article&name=news&sid=155#"><span class="at16nc at300bs at15nc at15t_twitter at16t_twitter"><span class="at_a11y">Share on twitter</span></span>
+		</a><a class="addthis_button_facebook at300b" title="Facebook" href="http://www.ajpdsoft.com/modules.php?file=article&name=news&sid=155#"><span class="at16nc at300bs at15nc at15t_facebook at16t_facebook"><span class="at_a11y">Share on facebook</span></span>
+		</a><a class="addthis_button_google_plusone_share at300b" href="http://www.addthis.com/bookmark.php?v=300&winname=addthis&pub=ajpdsoft&source=tbx-300&lng=es-419&s=google_plusone_share&url=http%3A%2F%2Fwww.ajpdsoft.com%2Fmodules.php%3Ffile%3Darticle%26name%3Dnews%26sid%3D155&title=Comandos%20Linux%20y%20ejemplos%20de%20utilizaci%C3%B3n%2C%20comandos%20b%C3%A1sicos%20GNU%20Linux%20Proyecto%20AjpdSoft&ate=AT-ajpdsoft/-/-/52fb008dcbcabb41/2&frommenu=1&uid=52fb008d90de96c2&ct=1&tt=0&captcha_provider=nucaptcha" target="_blank" title="Google+"><span class="at16nc at300bs at15nc at15t_google_plusone_share at16t_google_plusone_share"><span class="at_a11y">Share on google_plusone_share</span></span>
+		</a><a class="addthis_button_linkedin at300b" href="http://www.addthis.com/bookmark.php?v=300&winname=addthis&pub=ajpdsoft&source=tbx-300&lng=es-419&s=linkedin&url=http%3A%2F%2Fwww.ajpdsoft.com%2Fmodules.php%3Ffile%3Darticle%26name%3Dnews%26sid%3D155&title=Comandos%20Linux%20y%20ejemplos%20de%20utilizaci%C3%B3n%2C%20comandos%20b%C3%A1sicos%20GNU%20Linux%20Proyecto%20AjpdSoft&ate=AT-ajpdsoft/-/-/52fb008dcbcabb41/3&frommenu=1&uid=52fb008d2038cfd5&ct=1&tt=0&captcha_provider=nucaptcha" target="_blank" title="LinkedIn"><span class="at16nc at300bs at15nc at15t_linkedin at16t_linkedin"><span class="at_a11y">Share on linkedin</span></span>
+		</a><a class="addthis_button_email at300b" target="_blank" title="Email" href="http://www.ajpdsoft.com/modules.php?file=article&name=news&sid=155#"><span class="at16nc at300bs at15nc at15t_email at16t_email"><span class="at_a11y">Share on email</span></span>
+		</a><a class="addthis_button_blogger at300b" href="http://www.addthis.com/bookmark.php?v=300&winname=addthis&pub=ajpdsoft&source=tbx-300&lng=es-419&s=blogger&url=http%3A%2F%2Fwww.ajpdsoft.com%2Fmodules.php%3Ffile%3Darticle%26name%3Dnews%26sid%3D155&title=Comandos%20Linux%20y%20ejemplos%20de%20utilizaci%C3%B3n%2C%20comandos%20b%C3%A1sicos%20GNU%20Linux%20Proyecto%20AjpdSoft&ate=AT-ajpdsoft/-/-/52fb008dcbcabb41/4&frommenu=1&uid=52fb008d0f796368&ct=1&tt=0&captcha_provider=nucaptcha" target="_blank" title="Blogger"><span class="at16nc at300bs at15nc at15t_blogger at16t_blogger"><span class="at_a11y">Share on blogger</span></span>
+		</a><a class="addthis_button_reddit at300b" href="http://www.addthis.com/bookmark.php?v=300&winname=addthis&pub=ajpdsoft&source=tbx-300&lng=es-419&s=reddit&url=http%3A%2F%2Fwww.ajpdsoft.com%2Fmodules.php%3Ffile%3Darticle%26name%3Dnews%26sid%3D155&title=Comandos%20Linux%20y%20ejemplos%20de%20utilizaci%C3%B3n%2C%20comandos%20b%C3%A1sicos%20GNU%20Linux%20Proyecto%20AjpdSoft&ate=AT-ajpdsoft/-/-/52fb008dcbcabb41/5&frommenu=1&uid=52fb008d512772b0&ct=1&tt=0&captcha_provider=nucaptcha" target="_blank" title="Reddit"><span class="at16nc at300bs at15nc at15t_reddit at16t_reddit"><span class="at_a11y">Share on reddit</span></span>
+		</a><a class="addthis_button_wordpress at300b" target="_blank" title="WordPress" href="http://www.ajpdsoft.com/modules.php?file=article&name=news&sid=155#"><span class="at16nc at300bs at15nc at15t_wordpress at16t_wordpress"><span class="at_a11y">Share on wordpress</span></span>
+		</a><a class="addthis_button_delicious at300b" href="http://www.addthis.com/bookmark.php?v=300&winname=addthis&pub=ajpdsoft&source=tbx-300&lng=es-419&s=delicious&url=http%3A%2F%2Fwww.ajpdsoft.com%2Fmodules.php%3Ffile%3Darticle%26name%3Dnews%26sid%3D155&title=Comandos%20Linux%20y%20ejemplos%20de%20utilizaci%C3%B3n%2C%20comandos%20b%C3%A1sicos%20GNU%20Linux%20Proyecto%20AjpdSoft&ate=AT-ajpdsoft/-/-/52fb008dcbcabb41/6&frommenu=1&uid=52fb008d5b46ca77&ct=1&tt=0&captcha_provider=nucaptcha" target="_blank" title="Delicious"><span class="at16nc at300bs at15nc at15t_delicious at16t_delicious"><span class="at_a11y">Share on delicious</span></span>
+		</a><a class="addthis_button_digg at300b" href="http://www.addthis.com/bookmark.php?v=300&winname=addthis&pub=ajpdsoft&source=tbx-300&lng=es-419&s=digg&url=http%3A%2F%2Fwww.ajpdsoft.com%2Fmodules.php%3Ffile%3Darticle%26name%3Dnews%26sid%3D155&title=Comandos%20Linux%20y%20ejemplos%20de%20utilizaci%C3%B3n%2C%20comandos%20b%C3%A1sicos%20GNU%20Linux%20Proyecto%20AjpdSoft&ate=AT-ajpdsoft/-/-/52fb008dcbcabb41/7&frommenu=1&uid=52fb008d23b6c3b6&ct=1&tt=0&captcha_provider=nucaptcha" target="_blank" title="Digg"><span class="at16nc at300bs at15nc at15t_digg at16t_digg"><span class="at_a11y">Share on digg</span></span>		
+		</a><a class="addthis_button_stumbleupon at300b" href="http://www.addthis.com/bookmark.php?v=300&winname=addthis&pub=ajpdsoft&source=tbx-300&lng=es-419&s=stumbleupon&url=http%3A%2F%2Fwww.ajpdsoft.com%2Fmodules.php%3Ffile%3Darticle%26name%3Dnews%26sid%3D155&title=Comandos%20Linux%20y%20ejemplos%20de%20utilizaci%C3%B3n%2C%20comandos%20b%C3%A1sicos%20GNU%20Linux%20Proyecto%20AjpdSoft&ate=AT-ajpdsoft/-/-/52fb008dcbcabb41/8&frommenu=1&uid=52fb008d336fab8d&ct=1&tt=0&captcha_provider=nucaptcha" target="_blank" title="StumbleUpon"><span class="at16nc at300bs at15nc at15t_stumbleupon at16t_stumbleupon"><span class="at_a11y">Share on stumbleupon</span></span>
+		</a><a class="addthis_button_compact at300m" href="http://www.ajpdsoft.com/modules.php?file=article&name=news&sid=155#"><span class="at16nc at300bs at15nc at15t_compact at16t_compact"><span class="at_a11y">More Sharing Services</span></span></a>
+		<div class="atclear"></div></div>		
+		<script type="text/javascript">var addthis_config = {"data_track_addressbar":false};</script>
+		<script type="text/javascript" src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/addthis_widget.js"></script><div style="visibility: hidden; height: 1px; width: 1px; position: absolute; z-index: 100000;" id="_atssh"><iframe id="_atssh177" title="AddThis utility frame" style="height: 1px; width: 1px; position: absolute; z-index: 100000; border: 0px; left: 0px; top: 0px;" src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/sh149.html"></iframe></div><script type="text/javascript" src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/core122.js"></script>
+		<!-- AddThis Button END --></td>
+              </tr>
+            </tbody></table></td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+</tbody></table><table width="100%" border="0"><tbody><tr><td valign="top" width="100%">
+<table width="100%" border="0" cellspacing="0" cellpadding="7">
+  <tbody><tr>
+    <td><table width="100%" height="12" border="0" cellpadding="0" cellspacing="0">
+        <tbody><tr>
+          <td width="7"><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/story-TL.gif" width="7" height="12" align="middle"></td>
+          <td background="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/story-T.gif"><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/7px.gif" width="7" height="7"></td>
+          <td width="7"><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/story-TR.gif" width="7" height="12" align="middle"></td>
+        </tr>
+      </tbody></table>
+      <table width="100%" border="0" cellpadding="0" cellspacing="1" bgcolor="757575">
+        <tbody><tr>
+          <td background="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/story-title.gif"><table width="100%" border="0" cellspacing="0" cellpadding="2">
+              <tbody><tr>
+                <td>&nbsp;<font class="storytitle"><b><a href="http://www.ajpdsoft.com/modules.php?name=news&file=categories&op=newindex&catid=18"><font class="storycat">Linux</font></a>: Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux</b></font></td>
+              </tr>
+            </tbody></table></td>
+        </tr>
+        <tr>
+          <td bgcolor="eaf4f9"><table width="100%" border="0" cellspacing="0" cellpadding="4">
+              <tbody><tr>
+                            <td><a href="http://www.ajpdsoft.com/modules.php?name=News&new_topic=7"><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/linux.gif" border="0" alt="Linux (Sistema Operativo)" title="Linux (Sistema Operativo)" align="right" hspace="10" vspace="10"></a><font class="storycontent"><script type="text/javascript"><!--
+		google_ad_client = "pub-9017794352345256";
+		/* Anuncios Artículos arriba */
+		google_ad_slot = "8991945324";
+		google_ad_width = 728;
+		google_ad_height = 90;
+		//-->
+		</script>
+		<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+		</script> A continuación os mostramos algunos comandos básicos para Linux: cp, mv, df, ifconfig, tar, etc para copiar, eliminar, renombrar archivos y carpetas, tamaño en disco, memoria RAM, editar ficheros, mostrar procesos, comprimir/descomprimir ficheros, etc. Incluimos ejemplos de utilización de estos comandos.<br><br>
+
+<title>Comandos básicos más usuales de GNU Linux</title>
+<style type="text/css">
+<!--
+.Estilo1 {font-weight: bold}
+.Estilo2 {
+	font-size: 9px;
+	font-style: italic;
+}
+-->
+</style>
+
+
+<ul>
+  <li><a href="http://www.ajpdsoft.com/modules.php?file=article&name=news&sid=155#consideraciones" title="Consideraciones iniciales">Consideraciones iniciales</a>.    </li>
+  <li><a href="http://www.ajpdsoft.com/modules.php?file=article&name=news&sid=155#comandos" title="Algunos comandos del shell de GNU Linux, descripción, ejemplo de uso">Comandos  Linux</a>.</li>
+  <li><a href="http://www.ajpdsoft.com/modules.php?file=article&name=news&sid=155#ejemplossalidalinux" title="Ejemplos de salida de algunos comandos GNU Linux">Ejemplos de salida de algunos comandos  Linux</a>.</li>
+  <li><a href="http://www.ajpdsoft.com/modules.php?file=article&name=news&sid=155#articulosrelacionados" title="Artículos relacionados">Artículos relacionados</a>.</li>
+  <li><a href="http://www.ajpdsoft.com/modules.php?file=article&name=news&sid=155#creditos" title="Créditos">Créditos</a>.</li>
+</ul>
+<h2 align="justify"><a name="consideraciones"></a>Consideraciones iniciales</h2>
+<div align="justify">
+  <ul>
+    <li>Para ejecutar estos comandos del shell de GNU Linux será necesario abrir una ventana de Terminal (si estamos en modo gráfico).</li>
+    <li>Muchos de estos comandos requieren permisos de superusuario root, por lo que será necesario estar logeado con este usuario para que funcionen.</li>
+    <li>Es posible que algunos de estos comandos no aparezcan en determinadas distribuciones de GNU Linux. Algunos de los comandos aquí mostrados son específicos de una o varias distribuciones GNU Linux.</li>
+    <li>Algunas de las salidas de la ejecución de algunos comandos del shell de GNU Linux puede que no sean iguales en las diferentes distribuciones.</li>
+    <li>Hay algunos comandos que su ejecución puede ser "peligrosa", es conveniente que se ejecuten sabiendo lo que se está haciendo y las repercusiones que puedan tener. Por ejemplo, el comando <em>rm -f -r -v nombre_carpeta</em>, eliminará todas las carpetas y subcarpetas a partir de la carpeta "nombre_carpeta", sin pedir confirmación. Otro ejemplo: el comando <em>halt</em> apagará el equipo sin pedir confirmación, si es un equipo de un usuario normal no habrá problema, pero si se trata de un servidor de base de datos, web, etc. los servicios que éste prestaba dejarán de funcionar.</li>
+    <li>Los comandos han sido probados en sus respectivas distribuciones GNU Linux: Debian, Ubuntu, Knoppix, Fedora, Gentoo, Slackware, openSuSE, Mandriva, Red Hat, etc.</li>
+  </ul>
+</div>
+<p> </p>
+<h2><strong><a name="comandos"></a>Algunos comandos</strong> Linux, descripción, ejemplos de uso</h2>
+<p></p>
+<table width="100%" border="1">
+    <tbody><tr bgcolor="#33CCFF">
+      <td width="204" height="29"><strong>COMANDO</strong></td>
+      <td width="223"><strong>DESCRIPCIÓN</strong></td>
+      <td width="149"><strong>EJEMPLO</strong></td>
+    </tr>
+    <tr>
+      <td height="61"><p align="left">su nombreusuario </p></td>
+      <td><p align="justify">Cambia el usuario actual a nombreusuario (pedirá la contraseña del usuario con el que queramos iniciar la sesión)</p></td>
+      <td><div align="left">su root</div></td>
+    </tr>
+    <tr>
+      <td><p align="left"> who -u</p>      </td>
+      <td><p align="justify">Muestra los usuarios conectados al sistema</p></td>
+      <td><p align="left">who -u</p></td>
+    </tr>
+    <tr>
+      <td>who -b </td>
+      <td>Muestra la fecha y hora del último reinicio del sistema </td>
+      <td>who -b</td>
+    </tr>
+    <tr>
+      <td> ps -A</td>
+      <td><div align="justify">Muestra todos los procesos en ejecución y el identificador de proceso (PID)</div></td>
+      <td><a href="http://www.ajpdsoft.com/modules.php?file=article&name=news&sid=155#psA" title="Resultado de la ejecución del comando Linux ps -A">ps -A</a></td>
+    </tr>
+    <tr>
+      <td>ps -A | grep bash</td>
+      <td>Muestra todos los procesos que lleven la palabra "bash" </td>
+      <td>ps -A | grep bash</td>
+    </tr>
+    <tr>
+      <td>ps -fu oracle</td>
+      <td>Muestra los procesos y los usuarios que los ejecutan en formato UNIX </td>
+      <td>ps -fu oracle</td>
+    </tr>
+    <tr>
+      <td>ps -e -orss=,args= | sort -b -k1,1n | pr -TW$COLUMNS</td>
+      <td>Muestra los procesos ordenados por uso de memoria (los que más memoria usan al final)</td>
+      <td><a href="http://www.ajpdsoft.com/modules.php?file=article&name=news&sid=155#pseorss" title="Resultado de la ejecución del comando Linux ps -e -orss=...">ps -e -orss=,args= | sort -b -k1,1n | pr -TW$COLUMNS</a></td>
+    </tr>
+    <tr>
+      <td>pstree</td>
+      <td>Procesos activos del sistema jerarquizados en forma de árbol </td>
+      <td><a href="http://www.ajpdsoft.com/modules.php?file=article&name=news&sid=155#pstree" title="Resultado ejecución comando Linux pstree">pstree</a></td>
+    </tr>
+    <tr>
+      <td>kill -9 numeroproceso</td>
+      <td><div align="justify">Cierra el proceso especificado por el PID (numeroproceso) </div></td>
+      <td>kill -9 745</td>
+    </tr>
+    <tr>
+      <td> ls -l</td>
+      <td><div align="justify">Lista los ficheros y directorios de la ubicación actual</div></td>
+      <td>ls -l</td>
+    </tr>
+    <tr>
+      <td>ls -lSrh</td>
+      <td>Muestra una lista de los ficheros de una carpeta ordenados por tamaño (los más grandes al final)</td>
+      <td>ls -lSrh</td>
+    </tr>
+    <tr>
+      <td>sh nombreficherosh</td>
+      <td><div align="justify">Ejecuta el fichero de script especificado </div></td>
+      <td>sh prueba.sh</td>
+    </tr>
+    <tr>
+      <td>./nombrefichero</td>
+      <td><div align="justify">Ejecuta la aplicación especificada </div></td>
+      <td>./mysql</td>
+    </tr>
+    <tr>
+      <td>apt-get install nombreaplicacion</td>
+      <td><div align="justify">Instala la aplicación especificada (si se tiene conexión a Internet), sólo disponible en distribuciones Debian</div></td>
+      <td>apt-get install mysql-server</td>
+    </tr>
+    <tr>
+      <td>apt-get update</td>
+      <td>Actualiza la base de datos de paquetes a actualizar o instalar a partir del fichero '/etc/apt/sources.list'. La base de datos la constituyen un conjunto de ficheros ubicados en '/var/lib/apt/lists/'<br></td>
+      <td>apt-get update</td>
+    </tr>
+    <tr>
+      <td>apt-get upgrade</td>
+      <td>Actualiza todos los paquetes instalados en el sistema a la última versión disponible</td>
+      <td>apt-get upgrade</td>
+    </tr>
+    <tr>
+      <td>apt-get install -f</td>
+      <td>Comprueba la correcta instalación de los paquetes descargados en '/var/cache/apt/archives/', repitiendo la instalación si fuese necesario o bajando algún paquete dependiente que no se haya descargado</td>
+      <td>apt-get install -f</td>
+    </tr>
+    <tr>
+      <td>apt-get clean</td>
+      <td>Elimina todos los paquetes (.deb) descargados (almacenados automáticamente en '/var/cache/apt/archives/')</td>
+      <td>apt-get clean</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>cp nombrefichero carpetadestino </td>
+      <td>Copia uno o varios (*) ficheros a la carpeta especificada</td>
+      <td>cp * /usr/bin </td>
+    </tr>
+    <tr>
+      <td>mv nombrecarpeta carpetadestino </td>
+      <td>Mueve una carpeta/fichero al destino especificado, también sirve para renombrar ficheros/directorios </td>
+      <td>mv /home/alonso /etc</td>
+    </tr>
+    <tr>
+      <td> apt-cache search datoabuscar</td>
+      <td>Busca una aplicación en la lista de aplicaciones a instalar (sólo distribuciones Debian)</td>
+      <td>ap-cache search mysql</td>
+    </tr>
+    <tr>
+      <td>whoami</td>
+      <td>Muestra el usuario con el que se ha iniciado la sesión de terminal</td>
+      <td>whoami</td>
+    </tr>
+    <tr>
+      <td>pwd</td>
+      <td>Muestra el directorio de trabajo actual</td>
+      <td>pwd</td>
+    </tr>
+    <tr>
+      <td>ifconfig</td>
+      <td>Muestra la <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=content&tid=755" title="Definición de IP (Dirección IP) - Enciclopedia Informática" target="_blank">IP</a> del pc y la configuración de red</td>
+      <td><a href="http://www.ajpdsoft.com/modules.php?file=article&name=news&sid=155#ifconfig" title="Resultado de la ejecución del comando Linux ifconfig">ifconfig</a></td>
+    </tr>
+    <tr>
+      <td>iwconfig</td>
+      <td>Muestra información de las tarjetas de red inalámbrica (wireless) que haya instaladas en el equipo</td>
+      <td><a href="http://www.ajpdsoft.com/modules.php?file=article&name=news&sid=155#iwconfigwlan0" title="Resultado de la ejecución del comando Linux iwconfig wlan0">iwconfig wlan0</a></td>
+    </tr>
+    <tr>
+      <td>ping host</td>
+      <td>Realiza ping entre pcs</td>
+      <td>ping 192.168.1.5</td>
+    </tr>
+    <tr>
+      <td>ifconfig id_tarjeta down</td>
+      <td>Detiene los servicios de red de la tarjeta especificada (id_tarjeta)</td>
+      <td>ifconfig eth0 down</td>
+    </tr>
+    <tr>
+      <td>ifconfig id_tarjeta up</td>
+      <td>Inicia los servicios de red de la tarjeta especificada (id_tarjeta)</td>
+      <td>ifconfig eth0 up</td>
+    </tr>
+    <tr>
+      <td>route</td>
+      <td>Muestra información de la tabla de enrutación de la red</td>
+      <td><a href="http://www.ajpdsoft.com/modules.php?file=article&name=news&sid=155#route" title="Resultado de la ejecución del comando Linux route">route</a></td>
+    </tr>
+    <tr>
+      <td>route add default gw ip_puerta_enlace id_tarjeta</td>
+      <td>Añade como puerta de enlace (gateway) por defecto la indicada en ip_puerta_enlace</td>
+      <td>route add default gw 192.168.1.1 eth0</td>
+    </tr>
+    <tr>
+      <td>passwd nombreusuario </td>
+      <td>Cambia la contraseña al usuario especificado </td>
+      <td>passwd alonso</td>
+    </tr>
+    <tr>
+      <td>cat nombrefichero </td>
+      <td>Muestra el contenido de un fichero (de texto) </td>
+      <td>cat /etc/mysql/my.cnf</td>
+    </tr>
+    <tr>
+      <td>vi nombrefichero </td>
+      <td><p>Utililidad que sirve para modificar ficheros de texto plano:</p>
+          <ul>
+            <li>pulse "i" para editar el fichero.</li>
+            <li>pulse "ESCAPE", a continuación ":wq" e INTRO para guardar los cambios y cerrar el fichero. </li>
+        </ul></td>
+      <td>vi /etc/mysql/my.cnf</td>
+    </tr>
+    <tr>
+      <td>sudo comando usuario </td>
+      <td>Ejecuta el comando especificado con los derechos del usuario especificado (pedirá la contraseña de este usuario) </td>
+      <td>sudo apt-get install mysql-server root</td>
+    </tr>
+    <tr>
+      <td>du nombredirectorio -h -s </td>
+      <td><p>Muestra el tamaño de todos los subdirectorios del directorio especificado y el tamaño total del mismo . </p>
+      <p>-h: Muestra el resultado en unidades entendibles por el usuario (Bytes, MB, GB, etc).</p>
+      <p>-s: no muestra el tamaño de los subdirectorios, sí lo tiene en cuenta para el tamaño total de la carpeta </p></td>
+      <td>du -sh /home</td>
+    </tr>
+    <tr>
+      <td>rm nombrefichero</td>
+      <td>Borra / elimina el fichero especificado </td>
+      <td>rm /home/alonso/hola.txt</td>
+    </tr>
+    <tr>
+      <td>rm -f  -v </td>
+      <td>Elimina uno o varios ficheros sin pedir confirmación (-f), mostrando los ficheros que va eliminando (-v)</td>
+      <td>rm -f -v fernando*</td>
+    </tr>
+    <tr>
+      <td>shred -u nombre_fichero </td>
+      <td>Elimina un fichero de forma segura (ya no podrá ser recuperado). El comando "rm" no elimina ficheros completamente, podrían ser recuperados </td>
+      <td>shred -u "fernando alonso"</td>
+    </tr>
+    <tr>
+      <td>rm -f -r -v nombre_carpeta</td>
+      <td><p>Elimina una carpeta completa y todas sus subcarpetas:</p>
+      <p>-f: no pide confirmación al eliminar.</p>
+      <p>-r: elimina recursivamente carpetas y subcarpetas y su contenido.</p>
+      <p>-v: muestra el nombre de los ficheros y carpetas que va eliminando.  </p></td>
+      <td>rm -f -r -v /home/alonso</td>
+    </tr>
+    <tr>
+      <td>date</td>
+      <td>Muestra la hora y la fecha</td>
+      <td>date</td>
+    </tr>
+    <tr>
+      <td>date --set="día mes hora en formato"</td>
+      <td>Cambia los segundos, los minutos, la hora, el día, el mes y el año de la fecha del sistema</td>
+      <td>date --set="14 DEC 2011 18:00:00"</td>
+    </tr>
+    <tr>
+      <td>date +%Y%m%d -s "20111214"</td>
+      <td>Cambia el día, el mes y el año de la fecha del sistema</td>
+      <td>date +%Y%m%d -s "20111214"</td>
+    </tr>
+    <tr>
+      <td>cal mes año </td>
+      <td>Muestra un calendario del mes y año especificados </td>
+      <td>cal 12 2005</td>
+    </tr>
+    <tr>
+      <td>man comando </td>
+      <td>Muestra ayuda sobre el comando especificado </td>
+      <td>man ifconfig</td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    <tr>
+      <td>cd nombredirectorio</td>
+      <td>Cambia del directorio actual al directorio especificado</td>
+      <td>cd /usr/bin</td>
+    </tr>
+    <tr>
+      <td>mkdir nombredirectorio </td>
+      <td>Crea un directorio </td>
+      <td>mkdir prueba</td>
+    </tr>
+    <tr>
+      <td>rmdir nombredirectorio </td>
+      <td>Elimina el directorio especificado (debe estar vacío) </td>
+      <td>rmdir prueba</td>
+    </tr>
+    <tr>
+      <td>rm -r nombredirectorio </td>
+      <td>Elimina el directorio especificado y todo su contenido</td>
+      <td>rm -r prueba</td>
+    </tr>
+    <tr>
+      <td>file nombrefichero</td>
+      <td><p>Muestra el tipo de archivo o directorio. Las posibles salidas:</p>
+          <ul>
+            <li>ASCII English text</li>
+            <li>directory</li>
+            <li>symbolic link to 'enlace'</li>
+            <li>executable</li>
+            <li>...</li>
+        </ul></td>
+      <td>file cdrom</td>
+    </tr>
+    <tr>
+      <td>find expresionbusqueda</td>
+      <td>Busca ficheros coincidentes con la expresión de búsqueda </td>
+      <td><p>find . -name "*mysql*" -print</p>      </td>
+    </tr>
+    <tr>
+      <td>find -size +500000 </td>
+      <td>Muestra los ficheros de tamaño superior a 500 MB </td>
+      <td>find -size +500000</td>
+    </tr>
+    <tr>
+      <td>cksum nombrefichero </td>
+      <td>Muestra el CRC del fichero y el tamaño en bytes </td>
+      <td>cksum isoinfo</td>
+    </tr>
+    <tr>
+      <td>grep MemTotal /proc/meminfo</td>
+      <td>Muestra la memoria RAM total del sistema </td>
+      <td>grep MemTotal /proc/meminfo</td>
+    </tr>
+    <tr>
+      <td>grep SwapTotal /proc/meminfo</td>
+      <td>Muestra la cantidad de espacio swap del sistema (memoria de intercambio) </td>
+      <td>grep SwapTotal /proc/meminfo</td>
+    </tr>
+    <tr>
+      <td>df -h</td>
+      <td><p>Muestra las unidades de disco, el tamaño y el espacio libre.</p>
+      <p>-h: muestra el resultado en unidades entendibles por el usuario (M= Megabytes, G=Gigabytes, etc). </p></td>
+      <td><a href="http://www.ajpdsoft.com/modules.php?file=article&name=news&sid=155#df" title="Resultado del comando Linux df -h">df -h</a></td>
+    </tr>
+    
+    <tr>
+      <td>df . -h </td>
+      <td>Muestra el espacio libre, ocupado y total del disco actual </td>
+      <td>df . -h </td>
+    </tr>
+    <tr>
+      <td>uname -a</td>
+      <td><p>Muestra información del sistema. <em>uname -a</em> es equivalente a <em>uname -snrvmpio</em>, donde:</p>
+        <ul>
+
+          <li>-s: nombre del kernel.</li>
+          <li>-n: nombre del equipo en la red (host).</li>
+          <li>-r: release del kernel.</li>
+          <li>-v: versión del kernel.</li>
+          <li>-m: nombre hardware de la máquina.</li>
+          <li>-p: tipo de procesador.</li>
+          <li>-i: tipo de plataforma hardware.</li>
+          <li>-o: nombre sistema operativo.</li>
+      </ul></td>
+      <td><a href="http://www.ajpdsoft.com/modules.php?file=article&name=news&sid=155#unamea" title="Resultado del comando Linux uname -a">uname -a</a></td>
+    </tr>
+    <tr>
+      <td>arp</td>
+      <td>Muestra y modifica las tablas de conversión de direcciones <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=content&tid=755" title="Definición de IP (Dirección IP) - Enciclopedia Informática" target="_blank">IP</a> en direcciones físicas que usa el protocolo de resolución de direcciones (<a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=content&tid=752" title="Definición protocolo ARP - Enciclopedia informática" target="_blank">ARP</a> ó <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=content&tid=752" title="Definición protocolo ARP - Enciclopedia informática" target="_blank">Address Resolution Protocol</a>)</td>
+      <td><a href="http://www.ajpdsoft.com/modules.php?file=article&name=news&sid=155#arpieth0" title="Resultado del comando Linux arp -i eth0">arp -i eth0</a></td>
+    </tr>
+    <tr>
+      <td>chmod 777 nombrearchivo</td>
+      <td>Asigna al fichero nombrearchivo permisos del lectura, escritura y ejecución para el propietario, grupo e invitado</td>
+      <td>chmod 777 prueba</td>
+    </tr>
+    <tr>
+      <td>chown nombreusuario nombrearchivo</td>
+      <td>Cambia el propietario del archivo nombrearchivo a nombreusuario </td>
+      <td>chown alonso prueba</td>
+    </tr>
+    <tr>
+      <td>date --set=15:30</td>
+      <td>Cambia la hora del sistema a las 15:30 </td>
+      <td>date --set=15:30</td>
+    </tr>
+    <tr>
+      <td>deluser nombreusuario </td>
+      <td>Elimina el usuario nombreusuario y todos sus archivos de configuración</td>
+      <td>deluser alonso</td>
+    </tr>
+    <tr>
+      <td>discover --xdriver video</td>
+      <td>Muestra el driver de la tarjeta de video </td>
+      <td>discover --xdriver video</td>
+    </tr>
+    <tr>
+      <td>discover ethernet</td>
+      <td>Muestra el driver de la tarjeta de red </td>
+      <td>discover ethernet</td>
+    </tr>
+    <tr>
+      <td>echo $NOMBREVARIABLE </td>
+      <td>Muestra el valor de la variable de entorno especificada (nombrevariable) </td>
+      <td>echo $HOSTNAME</td>
+    </tr>
+    <tr>
+      <td>env</td>
+      <td>Muestra las variables de entorno definidas para el usuario actual </td>
+      <td>env</td>
+    </tr>
+    <tr>
+      <td>fdisk -l </td>
+      <td>Muestra la estructura y tipo de particiones<br></td>
+      <td><a href="http://www.ajpdsoft.com/modules.php?file=article&name=news&sid=155#fdiskl" title="Resultado de la ejecución del comando GNU Linux fdisk -l">fdisk -l</a></td>
+    </tr>
+    <tr>
+      <td>find / -name mysql* -exec rm {} ;</td>
+      <td>Busca todos los ficheros que comiencen por "mysql" y los ELIMINA </td>
+      <td>find / -name mysql* -exec rm {};</td>
+    </tr>
+    <tr>
+      <td>free</td>
+      <td>Muestra información sobre la memoria RAM y Swap (total, libre y ocupada) </td>
+      <td>free</td>
+    </tr>
+    <tr>
+      <td>fsck /dev/hda1</td>
+      <td>Comprueba el sistema de ficheros de la partición hda1 </td>
+      <td>fsck /dev/hda1</td>
+    </tr>
+    <tr>
+      <td>gcc -o nombreprograma ficheroresultante.c</td>
+      <td>Compila "nombreprograma.c" y devuelve el ficheroresultante.c compilado </td>
+      <td>gcc -o prueba prueba.c</td>
+    </tr>
+    <tr>
+      <td>groups</td>
+      <td>Muestra los grupos de seguridad a los que pertenece el usuario actual </td>
+      <td>groups</td>
+    </tr>
+    <tr>
+      <td>groupadd nombregrupo </td>
+      <td>Añade un nuevo grupo de seguridad </td>
+      <td>groupadd leerayuda</td>
+    </tr>
+    <tr>
+      <td>gunzip fichero.tar.gz | tar -xvf fichero.tar</td>
+      <td>Descomprime y desempaqueta el archivo 'fichero.tar.gz'</td>
+      <td>gunzip mysql.tar.gz | tar -xvf mysql.tar</td>
+    </tr>
+    <tr>
+      <td>gzip fichero</td>
+      <td>Comprime el archivo "fichero", renomb?andolo a 'fichero.gz'<br></td>
+      <td>gzip mysql</td>
+    </tr>
+    <tr>
+      <td>tar xvf fichero.tar</td>
+      <td>Desempaqueta el archivo "fichero.tar" </td>
+      <td>tar xvf oracle.tar</td>
+    </tr>
+    <tr>
+      <td>tar -czvf fichero_tar ficheros_comprimir </td>
+      <td>Comprime/Empaqueta los ficheros especificados en "ficheros_comprimir" en el fichero "fichero_tar" </td>
+      <td>tar -czvf /tmp/prueba.tar /root/*</td>
+    </tr>
+    <tr>
+      <td>tar -tzvf fichero_tar</td>
+      <td>Muestra el contenido del fichero "fichero_tar" (comprimido con "tar") </td>
+      <td>tar -tzvf /tmp/prueba.tar</td>
+    </tr>
+    <tr>
+      <td>tar -tzvf /dev/st0 </td>
+      <td>Muestra el contenido del dispositivo de copia de seguridad "/dev"st0" </td>
+      <td>tar -tzvf /dev/st0</td>
+    </tr>
+    <tr>
+      <td><p>tar -czvf /dev/st0</p>      </td>
+      <td>Descomprime el contenido del dispositivo de copia de seguridad "/dev/st0" en la ubicación donde se ejecute el comando </td>
+      <td>tar -czvf /dev/st0</td>
+    </tr>
+    <tr>
+      <td>head nombrefichero </td>
+      <td>Muestra las 10 primeras líneas del fichero nombrefichero </td>
+      <td>head mysql</td>
+    </tr>
+    <tr>
+      <td>history</td>
+      <td>Listado de los comandos utilizados por el usuario </td>
+      <td>history</td>
+    </tr>
+    <tr>
+      <td>nombreservicio -k restart</td>
+      <td>Reinicia el servicio nombreservicio </td>
+      <td>httpd -k restart</td>
+    </tr>
+    <tr>
+      <td>ifdown eth0</td>
+      <td>Para el servicio de red 'eth0'</td>
+      <td>ifdown eth0</td>
+    </tr>
+    <tr>
+      <td>ifup eth0</td>
+      <td>Arranca el servicio de red 'eth0'</td>
+      <td>ifup eth0</td>
+    </tr>
+    <tr>
+      <td>netstat -a</td>
+      <td>Muestra los puertos abiertos </td>
+      <td>netstat -a</td>
+    </tr>
+    <tr>
+      <td>netstat -atun | grep ESTAB</td>
+      <td>Muestra las conexiones establecidas a puertos determinados </td>
+      <td>netstat -atun | grep ESTAB</td>
+    </tr>
+    <tr>
+      <td>type comando</td>
+      <td>Muestra la ubicación del comando especificado </td>
+      <td>type ifconfig</td>
+    </tr>
+    <tr>
+      <td>mount -rt iso9660 /dev/hdc /cdrom</td>
+      <td>Monta la unidad de cdrom en modo sólo lectura (r), con sistema de ficheros (t) 'iso9660', en el dispositivo '/dev/hdc', disponible en el directorio '/cdrom'</td>
+      <td>mount -rt iso9660 /dev/hdc /cdrom</td>
+    </tr>
+    <tr>
+      <td>mount -t msdos /dev/fd0 /floppy</td>
+      <td>Monta la unidad de disquete, con sistema de ficheros 'MS-DOS', en el dispositivo '/dev/fd0', disponible en el directorio '/floppy'<br></td>
+      <td>mount -t msdos /dev/fd0 /floppy</td>
+    </tr>
+    <tr>
+      <td>umount /dispositivo </td>
+      <td>Desmonta el dispositivo especificado </td>
+      <td>umount /cdrom</td>
+    </tr>
+    <tr>
+      <td>umount  -a </td>
+      <td>Desmonta todas las unidades y dispositivos montados</td>
+      <td>umount -a</td>
+    </tr>
+    <tr>
+      <td>wc nombrefichero </td>
+      <td>Muestra las líneas, palabras y caracteres del fichero especificado</td>
+      <td>wc prueba</td>
+    </tr>
+    <tr>
+      <td>whois nombredominio </td>
+      <td>Muestra información del dominio especificado (fecha registro, fecha expiración, dns, ...) </td>
+      <td>whois ajpdsoft.com</td>
+    </tr>
+    <tr>
+      <td>xvncviewer ip </td>
+      <td>Realiza control remoto al equipo con la <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=content&tid=755" title="Definición de IP (Dirección IP) - Enciclopedia Informática" target="_blank">IP</a> especificada (deberá tener instalado y en ejecución vncserver). Permite el control remoto tanto con PCs con Linux como con PCs con Windows </td>
+      <td>xvncviewer 192.168.1.3</td>
+    </tr>
+    <tr>
+      <td>which comando </td>
+      <td>Localiza la ubicación del comando especificado </td>
+      <td>which ls</td>
+    </tr>
+    <tr>
+      <td>wget direccionftp/nombrefichero</td>
+      <td>Descarga el fichero nombrefichero de la dirección ftp direccionftp. También sirve para conexión mediante http</td>
+      <td>wget ftp://ftp.ajpdsoft.com/j (en este caso el ftp debe soportar conexiones anónimas)</td>
+    </tr>
+    <tr>
+      <td>addgroup nombregrupo </td>
+      <td>Añade un nuevo grupo de seguridad</td>
+      <td>addgroup accesored</td>
+    </tr>
+    <tr>
+      <td>useradd -g nombregrupo nombreusuario</td>
+      <td>Añade un nuevo usuario con el nombre nombreusuario perteneciente al grupo nombregrupo</td>
+      <td>useradd -g root alonso</td>
+    </tr>
+    <tr>
+      <td>userdel nombre_usuario</td>
+      <td>Elimina un usuario del sistema</td>
+      <td>userdel ajpdsoft</td>
+    </tr>
+    <tr>
+      <td>tr 'A-Z' 'a-z' &lt; fichero.txt</td>
+      <td>Convierte a minúsculas todos los caracteres del archivo 'fichero.txt'</td>
+      <td>tr 'A-Z' 'a-z' &lt; prueba</td>
+    </tr>
+    <tr>
+      <td>top</td>
+      <td>Muestra información de los procesos que se están ejecutando, uso de CPU, memoria, PID, ... con la característica de que se va actualizando cada 5 segundos o tras pulsar la barra espaciadora </td>
+      <td>top</td>
+    </tr>
+    <tr>
+      <td>tail nombrefichero </td>
+      <td>Muestra las últimas diez líneas del fichero nombrefichero </td>
+      <td>tail my.cnf</td>
+    </tr>
+    <tr>
+      <td>shutdown minutos 'mensaje'</td>
+      <td>Reinicia el sistema en los minutos especificados, previamente envía un mensaje a todos los usuarios conectados con el texto: mensaje </td>
+      <td>shutdown 15 'El sistema se reiniciará en 15 minutos, guarde su información'</td>
+    </tr>
+    <tr>
+      <td>shutdown -h now</td>
+      <td>Apaga el sistema instantáneamente (equivalente a halt o <em>init 0</em>)</td>
+      <td>shutdown -h now</td>
+    </tr>
+    <tr>
+      <td>shutdown -r now </td>
+      <td>Reiniciar el sistema instantáneamete (equivalente a <em>reboot</em> o <em>init 6</em>)</td>
+      <td>shutdown -r now</td>
+    </tr>
+    <tr>
+      <td>shutdown -r hh:mm</td>
+      <td>Reinicia el equipo a la hora y minuto indicada</td>
+      <td>shutdown -r 20:00</td>
+    </tr>
+    <tr>
+      <td>cat /dev/hda &gt; /dev/hdb</td>
+      <td>Copia todo el disco duro 'hda' en el disco duro 'hdb'<br></td>
+      <td>cat /dev/hda &gt; /dev/hdb</td>
+    </tr>
+    <tr>
+      <td>cat /dev/cdrom &gt; /usr/fichero.iso</td>
+      <td>Crea la imagen ISO-9660 del CD-ROM introducido, con el nombre 'fichero.iso' en el directorio '/usr'</td>
+      <td>cat /dev/cdrom &gt; /usr/fichero.iso</td>
+    </tr>
+    <tr>
+      <td>chgrp grupo archivo</td>
+      <td>Cambia el grupo del archivo especificado al grupo especificado</td>
+      <td>chgrp accesored mysql.cnf</td>
+    </tr>
+    <tr>
+      <td>sqlplus /nolog </td>
+      <td>Si tenemos Oracle instalado se conectará a la BD </td>
+      <td><p>sqlplus /nolog</p>
+      <p>connect / as sysdba</p>
+      <p>select status from v$instance</p></td>
+    </tr>
+    <tr>
+      <td>hwbrowser&amp;</td>
+      <td>Muestra el navegador de hardware (modo gráfico): discos duros, SCSI, CD-ROM,  <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=content&tid=151" title="Definición USB - Enciclopedia Informática" target="_blank">USB</a>, Unidades de cinta, etc </td>
+      <td>hwbrowser&amp;</td>
+    </tr>
+    <tr>
+      <td>watch "comando"</td>
+      <td>Ejecuta repetidamente el comando entre comillas y muestra el resultado en pantalla </td>
+      <td>watch "du -s -h"</td>
+    </tr>
+    <tr>
+      <td>whereis</td>
+      <td>Busca los archivos ejecutables, las fuentes y el manual de un comando</td>
+      <td><p><a href="http://www.ajpdsoft.com/modules.php?file=article&name=news&sid=155#whereisls" title="Resultado ejecución comando Linux whereis ls">whereis ls</a></p>
+      <p><a href="http://www.ajpdsoft.com/modules.php?file=article&name=news&sid=155#whereisman" title="Resultado ejecución comando Linux whereis man">whereis man</a></p></td>
+    </tr>
+    <tr>
+      <td>ifdown eth0</td>
+      <td>Desactiva la tarjeta de red especificada (eth0) </td>
+      <td>ifdown eth0</td>
+    </tr>
+    <tr>
+      <td>ifup eth0 </td>
+      <td>Activa la tarjeta de red especificada (eth0) </td>
+      <td>ifup eth0 </td>
+    </tr>
+    <tr>
+      <td>chkconfig</td>
+      <td>Muestra/Modifica el estado de los servicios del sistema en cada nivel de arranque (runlevel)</td>
+      <td>chkconfig --list dbora</td>
+    </tr>
+    <tr>
+      <td>modprobe</td>
+      <td>Añade/Elimina módulos del Kernel de Linux </td>
+      <td>modprobe qla2300</td>
+    </tr>
+    <tr>
+      <td>vmstat</td>
+      <td>Muestra estadísticas de uso de la memoria, cpu, lectuas/escrituras en disco, etc </td>
+      <td>watch "vmstat -s -S: M"</td>
+    </tr>
+
+    <tr>
+      <td>free</td>
+      <td>Muestra estadísticas de uso de la memoria</td>
+      <td>watch "free -m"</td>
+    </tr>
+    <tr>
+      <td>lsmod</td>
+      <td>Muestra el estado de los módulos en el Kernel de Linux </td>
+      <td><a href="http://www.ajpdsoft.com/modules.php?file=article&name=news&sid=155#lsmod" title="Resultado de la ejecución del comando Linux lsmod">lsmod</a></td>
+    </tr>
+    
+    <tr>
+      <td><p>cd /etc/init.d</p>
+        <p>ls -l <br>
+        </p></td>
+      <td>En el directorio init.d se guardan todos los servicios instalados en el equipo, accediendo a este directorio y haciendo un ls -l se pueden ver </td>
+      <td><p><a href="http://www.ajpdsoft.com/modules.php?file=article&name=news&sid=155#lslcdetcinitd" title="Resultado del comando Linux cd /etc/init.d ls -l">cd /etc/init.d</a></p>
+      <p><a href="http://www.ajpdsoft.com/modules.php?file=article&name=news&sid=155#lslcdetcinitd" title="Resultado del comando Linux cd /etc/init.d ls -l">ls -l</a></p></td>
+    </tr>
+    
+    <tr>
+      <td>service nombre_servicio status </td>
+      <td>Muestra el estado del servicio especificado "nombre_servicio": stopped, se está ejecutando, ... </td>
+      <td><a href="http://www.ajpdsoft.com/modules.php?file=article&name=news&sid=155#servicedsmservstatus" title="Resultado de la ejecución del comando Linux service dsmserv status">service dsmserv status</a></td>
+    </tr>
+    
+    <tr>
+      <td>service nombre_servicio start</td>
+      <td>Inicia el servicio especificado "nombre_servicio" </td>
+      <td>service dsmserv start</td>
+    </tr>
+    <tr>
+      <td>service nombre_servicio stop</td>
+      <td>Detiene el servicio especificado "nombre_servicio" </td>
+      <td>service dsmserv stop</td>
+    </tr>
+    <tr>
+      <td>service nombre_servicio restart </td>
+      <td>Reinicia el servicio especificado "nombre_servicio" </td>
+      <td>service dsmserv restart</td>
+    </tr>
+    <tr>
+      <td>export nombrevariable=valor</td>
+      <td>Cambia el valor de una variable de entorno </td>
+      <td>export $PATH=/home/oracle/bin</td>
+    </tr>
+    <tr>
+      <td>echo nombrevariable </td>
+      <td>Muestra el valor de la variable de entorno nombrevariable  </td>
+      <td>echo $PATH</td>
+    </tr>
+    <tr>
+      <td>set</td>
+      <td>Muestra todas las variables de entorno shell y su valor </td>
+      <td><a href="http://www.ajpdsoft.com/modules.php?file=article&name=news&sid=155#set" title="Resultado de la ejecución del comando Linux set">set</a></td>
+    </tr>
+    <tr>
+      <td>$ORACLE_HOME/bin/rman target=/</td>
+      <td>Inicia el programa rman, para copias de seguridad de Oracle en caliente</td>
+      <td>$ORACLE_HOME/bin/rman target=/</td>
+    </tr>
+    <tr>
+      <td>hostname -i</td>
+      <td>Muestra la <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=content&tid=755" title="Definición de IP (Dirección IP) - Enciclopedia Informática" target="_blank">IP</a> de la interfaz de red actual del equipo (normalmente eth0)</td>
+      <td>hostname -i</td>
+    </tr>
+    <tr>
+      <td>ethtool eth0</td>
+      <td>Muestra el estado actual de la interfaz de red indicada "eth0"</td>
+      <td><a href="http://www.ajpdsoft.com/modules.php?file=article&name=news&sid=155#ethtooleth0" title="Resultado de la ejecución del comando Linux ethtool eth0">ethtool eth0</a></td>
+    </tr>
+    <tr>
+      <td>ethtool --change eth0 autoneg off speed 100 duplex full</td>
+      <td>Permite cambiar de forma manual la velocidad del interfaz de red indicado, en este caso "eth0"</td>
+      <td>ethtool --change eth0 autoneg off speed 100 duplex full</td>
+    </tr>
+    <tr>
+      <td>ip addr add 192.168.1.100 brd + dev eth0</td>
+      <td>Añade una nueva <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=content&tid=755" title="Definición de IP (Dirección IP) - Enciclopedia Informática" target="_blank">IP</a> al interfaz de red indicado, en este caso "eth0"</td>
+      <td>ip addr add 192.168.1.100 brd + dev eth0</td>
+    </tr>
+    <tr>
+      <td>ip addr show</td>
+      <td>Muestra todas las direcciones de todas las interfaces de red del equipo</td>
+      <td><a href="http://www.ajpdsoft.com/modules.php?file=article&name=news&sid=155#ipaddrshow" title="Resultado de la ejecución del comando Linux ip addr show">ip addr show</a></td>
+    </tr>
+    <tr>
+      <td>cal -3</td>
+      <td>Muestra un calendario del mes anterior, el actual y el siguiente a la fecha actual del equipo</td>
+      <td><a href="http://www.ajpdsoft.com/modules.php?file=article&name=news&sid=155#cal3" title="Resultado de la ejecución del comando Linux cal -3">cal -3</a></td>
+    </tr>
+    <tr>
+      <td>last reboot</td>
+      <td>Muestra las veces que el equipo se ha reiniciado, la fecha, la hora y el tipo de reinicio</td>
+      <td><a href="http://www.ajpdsoft.com/modules.php?file=article&name=news&sid=155#lastreboot" title="Resultado de la ejecución del comando GNU Linux last reboot">last reboot</a></td>
+    </tr>
+    <tr>
+      <td>head -n1 /etc/issue</td>
+      <td>Muestra el nombre y la versión de la distribución de GNU Linux instalada</td>
+      <td><a href="http://www.ajpdsoft.com/modules.php?file=article&name=news&sid=155#headn1etcissue" title="Resultado de la ejecución del comando GNU Linux head -n1 /etc/issue">head -n1 /etc/issue</a></td>
+    </tr>
+    <tr>
+      <td>grep "model name" /proc/cpuinfo</td>
+      <td>Muestra el fabricante, el modelo y la velocidad del procesador (CPU) del equipo</td>
+      <td><a href="http://www.ajpdsoft.com/modules.php?file=article&name=news&sid=155#grepmodelname" title="Resultado de la ejecución del comando GNU Linux grep " model="" name"="" proc="" cpuinfo"="">grep "model name" /proc/cpuinfo</a></td>
+    </tr>
+    <tr>
+      <td>hdparm -tT /dev/sda</td>
+      <td>Realiza un test para calcular la velocidad de transferencia del disco duro indicado</td>
+      <td><a href="http://www.ajpdsoft.com/modules.php?file=article&name=news&sid=155#hdparmtTdevsda" title="Resultado de la ejecución del comando GNU Linux hdparm -tT /dev/sda">hdparm -tT /dev/sda</a></td>
+    </tr>
+    <tr>
+      <td>alias nombre_alias='comando'</td>
+      <td><p>Permite asignar a un comando creado por nosotros mismos con el nombre que queramos "nombre_alias" la ejecución de otro comando Linux, por ejemplo, el siguiente comando Linux: <em>alias listar='ls -lah'</em> creará un nuevo "comando" llamado "listar" que cada vez que se ejecute será igual que si ejecutásemos el comando <em>ls -lah</em></p></td>
+      <td>alias listar='ls -lah'</td>
+    </tr>
+    <tr>
+      <td>lspci -tv</td>
+      <td>Muestra los dispositivos PCI (<a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=content&tid=41" title="Definición de PCI - Enciclopedia Informática" target="_blank">Peripheral Component Interconnect</a> )</td>
+      <td><a href="http://www.ajpdsoft.com/modules.php?file=article&name=news&sid=155#lspcitv" title="Resultado de la ejecución del comando GNU Linux lspci -tv">lspci -tv</a></td>
+    </tr>
+    <tr>
+      <td>lsusb -tv</td>
+      <td>Muestra los dispostivos <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=content&tid=151" title="Definición USB - Enciclopedia Informática" target="_blank">USB</a>, la ubicación, el bus, el puerto</td>
+      <td><a href="http://www.ajpdsoft.com/modules.php?file=article&name=news&sid=155#lsusbtv" title="Resultado de la ejecución del comando GNU Linux lsusb -tv">lsusb -tv</a></td>
+    </tr>
+    <tr>
+      <td>visudo</td>
+      <td>Muestra y permite editar (como si de vi se tratase) el fichero /etc/sudoers, donde se le indica a Linux qué usuarios podrán ejecutar comandos como si fuesen el superusuario root utilizando el comando "sudo"</td>
+      <td>visudo</td>
+    </tr>
+    <tr>
+      <td>telnet IP Puerto</td>
+      <td>Realiza una conexión mediante Telnet al equipo indicado "<a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=content&tid=755" title="Definición de IP (Dirección IP) - Enciclopedia Informática" target="_blank">IP</a>" utilizando el puerto indicado "Puerto"</td>
+      <td>telnet 192.168.1.100 4899</td>
+    </tr>
+    <tr>
+      <td>nano nombre_fichero</td>
+      <td>Editor en modo texto más intuitivo y fácil de usar que vi</td>
+      <td>nano /etc/sudoers</td>
+    </tr>
+    <tr>
+      <td>ftp</td>
+      <td>Realiza un conexión mediante el protocolo <a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=content&tid=754" title="Definición FTP - Enciclopedia Informática" target="_blank">FTP</a> a un <a href="http://www.ajpdsoft.com/modules.php?name=News&file=article&sid=156" title="Cómo transferir ficheros entre Windows y Linux mediante FTP" target="_blank">servidor de FTP</a></td>
+      <td>ftp</td>
+    </tr>
+    <tr>
+      <td><p>usermod -a -G nombre_grupo nombre_usuario</p></td>
+      <td>Agrega el usuario "nombre_usuario" al grupo de seguridad "nombre_grupo"</td>
+      <td><p>usermod -a -G dba root</p></td>
+    </tr>
+    <tr>
+      <td><p>id nombre_usuario</p></td>
+      <td>Muestra el uid interno del usuario "nombre_usuario" y los grupos de seguridad a los que pertenece</td>
+      <td><a href="http://www.ajpdsoft.com/modules.php?file=article&name=news&sid=155#idroot" title="Resultado de la ejecución del comando GNU Linux id root">id root</a></td>
+    </tr>
+    <tr>
+      <td>adduser -u 0 -o -g 0 -G 0,1,2,3,4,6,10 -M nombre_usuario </td>
+      <td>Añade un nuevo usuario al sistema operativo como si se tratase del superusuario root (con los mismos permisos)</td>
+      <td>adduser -u 0 -o -g 0 -G 0,1,2,3,4,6,10 -M fernando</td>
+    </tr>
+    <tr>
+      <td>crontab -e</td>
+      <td>Edita el fichero "crontab" (equivalente al programador de tareas de Windows). Permite agregar nuevas tareas programadas, modificar o eliminar las actuales</td>
+      <td>crontab -e</td>
+    </tr>
+    <tr>
+      <td>init numero_nivel</td>
+      <td><p>Cambia el <a href="http://www.ajpdsoft.com/modules.php?name=Foros&file=viewtopic&p=1928" title="Cambiar el nivel de ejecución de GNU Linux por defecto" target="_blank">nivel de ejecución</a> al indicado:</p>
+        <ul>
+          <li>   0 - halt (apagar equipo).</li>
+          <li>1 - Single user mode (modo monousuario).</li>
+          <li>2 - Multiuser, without NFS (multiusuario, sin funciones de red).</li>
+          <li>   3 - Full multiuser mode (multiusuario, con funciones de red).</li>
+          <li>4 - unused (no utilizado).</li>
+          <li>5 - X11 (multiusuario, red, modo gráfico).</li>
+          <li>6 - reboot (reinicio del sistema).</li>
+      </ul></td>
+      <td>init 5</td>
+    </tr>
+    <tr>
+      <td>runlevel</td>
+      <td>Muestra el nivel de ejecución anterior y el actual. Si no ha cambiado, mostrará "N" en el anterior</td>
+      <td>runlevel</td>
+    </tr>
+    <tr>
+      <td>halt</td>
+      <td>Apaga el equipo. Comando equivalente a ejecutar: <em>init 0 </em>(más o menos). En realidad, lo que hace halt es comprobar si el sistema se está deteniendo (reiniciando o apagando) consultado el fichero<em> /var/log/wtmp</em>. Si no se está deteniendo ya lo apaga</td>
+      <td>halt</td>
+    </tr>
+    <tr>
+      <td>poweroff</td>
+      <td>Apaga el equipo (equivalente a<em> init 0</em>, <em>shutdown -h now</em>, <em>halt</em>)</td>
+      <td>poweroff</td>
+    </tr>
+    <tr>
+      <td>reboot</td>
+      <td>Reinicia el equipo (equivalente a <em>shutdown -r now</em>, <em>init 6</em>)</td>
+      <td>reboot</td>
+    </tr>
+    <tr>
+      <td>ulimit</td>
+      <td><p>Muestra o modifica ciertos límites del sistema:</p>
+        <ul>
+          <li> Tamaño máximo de los archivos creados en el núcleo.</li>
+          <li> Tamaño del segmento de pila.</li>
+          <li> Tamaño del segmento de datos de un proceso</li>
+          <li>Máxima priorida en tareas programadas.</li>
+          <li>Número máximo de ficheros abiertos.</li>
+          <li> Tamaño de la memoria virtual.</li>
+          <li> Número máximo de procesos de usuario.</li>
+          <li> Tiempo de uso de la CPU.</li>
+        </ul>
+      <p>Todos las las opciones (en inglés):</p>
+      <ul>
+        <li> -S        use the `soft' resource limit</li>
+        <li> -H        use the `hard' resource limit</li>
+        <li> -a        all current limits are reported</li>
+        <li> -b        the socket buffer size</li>
+        <li> -c        the maximum size of core files created</li>
+        <li> -d        the maximum size of a process's data segment</li>
+        <li> -e        the maximum scheduling priority (`nice')</li>
+        <li> -f        the maximum size of files written by the shell and its children</li>
+        <li>          -i        the maximum number of pending signals</li>
+        <li> -l        the maximum size a process may lock into memory</li>
+        <li> -m        the maximum resident set size</li>
+        <li> -n        the maximum number of open file descriptors</li>
+        <li> -p        the pipe buffer size</li>
+        <li> -q        the maximum number of bytes in POSIX message queues</li>
+        <li> -r        the maximum real-time scheduling priority</li>
+        <li> -s        the maximum stack size</li>
+        <li> -t        the maximum amount of cpu time in seconds</li>
+        <li>-u        the maximum number of user processes</li>
+        <li> -v        the size of virtual memory</li>
+        <li> -x        the maximum number of file locks<br>
+        </li>
+      </ul></td>
+      <td><a href="http://www.ajpdsoft.com/modules.php?file=article&name=news&sid=155#ulimita" title="Ejemplo de resultado de comando GNU Linux ulimit -a">ulimit -a</a></td>
+    </tr>
+    <tr>
+      <td>sysctl</td>
+      <td>Muestra o modifica valores del kernel en tiempo de ejecución</td>
+      <td><a href="http://www.ajpdsoft.com/modules.php?file=article&name=news&sid=155#sysctla" title="Resultado ejecución comando GNU Linux sysctl -a">sysctl -a</a></td>
+    </tr>
+    <tr>
+      <td>tcpdump</td>
+      <td>Captura y muestra en tiempo real los paquetes transmitidos y recibidos en la red a la cual el ordenador está conectado. Analiza el tráfico de la red.</td>
+      <td>tcpdump -c 100 -w sniffer.txt</td>
+    </tr>
+    <tr>
+      <td>stat nombre_fichero </td>
+      <td>Muestra datos del fichero indicado: nombre, tamaño, bloques, dispositivo en el que se encuentra, inode, links, permisos, uid, gid, fecha de último acceso, fecha de última modificación, fecha de cambio </td>
+      <td>stat /etc/mysql/my.cnf  </td>
+    </tr>
+    <tr>
+      <td>eject cdrom0 </td>
+      <td>Abre la bandeja del lector de DVD/CD </td>
+      <td>eject cdrom0 </td>
+    </tr>
+    <tr>
+      <td>eject -t cdrom0 </td>
+      <td>Cierra la bandeja del lector de DVD/CD </td>
+      <td>eject -t cdrom0 </td>
+    </tr>
+    <tr>
+      <td>ln ruta_fichero ruta_enlace </td>
+      <td>Crea un enlace duro (con el mismo inodo), es decir el mismo fichero con distintos nombres </td>
+      <td>ln /etc/mysql/my.cnf  /var/my </td>
+    </tr>
+    <tr>
+      <td>ls -s carpeta ruta_enlace</td>
+      <td>Crea un enlace simbólico a la carpeta "carpeta" en "ruta_enlace" con el nombre de fichero enlazado (también se pueden crear enlaces simbólicos a ficheros) </td>
+      <td>ls -s /etc/var/www /home/ajpdsoft/web </td>
+    </tr>
+    <tr>
+      <td>unlink nombre_fichero_enlace </td>
+      <td>Elimina el enlace simbólico a fichero "nombre_fichero_enlace" </td>
+      <td>unlink /home/ajpdsoft/web </td>
+    </tr>
+    <tr>
+      <td>diff fichero1 fichero2 </td>
+      <td>Compara el fichero1 con el fichero2, muestra las difirencias </td>
+      <td>diff /etc/my.ini /etc/mysql/my.cnf  </td>
+    </tr>
+    <tr>
+      <td>join fichero1 fichero2 </td>
+      <td>Compara el fichero1 con el fichero2, muestra las líneas coincidentes </td>
+      <td>join /etc/my.ini /etc/mysql/my.cnf  </td>
+    </tr>
+    <tr>
+      <td>split -b bytes fichero </td>
+      <td>Divide o parte el fichero "fichero" en trozos del tamaño indicado en "bytes". Dejará el fichero inicial intacto y generará tantos trozos como sean necesarios del tamaño máximo indicado </td>
+      <td>split -b 125 /var/www/joomla </td>
+    </tr>
+    <tr>
+      <td>cat comodines &gt; fichero </td>
+      <td>Une los ficheros trocezados con split que cumplan la condición indicada en "comodines" en el fichero"fichero" </td>
+      <td>cat joomla* &gt; joomla_unido </td>
+    </tr>
+    <tr>
+      <td>echo "texto" &gt;&gt; fichero </td>
+      <td>Añade la línea de texto "texto" al final del fichero "fichero" </td>
+      <td>echo "max_allowed_packet=20mb &gt;&gt; /etc/mysql/my.cnf </td>
+    </tr>
+    <tr>
+      <td>md5sum fichero </td>
+      <td>Muestra el MD5 del archivo "fichero" </td>
+      <td>md5sum /var/www/index.php </td>
+    </tr>
+    <tr>
+      <td>md5sum fichero &gt; resultado.txt </td>
+      <td>Guarda el MD5 del archivo "fichero" en el archivo "resultado.txt" </td>
+      <td>md5sum /var/www/index.php &gt; resultado_md5.txt </td>
+    </tr>
+    <tr>
+      <td>md5sum -w -c fichero_con_md5 </td>
+      <td>Verifica si el MD5 guardado en el fichero "fichero_con_md5" coincide con el fichero indicado dentro del fichero para el MD5 (el fichero "fichero_con_md5" debe contener una línea con el MD5 y el nombre del fichero a verificar </td>
+      <td>md5sum -w -c resultado_md5.txt </td>
+    </tr>
+    <tr>
+      <td>apropos palabra </td>
+      <td>Busca la palabra clave "palabra" dentro de man (información sobre comandos linux), si la encuentra muestra dónde la ha encontrado </td>
+      <td>apropos split </td>
+    </tr>
+    <tr>
+      <td>uptime</td>
+      <td>Muestra la hora actual, el número de días que el PC está encendido, número de usuarios conectados al equipo, carga media del equipo </td>
+      <td>uptime</td>
+    </tr>
+    <tr>
+      <td>delgroup nombre_grupo</td>
+      <td>Elimina el grupo de seguridad "nombre_grupo"</td>
+      <td>delgroup postgresql </td>
+    </tr>
+    <tr>
+      <td>delgroup nombre_grupo --only-if-empty </td>
+      <td>Elimina el grupo de seguridad "nombre_grupo" sólo si no tiene usuarios asignados </td>
+      <td>delgroup postgre --only-if-empty </td>
+    </tr>
+    <tr>
+      <td>tty</td>
+      <td>Muestra el nombre del fichero de la terminal conectada a la salida estándar </td>
+      <td>tty</td>
+    </tr>
+    <tr>
+      <td>hostname</td>
+      <td>Muestra el nombre de red del equipo </td>
+      <td>hostname</td>
+    </tr>
+    <tr>
+      <td>ifconfig eth0 Nueva_IP netmask Máscara </td>
+      <td>Cambia la IP para la tarjeta de red "eth0" por la nueva "Nueva_IP" con la máscara de subred "Máscara". No guarda los cambios, sólo se aplicará el cambio hasta el próximo reinicio del equipo. Para hacer el cambio permanente hay que editar el fichero <em>/etc/network/interfaces</em> </td>
+      <td>ifconfig eth0 192.168.1.100 255.255.255.0 </td>
+    </tr>
+    <tr>
+      <td>java -jar fichero.jar </td>
+      <td>Ejecuta la aplicación java "fichero.jar" </td>
+      <td>java -jar posgresql.jar </td>
+    </tr>
+    <tr>
+      <td>/etc/init.d/servicio stop </td>
+      <td>Detiene el servicio "servicio" </td>
+      <td>/etc/init.d/postgresql stop </td>
+    </tr>
+    <tr>
+      <td>/etc/init.d/servicio start </td>
+      <td>Inicia el servicio "servicio" </td>
+      <td>/etc/init.d/postgresql start </td>
+    </tr>
+    <tr>
+      <td>/etc/init.d/servicio restart </td>
+      <td>Reinicia el servicio "servicio" (lo detiene y lo inicia) </td>
+      <td>/etc/init.d/postgresql restart </td>
+    </tr>
+    <tr>
+      <td>/etc/init.d/servicio status </td>
+      <td>Muestra el estado del servicio "servicio" (si está o no iniciado, pid) </td>
+      <td>/etc/init.d/postgresql status </td>
+    </tr>
+    <tr>
+      <td>mkfs -t tipo_sistema dispositivo </td>
+      <td>Crea un sistema de ficheros Linux con el tipo de sistema "tipo_sistema" en el dispositivo indicado en "dispositivo". Para que este comando funcione la partición de disco a crear no debe estar montada </td>
+      <td>mkfs -t ext3 /dev/sda2 </td>
+    </tr>
+</tbody></table>
+
+<p> </p>
+<h2 align="left"><strong><a name="ejemplossalidalinux"></a>Ejemplos de salida de algunos comandos</strong> GNU Linux</h2>
+<ul>
+  <li><strong><a name="iwconfigwlan0"></a>iwconfig wlan0</strong></li>
+</ul>
+<blockquote>
+  <p class="Estilo2"><em>alonso@pcubuntu:~$ iwconfig  wlan0<br>
+    wlan0     IEEE 802.11g  ESSID:"alonso"   Nickname:""<br>
+              Mode:Managed   Frequency:2.412 GHz  Access Point: Not-Associated   <br>
+              Tx-Power=27  dBm   <br>
+              Retry min  limit:7   RTS thr:off   Fragment thr=2346 B   <br>
+              Power Management:off<br>
+              Link Quality:0   Signal level:0  Noise level:0<br>
+              Rx invalid nwid:0   Rx invalid crypt:0  Rx invalid frag:0<br>
+  Tx excessive  retries:0  Invalid misc:0   Missed beacon:0</em></p>
+</blockquote>
+<ul>
+  <li><strong><a name="ifconfig"></a>ifconfig</strong></li>
+</ul>
+<blockquote>
+  <p><em class="Estilo2">alonso@pcubuntu:~$ ifconfig<br>
+  eth0      Link encap:Ethernet  direcciónHW  00:17:31:f5:c7:05  <br>
+          inet dirección:192.168.1.214  Difusión:&gt;192.168.255.255  Máscara:255.255.0.0<br>
+          dirección inet6:  fe80::217:31ff:fef5:c705/64 Alcance:Vínculo<br>
+          ARRIBA DIFUSIÓN  CORRIENDO MULTICAST  MTU:1500  Metric:1<br>
+          RX packets:27987  errors:0 dropped:0 overruns:0 frame:0<br>
+          TX packets:1357 errors:0  dropped:0 overruns:0 carrier:0<br>
+          colisiones:0  txqueuelen:1000 <br>
+          RX bytes:3498154 (3.3  MB)  TX bytes:243056 (237.3 KB)<br>
+          Interrupción:220  Dirección base: 0xe000 <br>
+  <br>
+  lo        Link encap:Bucle local  <br>
+          inet dirección:127.0.0.1  Máscara:255.0.0.0<br>
+          dirección inet6: ::1/128  Alcance:Anfitrión<br>
+          ARRIBA LOOPBACK  CORRIENDO  MTU:16436  Metric:1<br>
+          RX packets:1877 errors:0  dropped:0 overruns:0 frame:0<br>
+          TX packets:1877 errors:0  dropped:0 overruns:0 carrier:0<br>
+          colisiones:0  txqueuelen:0 <br>
+          RX bytes:94227 (92.0  KB)  TX bytes:94227 (92.0 KB)<br>
+  <br>
+  wlan0     Link encap:Ethernet  direcciónHW  00:13:02:70:bf:9f  <br>
+          ARRIBA DIFUSIÓN  MULTICAST  MTU:1500  Metric:1<br>
+          RX packets:0 errors:0  dropped:0 overruns:0 frame:0<br>
+          TX packets:0 errors:0  dropped:0 overruns:0 carrier:0<br>
+          colisiones:0  txqueuelen:1000 <br>
+          RX bytes:0 (0.0 B)   TX bytes:0 (0.0 B)<br>
+  <br>
+  wlan0:avahi Link encap:Ethernet  direcciónHW 00:13:02:70:bf:9f  <br>
+          inet dirección:169.254.7.127  Difusión:169.254.255.255  Máscara:255.255.0.0<br>
+          ARRIBA DIFUSIÓN  MULTICAST  MTU:1500  Metric:1<br>
+  <br>
+  wmaster0  Link encap:UNSPEC  direcciónHW  00-13-02-70-BF-9F-00-00-00-00-00-00-00-00-00-00  <br>
+          ARRIBA DIFUSIÓN  CORRIENDO MULTICAST  MTU:1500  Metric:1<br>
+          RX packets:0 errors:0  dropped:0 overruns:0 frame:0<br>
+          TX packets:0 errors:0  dropped:0 overruns:0 carrier:0<br>
+          colisiones:0  txqueuelen:1000 <br>
+          RX bytes:0 (0.0 B)   TX bytes:0 (0.0 B)</em><br>
+  </p>
+</blockquote>
+<ul>
+  <li><strong><a name="lsmod"></a>lsmod</strong></li>
+</ul>
+<blockquote>
+  <p class="Estilo2"><em>[root@PCAJPDSOFT]# lsmod<br>
+    Module Size Used by<br>
+    sg 38113 0<br>
+    IBMtape 210108 2 [permanent]<br>
+    autofs4 22085 0<br>
+    dm_mirror 28449 0<br>
+    dm_mod 58949 1 dm_mirror<br>
+    button 10449 0<br>
+    battery 12869 0<br>
+    ac 8773 0<br>
+    md5 8001 1<br>
+    ipv6 240097 46<br>
+    joydev 14209 0<br>
+    ohci_hcd 23889 0<br>
+    tg3 85061 0<br>
+    floppy 58065 0<br>
+    st 40157 0<br>
+    ext3 118729 3<br>
+    jbd 59481 1 ext3<br>
+    qla2300 127232 0<br>
+    mptscsih 41469 0<br>
+    mptbase 57629 1 mptscsih<br>
+    aic79xx 187485 0<br>
+    sd_mod 20545 10</em></p>
+  <p> </p>
+</blockquote>
+<ul>
+  <li><strong><a name="df"></a>df -h</strong></li>
+</ul>
+<blockquote>
+  <p class="Estilo2"><em>[root@pcalonso]# df -hl<br>
+    S.ficheros Tamaño Usado Disp Uso% Montado en<br>
+    /dev/cs/cp2 58G 37G 19G 67% /<br>
+    /dev/cis/cp1 99M 14M 81M 15% /boot<br>
+    none 3,0G 0 3,0G 0% /dev/shm<br>
+    /dev/cciss/cd1 201G 164G 27G 87% /cpseg<br>
+    /dev/sd1 99G 69G 26G 73% /bdoracle<br>
+    /dev/sdb1 35G 81M 33G 1% /indicesoracle</em></p>
+  <p> </p>
+</blockquote>
+<p> </p>
+<ul>
+  <li><span class="Estilo1"><a name="lslcdetcinitd"></a>cd /etc/init.d/</span> </li>
+  <li><span class="Estilo1">ls -l</span></li>
+</ul>
+<blockquote>
+  <p class="Estilo2"><em>[root@AJPDSOFT ~]# cd /etc/init.d/<br>
+    [root@AJPDSOFT init.d]# ls -l<br>
+    total 612<br>
+    -rwxr-xr-x 1 root root 1128 ago 9 2004 acpid<br>
+    -rwxr-xr-x 1 root root 834 sep 28 2004 anacron<br>
+    -rwxr-xr-x 1 root root 1429 jun 22 2004 apmd<br>
+    -rwxr-xr-x 1 root root 1176 jun 17 2005 atd<br>
+    -rwxr-xr-x 1 root root 2781 nov 19 2005 auditd<br>
+    -rwxr-xr-x 1 root root 15539 dic 2 2005 autofs<br>
+    -rwxr-xr-x 1 root root 1368 dic 1 2004 bluetooth<br>
+    -rwxr-xr-x 1 root root 1355 dic 22 01:27 cpuspeed<br>
+    -rwxr-xr-x 1 root root 1904 jul 12 2005 crond<br>
+    -rwxr-xr-x 1 root root 2312 ene 4 16:48 cups<br>
+    -rwxr-xr-x 1 root root 1424 oct 22 2004 cups-config-daemon<br>
+    -rwxr-xr-x 1 root root 1502 ago 31 2004 dc_client<br>
+    -rwxr-xr-x 1 root root 1344 ago 31 2004 dc_server<br>
+    -rwxr-xr-x 1 root root 11969 dic 14 2005 diskdump<br>
+    -rwxr-xr-x 1 root root 5255 may 5 10:09 dsmserv<br>
+    -rwxr-xr-x 1 root root 968 dic 1 2004 dund<br>
+    -rwxr-xr-x 1 root root 1944 ago 3 2005 firstboot<br>
+    -rwxr-xr-x 1 root root 10722 abr 18 2005 functions<br>
+    -rwxr-xr-x 1 root root 1778 oct 21 2004 gpm<br>
+    -rwxr-xr-x 1 root root 1388 dic 22 01:15 haldaemon<br>
+    -rwxr-xr-x 1 root root 6029 oct 4 2004 halt<br>
+    -rwxr-xr-x 1 root root 1001 dic 1 2004 hidd<br>
+    -rwxr-xr-x 1 root root 13759 ene 11 11:40 ipmi<br>
+    -rwxr-xr-x 1 root root 7135 nov 11 2004 iptables<br>
+    -rwxr-xr-x 1 root root 1487 oct 4 2004 irda<br>
+    -rwxr-xr-x 1 root root 1744 dic 22 01:27 irqbalance<br>
+    -rwxr-xr-x 1 root root 6183 oct 5 2004 isdn<br>
+    -rwxr-xr-x 1 root root 652 sep 4 2003 killall<br>
+    -rwxr-xr-x 1 root root 2095 ago 22 2005 kudzu<br>
+    -rwxr-xr-x 1 root root 3097 nov 8 2005 lm_sensors<br>
+    -rwxr-xr-x 1 root root 1700 dic 2 2005 mdmonitor<br>
+    -rwxr-xr-x 1 root root 1613 dic 2 2005 mdmpd<br>
+    -rwxr-xr-x 1 root root 1746 ago 2 2005 messagebus<br>
+    -rwxr-xr-x 1 root root 1731 dic 22 01:26 microcode_ctl<br>
+    -rwxr-xr-x 1 root root 12181 nov 21 2005 netdump<br>
+    -rwxr-xr-x 1 root root 7164 jul 14 2005 netfs<br>
+    -rwxr-xr-x 1 root root 1303 mar 4 2005 netplugd<br>
+    -rwxr-xr-x 1 root root 8493 mar 30 2005 network<br>
+    -rwxr-xr-x 1 root root 1475 oct 30 2004 NetworkManager<br>
+    -rwxr-xr-x 1 root root 4283 sep 7 2005 nfs<br>
+    -rwxr-xr-x 1 root root 2841 sep 7 2005 nfslock<br>
+    -rwxr-xr-x 1 root root 2171 feb 9 00:13 nscd<br>
+    -rwxr-xr-x 1 root root 3055 oct 11 2004 ntpd<br>
+    -rwxr-xr-x 1 root root 1144 dic 1 2004 pand<br>
+    -rwxr-xr-x 1 root root 4431 feb 17 07:03 pcmcia<br>
+    -rwxr-xr-x 1 root root 1877 ago 12 2004 portmap<br>
+    -rwxr-xr-x 1 root root 1021 ene 26 11:59 psacct<br>
+    -rwxrwxr-x 1 root root 6219 may 4 18:45 qlremote<br>
+    -rwxr-x--x 1 root root 1255 abr 26 15:57 raid_agent<br>
+    -rwxr-xr-x 1 root root 2404 oct 18 2004 rawdevices<br>
+    -rwxr-xr-x 1 root root 790 dic 22 01:27 readahead<br>
+    -rwxr-xr-x 1 root root 795 dic 22 01:27 readahead_early<br>
+    -rwxr-xr-x 1 root root 1782 ene 31 19:46 rhnsd<br>
+    -rwxr-xr-x 1 root root 2177 sep 7 2005 rpcgssd<br>
+    -rwxr-xr-x 1 root root 1805 sep 7 2005 rpcidmapd<br>
+    -rwxr-xr-x 1 root root 2153 sep 7 2005 rpcsvcgssd<br>
+    -rwxr-xr-x 1 root root 1547 dic 2 2004 saslauthd<br>
+    -rwxr-xr-x 1 root root 3348 sep 1 2004 sendmail<br>
+    -rwxr-xr-x 1 root root 1175 jul 10 2002 single<br>
+    -rwxr-xr-x 1 root root 2247 dic 22 01:27 smartd<br>
+    -rwxr-xr-x 1 root root 3060 dic 21 23:21 sshd<br>
+    -rwxr-xr-x 1 root root 1369 ene 4 2005 syslog<br>
+    -rwxr-xr-x 1 root root 3313 sep 20 2005 tog-pegasus<br>
+    -rwxr-xr-x 1 root root 1548 dic 22 01:28 winbind<br>
+    -rwxr-xr-x 1 root root 3607 ene 11 19:48 xfs<br>
+    -rwxr-xr-x 1 root root 2497 jun 23 2005 xinetd<br>
+    -rwxr-xr-x 1 root root 2497 ago 29 2005 ypbind</em></p>
+  <p> </p>
+</blockquote>
+<ul>
+  <li><strong><a name="servicedsmservstatus"></a>service dsmserv status</strong></li>
+</ul>
+<blockquote>
+  <p class="Estilo2"><em>Status of dsmserv: stopped</em></p>
+  <p> </p>
+</blockquote>
+<ul>
+  <li><strong><a name="set"></a>set</strong>
+    <p class="Estilo2"><em>BASH=/bin/bash<br>
+      BASH_ARGC=()<br>
+      BASH_ARGV=()<br>
+      BASH_LINENO=()<br>
+      BASH_SOURCE=()<br>
+      BASH_VERSINFO=([0]="3" [1]="00" [2]="15" [3]="1" [4]="release" [5]="i386-redhat-linux-gnu")<br>
+      BASH_VERSION='3.00.15(1)-release'<br>
+      COLORS=/etc/DIR_COLORS.xterm<br>
+      COLUMNS=97<br>
+      DIRSTACK=()<br>
+      DISPLAY=localhost:10.0<br>
+      EUID=0<br>
+      GROUPS=()<br>
+      G_BROKEN_FILENAMES=1<br>
+      HISTFILE=/root/.bash_history<br>
+      HISTFILESIZE=1000<br>
+      HISTSIZE=1000<br>
+      HOME=/root<br>
+      HOSTNAME=pcalonso<br>
+      HOSTTYPE=i386<br>
+      IFS=$' 	
+      '<br>
+      INPUTRC=/etc/inputrc<br>
+      KDEDIR=/usr<br>
+      LANG=es_ES.UTF-8<br>
+      LESSOPEN='|/usr/bin/lesspipe.sh %s'<br>
+      LINES=34<br>
+      LOGNAME=root<br>
+      LS_COLORS='no=00:fi=00:di=00;34:ln=00;36:<br>
+      pi=40;33:so=00;35:bd=40;33;01:cd=40;<br>
+      33;01:or=01;05;37;41:mi=01;05;37;41:<br>
+      ex=00;32:*.cmd=00;32:*.exe=00;32:*.com=00;32:<br>
+      *.btm=00;32:*.bat=00;32:*.sh=00;32:*.csh=00;32:<br>
+      *.tar=00;31:*.tgz=00;31:*.arj=00;31:*.taz=00;31:<br>
+      *.lzh=00;31:*.zip=00;31:*.z=00;31:*.Z=00;31:<br>
+      *.gz=00;31:*.bz2=00;31:*.bz=00;31:*.tz=00;31:<br>
+      *.rpm=00;31:*.cpio=00;31:*.jpg=00;35:*.gif=00;35:<br>
+      *.bmp=00;35:*.xbm=00;35:*.xpm=00;35:<br>
+      *.png=00;35:*.tif=00;35:'<br>
+      MACHTYPE=i386-redhat-linux-gnu<br>
+      MAIL=/var/spool/mail/root<br>
+      MAILCHECK=60<br>
+      OLDPWD=/root<br>
+      OPTERR=1<br>
+      OPTIND=1<br>
+      OSTYPE=linux-gnu<br>
+      PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/usr/X11R6/bin:/root/bin<br>
+      PIPESTATUS=([0]="0")<br>
+      PPID=3352<br>
+      PROMPT_COMMAND='echo -ne "?33]0;${USER}@${HOSTNAME%%.*}:${PWD/#$HOME/~}?07"'<br>
+      PS1='[u@h W]$ '<br>
+      PS2='&gt; '<br>
+      PS4='+ '<br>
+      PWD=/etc<br>
+      SHELL=/bin/bash<br>
+      SHELLOPTS=braceexpand:emacs:hashall:histexpand:history:interactive-comments:monitor<br>
+      SHLVL=1<br>
+      SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass<br>
+      SUPPORTED=es_ES.UTF-8:es_ES:es<br>
+      TERM=xterm<br>
+      UID=0<br>
+      USER=root<br>
+      XAUTHORITY=/root/.xauthIJObfe<br>
+      _=export</em></p>
+  </li>
+</ul>
+<blockquote>
+  <p> </p>
+</blockquote>
+<ul>
+  <li><strong><a name="route"></a>route </strong></li>
+</ul>
+<blockquote>
+  <p class="Estilo2"><em>alonso@pcubuntu:~$ route<br>
+    Tabla de rutas IP del núcleo<br>
+    Destino Puerta de Enlace Genmask Banderas Metrica Ref Uso Interfaz<br>
+    192.168.0.0       *               255.255.254.0    U     0       0        0 eth0<br>
+    link-local       *               255.255.0.0      U     0       0        0 wlan0<br>
+    default         192.168.1.1      0.0.0.0          UG    0       0        0 eth0<br>
+    default         192.168.0.1      0.0.0.0          UG    100     0        0 eth0<br>
+    default          *               0.0.0.0          U     1000    0        0 wlan0</em></p>
+  <p> </p>
+</blockquote>
+<ul>
+  <li><strong><a name="whereisls"></a>whereis ls</strong></li>
+</ul>
+<blockquote>
+  <p class="Estilo2"><em>ls: /bin/ls /usr/share/man/man1/ls.1.gz</em></p>
+</blockquote>
+<ul>
+  <li><strong><a name="whereisman"></a>whereis man</strong></li>
+</ul>
+<blockquote>
+  <p class="Estilo2"><em>man: /usr/bin/man <br>
+    /usr/local/man<br>
+    /usr/share/man <br>
+    /usr/share/man/man1/man.1.gz <br>
+    /usr/share/man/man7/man.7.gz</em></p>
+  <p> </p>
+</blockquote>
+<ul>
+  <li><strong><a name="pstree"></a>pstree</strong></li>
+</ul>
+<p align="center"><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/AjpdSoft cbpl_1.jpg" width="269" height="159" alt="Resultado ejecución comando Linux pstree" longdesc="Resultado ejecución comando Linux pstree"></p>
+<ul>
+  <li><strong><a name="psA"></a>ps -A</strong></li>
+</ul>
+<blockquote>
+  <p class="Estilo2"> <em>PID TTY          TIME CMD<br>
+    1 ?        00:00:00 init<br>
+    2 ?        00:00:00 kthreadd<br>
+    3 ?        00:00:00 migration/0<br>
+    4 ?        00:00:00 ksoftirqd/0<br>
+    5 ?        00:00:00 watchdog/0<br>
+    6 ?        00:00:00 events/0<br>
+    7 ?        00:00:00 khelper<br>
+    41 ?        00:00:00 kblockd/0<br>
+    44 ?        00:00:00 kacpid<br>
+    45 ?        00:00:00 kacpi_notify<br>
+    105 ?        00:00:00 kseriod<br>
+    143 ?        00:00:00 pdflush<br>
+    144 ?        00:00:00 pdflush<br>
+    145 ?        00:00:00 kswapd0<br>
+    187 ?        00:00:00 aio/0<br>
+    1297 ?        00:00:00 ata/0<br>
+    1300 ?        00:00:00 ata_aux<br>
+    1306 ?        00:00:00 scsi_eh_0<br>
+    1309 ?        00:00:00 scsi_eh_1<br>
+    2038 ?        00:00:00 scsi_eh_2<br>
+    2237 ?        00:00:00 kjournald<br>
+    2394 ?        00:00:00 udevd<br>
+    2603 ?        00:00:00 kpsmoused<br>
+    3892 tty4     00:00:00 getty<br>
+    3893 tty5     00:00:00 getty<br>
+    3899 tty2     00:00:00 getty<br>
+    3902 tty3     00:00:00 getty<br>
+    3905 tty6     00:00:00 getty<br>
+    3941 ?        00:00:00 syslogd<br>
+    3960 ?        00:00:00 dd<br>
+    3962 ?        00:00:00 klogd<br>
+    3981 ?        00:00:00 sshd<br>
+    4038 ?        00:00:00 mysqld_safe<br>
+    4080 ?        00:00:00 mysqld<br>
+    4082 ?        00:00:00 logger<br>
+    4151 ?        00:00:00 atd<br>
+    4165 ?        00:00:00 cron<br>
+    4188 ?        00:00:00 apache2<br>
+    4207 tty1     00:00:00 login<br>
+    4208 ?        00:00:00 apache2<br>
+    4209 ?        00:00:00 apache2<br>
+    4210 ?        00:00:00 apache2<br>
+    4211 ?        00:00:00 apache2<br>
+    4212 ?        00:00:00 apache2<br>
+    4213 tty1     00:00:00 bash<br>
+    4238 tty1     00:00:00 su<br>
+    4239 tty1     00:00:00 bash<br>
+    4284 tty1     00:00:00 ps</em></p>
+</blockquote>
+<ul>
+  <li><strong><a name="arpieth0"></a>arp -i eth0</strong> (muestra las entradas ARP de la interfaz de red eth0)</li>
+</ul>
+<table width="70%" border="1" align="center">
+  <tbody><tr>
+    <th scope="col"><div align="left">Address</div></th>
+    <th scope="col"><div align="left">HWtype</div></th>
+    <th scope="col"><div align="left">HWaddress</div></th>
+    <th scope="col"><div align="left">Flags Mask</div></th>
+    <th scope="col"><div align="left">Iface</div></th>
+  </tr>
+  <tr>
+    <td>192.168.1.1 </td>
+    <td>ether</td>
+    <td>00:13:46:25:81:98</td>
+    <td>C</td>
+    <td>eth0</td>
+  </tr>
+</tbody></table>
+<ul>
+  <li><a name="unamea"></a><strong>uname -a</strong></li>
+</ul>
+<blockquote>
+  <p class="Estilo2"><em>Linux ubuntu_server 2.6.24-19-server #1 SMP Wed Jun 18 15:18:00 UTC 2008 i686 i686 i386 GNU/Linux</em></p>
+  <p>Donde:</p>
+  <ul>
+    <li>-s: nombre del kernel, en este caso "Linux".</li>
+    <li>-n: nombre del equipo en la red (host), en este caso "ubuntu_server".</li>
+    <li>-r: release del kernel, en este caso "2.6.24-19-server".</li>
+    <li>-v: versión del kernel, en este caso "#1 SMP Wed Jun 18 15:18:00 UTC 2008".</li>
+    <li>-m: nombre hardware de la máquina, en este caso "i686".</li>
+    <li>-p: tipo de procesador, en este caso "i686".</li>
+    <li>-i: tipo de plataforma hardware, en este caso "i386"</li>
+    <li>-o: nombre sistema operativo, en este caso "GNU/Linux".</li>
+  </ul>
+  <p> </p>
+</blockquote>
+<ul>
+  <li><a name="ethtooleth0"></a><strong>ethtool eth0</strong>
+    <blockquote>
+      <p class="Estilo2"><em>Settings for eth0:<br>
+        Current message level: 0x00000007 (7)        <br>
+        Link detected: yes
+      </em></p>
+    </blockquote>
+  </li>
+  <li><a name="ipaddrshow"></a><strong>ip addr show</strong></li>
+</ul>
+<blockquote>
+  <p class="Estilo2"><em>1: lo:  mtu 16436 qdisc noqueue <br>
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00<br>
+    inet 127.0.0.1/8 scope host lo<br>
+    inet6 ::1/128 scope host <br>
+    valid_lft forever preferred_lft forever<br>
+    2: eth0:  mtu 1500 qdisc pfifo_fast qlen 1000<br>
+    link/ether 00:0c:29:71:0d:2c brd ff:ff:ff:ff:ff:ff<br>
+    inet 192.168.1.254/24 brd 192.168.1.255 scope global eth0<br>
+    inet 192.168.1.253/32 scope global eth0<br>
+    inet6 fe80::20c:29ff:fe71:d2c/64 scope link <br>
+    valid_lft forever preferred_lft forever</em></p>
+</blockquote>
+<ul>
+  <li><strong><a name="cal3"></a>cal -3</strong></li>
+</ul>
+<p align="center"><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/AjpdSoft cbpl_2.jpg" width="410" height="91" alt="Resultado ejecución comando Linux cal -3" longdesc="Resultado ejecución comando Linux cal -3"></p>
+<ul>
+  <li><a name="fdiskl"></a><strong>fdisk -l</strong></li>
+</ul>
+<blockquote>
+  <p class="Estilo2"><em>Disk /dev/sda: 5368 MB, 5368709120 bytes<br>
+    255 heads, 63 sectors/track, 652 cylinders<br>
+    Units = cylinders of 16065 * 512 = 8225280 bytes<br>
+    Disk identifier: 0x000b554f</em></p>
+</blockquote>
+<table width="70%" border="1" align="center">
+  <tbody><tr>
+    <th scope="col"><div align="left"><em>Device</em></div></th>
+    <th scope="col"><div align="center"><em>Boot</em></div></th>
+    <th scope="col"><div align="center"><em>Start</em></div></th>
+    <th scope="col"><div align="center"><em>End</em></div></th>
+    <th scope="col"><div align="right"><em>Blocks</em></div></th>
+    <th scope="col"><div align="center"><em>Id</em></div></th>
+    <th scope="col"><div align="left"><em>System</em></div></th>
+  </tr>
+  <tr>
+    <td><em>/dev/sda1</em></td>
+    <td><div align="center"><em>*</em></div></td>
+    <td><div align="center"><em>1</em></div></td>
+    <td><div align="center"><em>617</em></div></td>
+    <td><div align="right"><em>4956021 </em></div></td>
+    <td><div align="center"><em>83</em></div></td>
+    <td><div align="left"><em>Linux</em></div></td>
+  </tr>
+  <tr>
+    <td><em>/dev/sda2</em></td>
+    <td><div align="center"></div></td>
+    <td><div align="center"><em>618</em></div></td>
+    <td><div align="center"><em>652</em></div></td>
+    <td><div align="right"><em>281137+ </em></div></td>
+    <td><div align="center"><em>5</em></div></td>
+    <td><div align="left"><em>Extended</em></div></td>
+  </tr>
+  <tr>
+    <td><em>/dev/sda5</em></td>
+    <td><div align="center"></div></td>
+    <td><div align="center"><em>618</em></div></td>
+    <td><div align="center"><em>652</em></div></td>
+    <td><div align="right"><em>281106</em></div></td>
+    <td><div align="center"><em>82</em></div></td>
+    <td><div align="left"><em>Linux swap / Solaris</em></div></td>
+  </tr>
+</tbody></table>
+<ul>
+  <li><strong><a name="pseorss"></a>ps -e -orss=,args= | sort -b -k1,1n | pr -TW$COLUMNS</strong></li>
+</ul>
+<blockquote>
+  <p class="Estilo2"> <em>0 [aio/0]<br>
+    0 [aio/1]<br>
+    0 [ata/0]<br>
+    0 [ata/1]<br>
+    0 [ata_aux]<br>
+    0 [btaddconn]<br>
+    0 [btdelconn]<br>
+    0 [cqueue]<br>
+    0 [events/0]<br>
+    0 [events/1]<br>
+    0 [iwl3945/0]<br>
+    0 [iwl3945/1]<br>
+    0 [iwl3945]<br>
+    0 [kacpi_notify]<br>
+    0 [kacpid]<br>
+    0 [kauditd]<br>
+    0 [kblockd/0]<br>
+    0 [kblockd/1]<br>
+    0 [khelper]<br>
+    0 [khpsbpkt]<br>
+    0 [khubd]<br>
+    0 [kintegrityd/0]<br>
+    0 [kintegrityd/1]<br>
+    0 [kjournald]<br>
+    0 [kmmcd]<br>
+    0 [knodemgrd_0]<br>
+    0 [kondemand/0]<br>
+    0 [kondemand/1]<br>
+    0 [kpsmoused]<br>
+    0 [krfcommd]<br>
+    0 [kseriod]<br>
+    0 [ksoftirqd/0]<br>
+    0 [ksoftirqd/1]<br>
+    0 [kstriped]<br>
+    0 [ksuspend_usbd]<br>
+    0 [kswapd0]<br>
+    0 [kthreadd]<br>
+    0 [led_workqueue]<br>
+    0 [migration/0]<br>
+    0 [migration/1]<br>
+    0 [pccardd]<br>
+    0 [pdflush]<br>
+    0 [pdflush]<br>
+    0 [scsi_eh_0]<br>
+    0 [scsi_eh_1]<br>
+    356 init [5] <br>
+    420 startpar -f -- earlyxdm<br>
+    540 /sbin/klogd -c 1 -x<br>
+    556 /sbin/acpid<br>
+    572 gnome-pty-helper<br>
+    592 /usr/sbin/cron<br>
+    624 /sbin/rpcbind<br>
+    636 /sbin/mingetty tty3<br>
+    636 /sbin/mingetty tty4<br>
+    640 /sbin/mingetty tty2<br>
+    640 /sbin/mingetty tty6<br>
+    644 /sbin/mingetty tty5<br>
+    660 /sbin/mingetty --noclear tty1<br>
+    688 /sbin/audispd<br>
+    704 pr -TW157<br>
+    728 /usr/bin/dbus-launch --exit-with-session<br>
+    728 dbus-launch --exit-with-session /usr/bin/gnome-session<br>
+    756 sort -b -k1,1n<br>
+    772 /sbin/auditd -s disable<br>
+    792 ps -e -orss=,args=<br>
+    828 /sbin/syslog-ng -a /var/lib/dhcp/dev/log -a /var/lib/named/dev/log<br>
+    836 /usr/sbin/smartd<br>
+    852 /usr/sbin/xinetd -pidfile /var/run/xinetd.init.pid<br>
+    896 /sbin/dhclient -d -sf /usr/lib/NetworkManager/nm-dhcp-client.action -pf /var/run/dhclient-eth0.pid -lf /var/lib/dhcp/dhclient.leases -cf /var/run/nm-dh<br>
+    1028 /usr/sbin/sshd -o PidFile=/var/run/sshd.init.pid<br>
+    1032 hald-addon-acpi: listening on acpid socket /var/run/acpid.socket<br>
+    1048 /bin/dbus-daemon --fork --print-pid 7 --print-address 9 --session<br>
+    1072 /usr/lib/hal/hald-addon-leds<br>
+    1076 /usr/lib/hal/hald-addon-cpufreq<br>
+    1096 hald-addon-input: Listening on /dev/input/event0 /dev/input/event7 /dev/input/event6 /dev/input/event8 /dev/input/event4 /dev/input/event5<br>
+    1100 hald-addon-storage: polling /dev/sr0 (every 2 sec)<br>
+    1108 /usr/lib/hal/hald-addon-generic-backlight<br>
+    1144 hald-runner<br>
+    1176 /usr/lib/hal/hald-addon-rfkill-killswitch<br>
+    1184 /sbin/udevd --daemon<br>
+    1188 /usr/sbin/nscd<br>
+    1212 /bin/dbus-daemon --system<br>
+    1372 /bin/sh /usr/bin/firefox<br>
+    1512 avahi-daemon: running [pcsuse.local]<br>
+    1552 su - root<br>
+    1604 /usr/sbin/bluetoothd<br>
+    1640 /usr/sbin/wpa_supplicant -c /etc/wpa_supplicant/wpa_supplicant.conf -u -f /var/log/wpa_supplicant.log<br>
+    1692 pickup -l -t fifo -u<br>
+    1736 qmgr -l -t fifo -u<br>
+    1764 /usr/sbin/modem-manager<br>
+    1788 /usr/lib/postfix/master<br>
+    2072 /usr/bin/gnome-keyring-daemon -d --login<br>
+    2076 /usr/lib/gvfs//gvfs-fuse-daemon /home/alonso/.gvfs<br>
+    2164 /usr/lib/gvfs/gvfsd<br>
+    2196 -bash<br>
+    2200 bash<br>
+    2236 /usr/lib/gvfs/gvfsd-burn --spawner :1.9 /org/gtk/gvfs/exec_spaw/1<br>
+    2256 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor<br>
+    2424 /usr/sbin/gdm<br>
+    2428 /usr/sbin/cupsd<br>
+    2436 /usr/lib/pulse/gconf-helper<br>
+    2532 /usr/lib/gdm/gdm-session-worker<br>
+    2592 /usr/sbin/console-kit-daemon<br>
+    2688 /usr/sbin/NetworkManager<br>
+    2744 /usr/lib/gvfs/gvfsd-trash --spawner :1.9 /org/gtk/gvfs/exec_spaw/0<br>
+    2876 /usr/lib/gdm/gdm-simple-slave --display-id /org/gnome/DisplayManager/Display1<br>
+    2876 /usr/lib/gvfs/gvfs-hal-volume-monitor<br>
+    3000 /usr/sbin/nm-system-settings --config /etc/NetworkManager/nm-system-settings.conf<br>
+    3532 /usr/lib/bonobo/bonobo-activation-server --ac-activate --ior-output-fd=17<br>
+    3676 /usr/lib/gnome-session/helpers/gnome-keyring-daemon-wrapper<br>
+    4560 /usr/bin/pulseaudio --start --log-target=syslog<br>
+    4784 /usr/sbin/hald --daemon=yes<br>
+    6264 gnome-screensaver<br>
+    7176 bluetooth-applet<br>
+    8800 /usr/bin/gnome-session<br>
+    11520 gpk-update-icon<br>
+    11980 gnome-power-manager<br>
+    12460 /usr/bin/metacity<br>
+    13380 /usr/lib/GConf/2/gconfd-2<br>
+    14004 nm-applet --sm-disable<br>
+    15088 python /usr/lib/python2.6/site-packages/system-config-printer/applet.py<br>
+    17472 /usr/lib/gnome-panel/mixer_applet2 --oaf-activate-iid=OAFIID:GNOME_MixerApplet_Factory --oaf-ior-fd=21<br>
+    19240 gnome-terminal<br>
+    19620 /usr/bin/X :0 -br -verbose -auth /var/run/gdm/auth-for-gdm-vrT34p/database -nolisten tcp vt7<br>
+    22092 gnome-panel<br>
+    29632 /usr/lib/gnome-settings-daemon/gnome-settings-daemon<br>
+    36232 /usr/lib/firefox/firefox<br>
+    45100 nautilus --no-desktop --browser<br>
+  75060 beagled /usr/lib/beagle/BeagleDaemon.exe --replace --bg</em></p>
+  <p> </p>
+</blockquote>
+<ul>
+  <li><a name="lastreboot"></a><strong>last reboot</strong><br>
+  </li>
+</ul>
+<blockquote>
+  <p class="Estilo2"><em>reboot   system boot  2.6.24-19-server Sat Jan 10 02:55 - 06:15  (03:20) <br>
+    reboot   system boot  2.6.24-19-server Sat Jan 10 01:08 - 02:54  (01:45) </em><br>
+    <em>wtmp begins Sat Jan 10 01:08:39 2009</em></p>
+</blockquote>
+<ul>
+  <li><strong><a name="headn1etcissue"></a>head -n1 /etc/issue</strong></li>
+</ul>
+<blockquote>
+  <p>Para un sistema operativo <a href="http://www.ajpdsoft.com/modules.php?name=News&file=article&sid=306" title="Instalación de Linux Ubuntu 8.04 Alpha (Hardy Heron)" target="_blank">GNU Linux Ubuntu</a>:</p>
+  <blockquote>
+    <p class="Estilo2"><em>Ubuntu 8.04.1</em></p>
+  </blockquote>
+  <p>Para un sistema operativo <a href="http://www.ajpdsoft.com/modules.php?name=News&file=article&sid=243" title="Instalación de Linux Suse Enterprise Desktop 10" target="_blank">GNU Linux openSUSE</a>:</p>
+  <blockquote>
+    <p class="Estilo2"><em>openSUSE 11.1 - Kernel</em></p>
+  </blockquote>
+</blockquote>
+<ul>
+  <li><strong><a name="grepmodelname"></a>grep "model name" /proc/cpuinfo</strong></li>
+</ul>
+<blockquote>
+  <p class="Estilo2"><em>model name: Intel(R) Core (TM)2 Quad CPU Q9400 @ 2.66GHz</em></p>
+</blockquote>
+<ul>
+  <li><strong><a name="hdparmtTdevsda"></a>hdparm -tT /dev/sda</strong></li>
+</ul>
+<blockquote>
+  <p class="Estilo2"><em>/dev/sda:<br>
+    Timing cached reads:   4284 MB in  2.00 seconds = 2142.42 MB/sec<br>
+    Timing buffered disk reads:   64 MB in  3.10 seconds =  20.67 MB/sec</em></p>
+</blockquote>
+<ul>
+  <li><strong><a name="lspcitv"></a>lspci -tv</strong></li>
+</ul>
+<blockquote>
+  <p class="Estilo2"><em>-[0000:00]-+-00.0  Intel Corporation Mobile 945GM/PM/GMS, 943/940GML and 945GT Express Memory Controller Hub<br>
+    +-01.0-[0000:01]----00.0  nVidia Corporation G72M [Quadro NVS 110M/GeForce Go 7300]<br>
+    +-1b.0  Intel Corporation 82801G (ICH7 Family) High Definition Audio Controller<br>
+    +-1c.0-[0000:02]----00.0  Realtek Semiconductor Co., Ltd. RTL8111/8168B PCI Express Gigabit Ethernet controller<br>
+    +-1c.3-[0000:03]----00.0  Intel Corporation PRO/Wireless 3945ABG [Golan] Network Connection<br>
+    +-1d.0  Intel Corporation 82801G (ICH7 Family) USB UHCI Controller #1<br>
+    +-1d.1  Intel Corporation 82801G (ICH7 Family) USB UHCI Controller #2<br>
+    +-1d.2  Intel Corporation 82801G (ICH7 Family) USB UHCI Controller #3<br>
+    +-1d.3  Intel Corporation 82801G (ICH7 Family) USB UHCI Controller #4<br>
+    +-1d.7  Intel Corporation 82801G (ICH7 Family) USB2 EHCI Controller<br>
+    +-1e.0-[0000:04-08]--+-01.0  Ricoh Co Ltd RL5c476 II<br>
+    |                    +-01.1  Ricoh Co Ltd R5C552 IEEE 1394 Controller<br>
+    |                    +-01.2  Ricoh Co Ltd R5C822 SD/SDIO/MMC/MS/MSPro Host Adapter<br>
+    |                    -01.3  Ricoh Co Ltd R5C592 Memory Stick Bus Host Adapter<br>
+    +-1f.0  Intel Corporation 82801GBM (ICH7-M) LPC Interface Bridge<br>
+    -1f.1  Intel Corporation 82801G (ICH7 Family) IDE Controller</em></p>
+</blockquote>
+<ul>
+  <li><strong><a name="lsusbtv"></a>lsusb -tv</strong>
+<p class="Estilo2">/:  Bus 05.Port 1: Dev 1, Class=root_hub, Driver=ehci_hcd/8p, 480M<br>
+      /:  Bus 04.Port 1: Dev 1, Class=root_hub, Driver=uhci_hcd/2p, 12M<br>
+      /:  Bus 03.Port 1: Dev 1, Class=root_hub, Driver=uhci_hcd/2p, 12M<br>
+      /:  Bus 02.Port 1: Dev 1, Class=root_hub, Driver=uhci_hcd/2p, 12M<br>
+      /:  Bus 01.Port 1: Dev 1, Class=root_hub, Driver=uhci_hcd/2p, 12M<br>
+      |__ Port 1: Dev 3, If 0, Class=HID, Driver=usbhid, 1.5M</p></li>
+  <li><strong><a name="idroot"></a>id root</strong></li>
+</ul>
+<blockquote>
+  <p class="Estilo2">uid=0(root) gid=0(root) grupos=0(root),1(bin),2(daemon),3(sys),4(adm),6(disk),10(wheel)</p>
+</blockquote>
+<ul>
+  <li>    <a name="ulimita"></a><strong>ulimit -a  </strong>(equipo con GNU Linux Ubuntu)
+    <blockquote>
+      <p class="Estilo2"><em>core file size          (blocks, -c) 0<br>
+        data seg size           (kbytes, -d) unlimited<br>
+        scheduling priority             (-e) 20<br>
+        file size               (blocks, -f) unlimited<br>
+        pending signals                 (-i) 16382<br>
+        max locked memory       (kbytes, -l) 64<br>
+        max memory size         (kbytes, -m) unlimited<br>
+        open files                      (-n) 1024<br>
+        pipe size            (512 bytes, -p) 8<br>
+        POSIX message queues     (bytes, -q) 819200<br>
+        real-time priority              (-r) 0<br>
+        stack size              (kbytes, -s) 8192<br>
+        cpu time               (seconds, -t) unlimited<br>
+        max user processes              (-u) unlimited<br>
+        virtual memory          (kbytes, -v) unlimited<br>
+        file locks                      (-x) unlimited</em></p>
+    </blockquote>
+  </li>
+  <li>    <strong><a name="sysctla"></a>sysctl -a</strong> 
+    <blockquote>
+      <p><span class="Estilo2">kernel.sched_migration_cost = 500000<br>
+        kernel.sched_nr_migrate = 32<br>
+        kernel.timer_migration = 1<br>
+        kernel.sched_rt_period_us = 1000000<br>
+        kernel.sched_rt_runtime_us = 950000<br>
+        kernel.sched_compat_yield = 0<br>
+        kernel.panic = 0<br>
+        kernel.core_uses_pid = 0<br>
+        kernel.core_pattern = core<br>
+        kernel.tainted = 0<br>
+        kernel.latencytop = 0<br>
+        kernel.real-root-dev = 0<br>
+        kernel.print-fatal-signals = 0<br>
+        kernel.ctrl-alt-del = 0<br>
+        kernel.ftrace_dump_on_oops = 0<br>
+        kernel.modprobe = /sbin/modprobe<br>
+        kernel.modules_disabled = 0<br>
+        kernel.hotplug =<br>
+        kernel.sg-big-buff = 32768<br>
+        kernel.acct = 4 2       30<br>
+        kernel.sysrq = 1<br>
+        kernel.cad_pid = 1<br>
+        kernel.threads-max = 14331<br>
+        kernel.random.poolsize = 4096<br>
+        kernel.random.entropy_avail = 3064<br>
+        kernel.random.read_wakeup_threshold = 64<br>
+        kernel.random.write_wakeup_threshold = 128<br>
+        kernel.random.boot_id = a6e1dc-aaf-46f-8a3-2c55e618f<br>
+        kernel.random.uuid = 71d8483-3e0-4c9-a49-c90bd59b270<br>
+        kernel.overflowuid = 65534<br>
+        kernel.overflowgid = 65534<br>
+        kernel.pid_max = 32768<br>
+        kernel.panic_on_oops = 0<br>
+        kernel.printk = 4       4       1       7<br>
+        kernel.printk_ratelimit = 5<br>
+        kernel.printk_ratelimit_burst = 10<br>
+        kernel.ngroups_max = 65536<br>
+        kernel.unknown_nmi_panic = 0<br>
+        kernel.nmi_watchdog = 0<br>
+        kernel.panic_on_unrecovered_nmi = 0<br>
+        kernel.panic_on_io_nmi = 0<br>
+        kernel.bootloader_type = 112<br>
+        kernel.bootloader_version = 0<br>
+        kernel.kstack_depth_to_print = 24<br>
+        kernel.io_delay_type = 1<br>
+        kernel.randomize_va_space = 2<br>
+        kernel.acpi_video_flags = 0<br>
+        kernel.softlockup_panic = 0<br>
+        kernel.softlockup_thresh = 60<br>
+        kernel.hung_task_panic = 0<br>
+        kernel.hung_task_check_count = 32768<br>
+        kernel.hung_task_timeout_secs = 120<br>
+        kernel.hung_task_warnings = 10<br>
+        kernel.max_lock_depth = 1024<br>
+        kernel.poweroff_cmd = /sbin/poweroff<br>
+        kernel.keys.maxkeys = 200<br>
+        kernel.keys.maxbytes = 20000<br>
+        kernel.keys.root_maxkeys = 200<br>
+        kernel.keys.root_maxbytes = 20000<br>
+        kernel.slow-work.min-threads = 2<br>
+        kernel.slow-work.max-threads = 4<br>
+        kernel.slow-work.vslow-percentage = 50<br>
+        kernel.perf_counter_paranoid = 1<br>
+        kernel.perf_counter_mlock_kb = 512<br>
+        kernel.perf_counter_max_sample_rate = 100000<br>
+        kernel.ostype = Linux<br>
+        kernel.osrelease = 2.6.31-19-generic<br>
+        kernel.version = #56-Ubuntu SMP Thu Jan 28 01:26:53 UTC 2010<br>
+        kernel.hostname = optenet<br>
+        kernel.domainname = (none)<br>
+        kernel.shmmax = 33554432<br>
+        kernel.shmall = 2097152<br>
+        kernel.shmmni = 4096<br>
+        kernel.msgmax = 8192<br>
+        kernel.msgmni = 1734<br>
+        kernel.msgmnb = 16384<br>
+        kernel.sem = 250        32000   32      128<br>
+        kernel.auto_msgmni = 1<br>
+        kernel.pty.max = 4096<br>
+        kernel.pty.nr = 1<br>
+        vm.overcommit_memory = 0<br>
+        vm.panic_on_oom = 0<br>
+        vm.oom_kill_allocating_task = 0<br>
+        vm.oom_dump_tasks = 0<br>
+        vm.overcommit_ratio = 50<br>
+        vm.page-cluster = 3<br>
+        vm.dirty_background_ratio = 10<br>
+        vm.dirty_background_bytes = 0<br>
+        vm.dirty_ratio = 20<br>
+        vm.dirty_bytes = 0<br>
+        vm.dirty_writeback_centisecs = 500<br>
+        vm.dirty_expire_centisecs = 3000<br>
+        vm.nr_pdflush_threads = 2<br>
+        vm.swappiness = 60<br>
+        vm.nr_hugepages = 0<br>
+        vm.hugetlb_shm_group = 0<br>
+        vm.hugepages_treat_as_movable = 0<br>
+        vm.nr_overcommit_hugepages = 0<br>
+        vm.lowmem_reserve_ratio = 256   32      32<br>
+        vm.drop_caches = 0<br>
+        vm.min_free_kbytes = 3798<br>
+        vm.percpu_pagelist_fraction = 0<br>
+        vm.max_map_count = 65530<br>
+        vm.laptop_mode = 0<br>
+        vm.block_dump = 0<br>
+        vm.vfs_cache_pressure = 100<br>
+        vm.legacy_va_layout = 0<br>
+        vm.stat_interval = 1<br>
+        vm.mmap_min_addr = 65536<br>
+        vm.vdso_enabled = 1<br>
+        vm.highmem_is_dirtyable = 0<br>
+        vm.scan_unevictable_pages = 0<br>
+        fs.inode-nr = 32458     11220<br>
+        dev.cdrom.info = Can play audio:                1<br>
+        dev.cdrom.info = Can write CD-R:                0<br>
+        dev.cdrom.info = Can write CD-RW:       0<br>
+        dev.cdrom.info = Can read DVD:          1<br>
+        dev.cdrom.info = Can write DVD-R:       0<br>
+        dev.cdrom.info = Can write DVD-RAM:     0<br>
+        dev.cdrom.info = Can read MRW:          1<br>
+        dev.cdrom.info = Can write MRW:         1<br>
+        dev.cdrom.info = Can write RAM:         1<br>
+        dev.cdrom.info =<br>
+        dev.cdrom.info =<br>
+        dev.cdrom.autoclose = 1<br>
+        dev.cdrom.autoeject = 0<br>
+        dev.cdrom.debug = 0<br>
+        dev.cdrom.lock = 1<br>
+        dev.cdrom.check_media = 0<br>
+        dev.parport.default.timeslice = 200<br>
+        dev.parport.default.spintime = 500<br>
+        dev.parport.parport0.spintime = 500<br>
+        dev.parport.parport0.base-addr = 888    1912<br>
+        dev.parport.parport0.irq = 7<br>
+        dev.parport.parport0.dma = 3<br>
+        dev.parport.parport0.modes = PCSPP,TRISTATE,COMPAT,ECP,DMA<br>
+        dev.parport.parport0.devices.active = none<br>
+        dev.parport.parport0.devices.lp.timeslice = 200<br>
+        net.netfilter.nf_log.0 = NONE<br>
+        net.netfilter.nf_log.1 = NONE<br>
+        net.netfilter.nf_log.2 = NONE<br>
+        net.netfilter.nf_log.3 = NONE<br>
+        net.netfilter.nf_log.4 = NONE<br>
+        net.netfilter.nf_log.5 = NONE<br>
+        net.netfilter.nf_log.6 = NONE<br>
+        net.netfilter.nf_log.7 = NONE<br>
+        net.netfilter.nf_log.8 = NONE<br>
+        net.netfilter.nf_log.9 = NONE<br>
+        net.netfilter.nf_log.10 = NONE<br>
+        net.netfilter.nf_log.11 = NONE<br>
+        net.netfilter.nf_log.12 = NONE<br>
+        net.core.somaxconn = 128<br>
+        net.core.xfrm_aevent_etime = 10<br>
+        net.core.xfrm_aevent_rseqth = 2<br>
+        net.core.xfrm_larval_drop = 1<br>
+        net.core.xfrm_acq_expires = 30<br>
+        net.core.wmem_max = 131071<br>
+        net.core.rmem_max = 131071<br>
+        net.core.wmem_default = 114688<br>
+        net.core.rmem_default = 114688<br>
+        net.core.dev_weight = 64<br>
+        net.core.netdev_max_backlog = 1000<br>
+        net.core.message_cost = 5<br>
+        net.core.message_burst = 10<br>
+        net.core.optmem_max = 10240<br>
+        net.core.netdev_budget = 300<br>
+        net.core.warnings = 1<br>
+        net.ipv4.route.gc_thresh = 32768<br>
+        net.ipv4.route.max_size = 524288<br>
+        net.ipv4.route.gc_min_interval = 0<br>
+        net.ipv4.route.gc_min_interval_ms = 500<br>
+        net.ipv4.route.gc_timeout = 300<br>
+        net.ipv4.route.gc_interval = 60<br>
+        net.ipv4.route.redirect_load = 5<br>
+        net.ipv4.route.redirect_number = 9<br>
+        net.ipv4.route.redirect_silence = 5120<br>
+        net.ipv4.route.error_cost = 250<br>
+        net.ipv4.route.error_burst = 1250<br>
+        net.ipv4.route.gc_elasticity = 8<br>
+        net.ipv4.route.mtu_expires = 600<br>
+        net.ipv4.route.min_pmtu = 552<br>
+        net.ipv4.route.min_adv_mss = 256<br>
+        net.ipv4.route.secret_interval = 600<br>
+        net.ipv4.neigh.default.mcast_solicit = 3<br>
+        net.ipv4.neigh.default.ucast_solicit = 3<br>
+        net.ipv4.neigh.default.app_solicit = 0<br>
+        net.ipv4.neigh.default.retrans_time = 100<br>
+        net.ipv4.neigh.default.base_reachable_time = 30<br>
+        net.ipv4.neigh.default.delay_first_probe_time = 5<br>
+        net.ipv4.neigh.default.gc_stale_time = 60<br>
+        net.ipv4.neigh.default.unres_qlen = 3<br>
+        net.ipv4.neigh.default.proxy_qlen = 64<br>
+        net.ipv4.neigh.default.anycast_delay = 100<br>
+        net.ipv4.neigh.default.proxy_delay = 80<br>
+        net.ipv4.neigh.default.locktime = 100<br>
+        net.ipv4.neigh.default.retrans_time_ms = 1000<br>
+        net.ipv4.neigh.default.base_reachable_time_ms = 30000<br>
+        net.ipv4.neigh.default.gc_interval = 30<br>
+        net.ipv4.neigh.default.gc_thresh1 = 128<br>
+        net.ipv4.neigh.default.gc_thresh2 = 512<br>
+        net.ipv4.neigh.default.gc_thresh3 = 1024<br>
+        net.ipv4.neigh.lo.mcast_solicit = 3<br>
+        net.ipv4.neigh.lo.ucast_solicit = 3<br>
+        net.ipv4.neigh.lo.app_solicit = 0<br>
+        net.ipv4.neigh.lo.retrans_time = 100<br>
+        net.ipv4.neigh.lo.base_reachable_time = 30<br>
+        net.ipv4.neigh.lo.delay_first_probe_time = 5<br>
+        net.ipv4.neigh.lo.gc_stale_time = 60<br>
+        net.ipv4.neigh.lo.unres_qlen = 3<br>
+        net.ipv4.neigh.lo.proxy_qlen = 64<br>
+        net.ipv4.neigh.lo.anycast_delay = 100<br>
+        net.ipv4.neigh.lo.proxy_delay = 80<br>
+        net.ipv4.neigh.lo.locktime = 100<br>
+        net.ipv4.neigh.lo.retrans_time_ms = 1000<br>
+        net.ipv4.neigh.lo.base_reachable_time_ms = 30000<br>
+        net.ipv4.neigh.eth0.mcast_solicit = 3<br>
+        net.ipv4.neigh.eth0.ucast_solicit = 3<br>
+        net.ipv4.neigh.eth0.app_solicit = 0<br>
+        net.ipv4.neigh.eth0.retrans_time = 100<br>
+        net.ipv4.neigh.eth0.base_reachable_time = 30<br>
+        net.ipv4.neigh.eth0.delay_first_probe_time = 5<br>
+        net.ipv4.neigh.eth0.gc_stale_time = 60<br>
+        net.ipv4.neigh.eth0.unres_qlen = 3<br>
+        net.ipv4.neigh.eth0.proxy_qlen = 64<br>
+        net.ipv4.neigh.eth0.anycast_delay = 100<br>
+        net.ipv4.neigh.eth0.proxy_delay = 80<br>
+        net.ipv4.neigh.eth0.locktime = 100<br>
+        net.ipv4.neigh.eth0.retrans_time_ms = 1000<br>
+        net.ipv4.neigh.eth0.base_reachable_time_ms = 30000<br>
+        net.ipv4.tcp_timestamps = 1<br>
+        net.ipv4.tcp_window_scaling = 1<br>
+        net.ipv4.tcp_sack = 1<br>
+        net.ipv4.tcp_retrans_collapse = 1<br>
+        net.ipv4.ip_default_ttl = 64<br>
+        net.ipv4.ip_no_pmtu_disc = 0<br>
+        net.ipv4.ip_nonlocal_bind = 0<br>
+        net.ipv4.tcp_syn_retries = 5<br>
+        net.ipv4.tcp_synack_retries = 5<br>
+        net.ipv4.tcp_max_orphans = 32768<br>
+        net.ipv4.tcp_max_tw_buckets = 180000<br>
+        net.ipv4.ip_dynaddr = 0<br>
+        net.ipv4.tcp_keepalive_time = 7200<br>
+        net.ipv4.tcp_keepalive_probes = 9<br>
+        net.ipv4.tcp_keepalive_intvl = 75<br>
+        net.ipv4.tcp_retries1 = 3<br>
+        net.ipv4.tcp_retries2 = 15<br>
+        net.ipv4.tcp_fin_timeout = 60<br>
+        net.ipv4.tcp_syncookies = 1<br>
+        net.ipv4.tcp_tw_recycle = 0<br>
+        net.ipv4.tcp_abort_on_overflow = 0<br>
+        net.ipv4.tcp_stdurg = 0<br>
+        net.ipv4.tcp_rfc1337 = 0<br>
+        net.ipv4.tcp_max_syn_backlog = 1024<br>
+        net.ipv4.ip_local_port_range = 32768    61000<br>
+        net.ipv4.igmp_max_memberships = 20<br>
+        net.ipv4.igmp_max_msf = 10<br>
+        net.ipv4.inet_peer_threshold = 65664<br>
+        net.ipv4.inet_peer_minttl = 120<br>
+        net.ipv4.inet_peer_maxttl = 600<br>
+        net.ipv4.inet_peer_gc_mintime = 10<br>
+        net.ipv4.inet_peer_gc_maxtime = 120<br>
+        net.ipv4.tcp_orphan_retries = 0<br>
+        net.ipv4.tcp_fack = 1<br>
+        net.ipv4.tcp_reordering = 3<br>
+        net.ipv4.tcp_ecn = 2<br>
+        net.ipv4.tcp_dsack = 1<br>
+        net.ipv4.tcp_mem = 82560        110080  165120<br>
+        net.ipv4.tcp_wmem = 4096        16384   3522560<br>
+        net.ipv4.tcp_rmem = 4096        87380   3522560<br>
+        net.ipv4.tcp_app_win = 31<br>
+        net.ipv4.tcp_adv_win_scale = 2<br>
+        net.ipv4.tcp_tw_reuse = 0<br>
+        net.ipv4.tcp_frto = 2<br>
+        net.ipv4.tcp_frto_response = 0<br>
+        net.ipv4.tcp_low_latency = 0<br>
+        net.ipv4.tcp_no_metrics_save = 0<br>
+        net.ipv4.tcp_moderate_rcvbuf = 1<br>
+        net.ipv4.tcp_tso_win_divisor = 3<br>
+        net.ipv4.tcp_congestion_control = cubic<br>
+        net.ipv4.tcp_abc = 0<br>
+        net.ipv4.tcp_mtu_probing = 0<br>
+        net.ipv4.tcp_base_mss = 512<br>
+        net.ipv4.tcp_workaround_signed_windows = 0<br>
+        net.ipv4.tcp_dma_copybreak = 4096<br>
+        net.ipv4.tcp_slow_start_after_idle = 1<br>
+        net.ipv4.cipso_cache_enable = 1<br>
+        net.ipv4.cipso_cache_bucket_size = 10<br>
+        net.ipv4.cipso_rbm_optfmt = 0<br>
+        net.ipv4.cipso_rbm_strictvalid = 1<br>
+        net.ipv4.tcp_available_congestion_control = cubic reno<br>
+        net.ipv4.tcp_allowed_congestion_control = cubic reno<br>
+        net.ipv4.tcp_max_ssthresh = 0<br>
+        net.ipv4.udp_mem = 82560        110080  165120<br>
+        </span> <br>
+        <br>
+        <br>
+        <br>
+      </p>
+    </blockquote>
+  </li>
+</ul>
+<h2> </h2>
+<h2><a name="articulosrelacionados"></a>Artículos relacionados</h2>
+<ul>
+  <li><a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=list_content&eid=17" title="Enciclopedia de Comandos Linux" target="_blank">Enciclopedia de Comandos Linux</a>.</li>
+  <li><a href="http://www.ajpdsoft.com/modules.php?name=News&file=article&sid=557" title="Restaurar GRUB2 en Linux Ubuntu 11.04 Natty Narwhal después de instalar Windows" target="_blank">Restaurar GRUB2 en Linux Ubuntu 11.04 Natty Narwhal después de instalar Windows</a>.</li>
+  <li><a href="http://www.ajpdsoft.com/modules.php?name=News&file=article&sid=580" title="Instalar Linux Ubuntu Server 11 x64, Apache, MySQL, PostgreSQL, Tomcat, Webmin" target="_blank">Instalar Linux Ubuntu Server 11 x64, Apache, MySQL, PostgreSQL, Tomcat, Webmin</a>.</li>
+  <li><a href="http://www.ajpdsoft.com/modules.php?name=News&new_topic=7" target="_blank">Varios artículos sobre GNU Linux (instalación, administración)</a>.</li>
+  <li><a href="http://www.ajpdsoft.com/modules.php?name=News&file=article&sid=365" title="Configurar GRUB en Linux Ubuntu 8.10 con varios sistemas operativos" target="_blank">Configurar GRUB en Linux Ubuntu 8.10 con varios sistemas operativos</a>.</li>
+  <li><a href="http://www.ajpdsoft.com/modules.php?name=News&file=article&sid=333" title="Cómo crear un RAID lógico en Linux Ubuntu 8.04 Hardy Heron" target="_blank">Cómo crear un RAID lógico en Linux Ubuntu 8.04 Hardy Heron</a>.</li>
+  <li><a href="http://www.ajpdsoft.com/modules.php?name=Encyclopedia&op=list_content&eid=6" title="Enciclopedia de comandos Windows XP, 2000, 2003" target="_blank">Enciclopedia de comandos Windows XP, 2000, 2003</a>.</li>
+  <li><a href="http://www.ajpdsoft.com/modules.php?name=News&file=article&sid=317" title="Conozcamos un poco más Linux - Parte 1ª" target="_blank">Conociendo un poco más GNU Linux</a>.</li>
+  <li><a href="http://www.ajpdsoft.com/modules.php?name=News&file=article&sid=342" title="Instalar Linux Ubuntu Server 8.04.1" target="_blank">Instalar GNU Linux Ubuntu Server 8.04</a>.</li>
+  <li><a href="http://www.ajpdsoft.com/modules.php?name=News&file=article&sid=266" title="Instalación, configuración de Samba y Swat, compartir carpeta en Linux Ubuntu" target="_blank">Instalación de Samba y Swat GNU Linux Ubuntu</a>.</li>
+  <li><a href="http://www.ajpdsoft.com/modules.php?name=News&file=article&sid=344" title="Instalación y configuración de Nagios para monitorizar la red" target="_blank">Instalación y configuración de Nagios para monitorizar la red</a>.</li>
+  <li><a href="http://www.ajpdsoft.com/modules.php?name=News&file=article&sid=254" title="Ampliar memoria de intercambio swap en Linux Ubuntu" target="_blank">Ampliar memoria de intercambio swap en Linux Ubuntu</a>.</li>
+</ul>
+<p> </p>
+<h2><a name="creditos"></a>Créditos</h2>
+<p>Artículo realizado íntegramente por <a href="http://www.ajpdsoft.com/modules.php?name=Foros&file=profile&mode=viewprofile&u=63" title="Perfil del usuario Alonsojpd - Proyecto AjpdSoft" target="_blank">Alonsojpd</a>, miembro fundador del <a href="http://www.ajpdsoft.com/" title="Proyecto software libre, open source, manuales, artículos AjpdSoft">Proyecto AjpdSoft</a>.</p>
+
+<br><br><b>Nota:</b> <i><br>Revisado por AjpdSoft: 14-12-2011.
+<br>Revisado por AjpdSoft: 14-05-2011.
+<br>Revisado por AjpdSoft: 20-01-2009.
+<br>Revisado por AjpdSoft: 15-01-2009.
+<br>Revisado por AjpdSoft: 10-01-2009.
+<br>Revisado por AjpdSoft: 13-05-2008.
+<br>Revisado por AjpdSoft: 16-08-2007.</i>
+ <script type="text/javascript"><!--
+		google_ad_client = "pub-9017794352345256";
+		/* 728x15, creado 11/01/09 */
+		google_ad_slot = "0223924550";
+		google_ad_width = 728;
+		google_ad_height = 15;
+		//-->
+		</script>
+		<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+		</script></font></td>
+              </tr>
+            </tbody></table></td>
+        </tr>
+      </tbody></table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tbody><tr>
+          <td width="7"><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/story-BL.gif" width="7" height="22"></td>
+          <td height="22" background="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/story-B.gif"><table width="100%" border="0" align="center" cellpadding="2" cellspacing="0">
+              <tbody><tr>
+                <td><div align="center"><font class="content">Enviado el Tuesday, 19 July a las 08:13:01 por <a href="http://www.ajpdsoft.com/">ajpdsoft</a></font></div></td>
+              </tr>
+            </tbody></table></td>
+          <td width="7"><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/story-BR.gif" width="7" height="22"></td>
+        </tr>
+      </tbody></table>
+      </td>
+  </tr>
+</tbody></table>
+</td><td>&nbsp;</td><td valign="top">
+<table width="150" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/7px.gif" width="7" height="7"></td>
+  </tr>
+</tbody></table>
+<table width="150" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/block-top.gif" width="150" height="6"></td>
+  </tr>
+</tbody></table>
+<table width="150" height="23" border="0" cellpadding="0" cellspacing="0" background="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/block-title.gif">
+  <tbody><tr>
+    <td><table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tbody><tr>
+          <td><font class="block-title"><strong>Enlaces Relacionados</strong></font></td>
+        </tr>
+      </tbody></table></td>
+  </tr>
+</tbody></table>
+<table width="150" border="0" cellpadding="1" cellspacing="0" bgcolor="757575">
+  <tbody><tr>
+    <td><table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="eaf4f9">
+        <tbody><tr>
+          <td><table width="100%" border="0" cellspacing="0" cellpadding="4">
+              <tbody><tr>
+                <td><font class="content"><font class="content"><strong><big>·</big></strong>&nbsp;<a href="http://www.ajpdsoft.com/modules.php?name=News&file=article&sid=306" target="new">Linux Ubuntu 8.04</a><br>
+<strong><big>·</big></strong>&nbsp;<a href="http://www.ajpdsoft.com/modules.php?name=News&file=article&sid=333" target="new">RAID lógico en Ubuntu 8.04</a><br>
+<strong><big>·</big></strong>&nbsp;<a href="http://www.ajpdsoft.com/modules.php?name=News&file=article&sid=318" target="new">Compiz Fusion Git 0.7.X</a><br>
+<strong><big>·</big></strong>&nbsp;<a href="http://www.ajpdsoft.com/modules.php?name=News&file=article&sid=288" target="new"> Xubuntu 7.04 Feisty Fawn</a><br>
+<strong><big>·</big></strong>&nbsp;<a href="http://www.ajpdsoft.com/modules.php?name=News&file=article&sid=256" target="new">Oracle 10g XE en Ubuntu 6.06</a><br>
+<strong><big>·</big></strong>&nbsp;<a href="http://www.ajpdsoft.com/modules.php?name=News&file=article&sid=342" target="new">Linux Ubuntu Server 8.04.1</a><br>
+<strong><big>·</big></strong>&nbsp;<a href="http://www.ajpdsoft.com/modules.php?name=News&file=article&sid=266" target="new">Samba y Swat en Ubuntu</a><br>
+<strong><big>·</big></strong>&nbsp;<a href="http://www.ajpdsoft.com/modules.php?name=News&file=article&sid=255" target="new">Linux Ubuntu 6.06 con Live CD</a><br>
+<strong><big>·</big></strong>&nbsp;<a href="http://www.ajpdsoft.com/modules.php?name=News&file=article&sid=254" target="new">Ampliar swap en Linux Ubuntu</a><br>
+<strong><big>·</big></strong>&nbsp;<a href="http://www.ajpdsoft.com/modules.php?name=News&file=article&sid=159" target="new">MySQL Server en Ubuntu</a><br>
+<strong><big>·</big></strong>&nbsp;<a href="http://www.ajpdsoft.com/modules.php?name=News&file=article&sid=155" target="new">Comandos Linux</a><br>
+<strong><big>·</big></strong>&nbsp;<a href="http://www.ajpdsoft.com/modules.php?name=Search&topic=7">Más Acerca de Linux (Sistema Operativo)</a><br>
+<strong><big>·</big></strong>&nbsp;<a href="http://www.ajpdsoft.com/modules.php?name=Search&author=ajpdsoft">Noticias/artículos de ajpdsoft</a>
+</font><br><hr noshade="" width="95%" size="1"><center><font class="content"><b>Noticia/artículo más leída sobre Linux (Sistema Operativo):</b><br>
+<a href="http://www.ajpdsoft.com/modules.php?name=news&file=article&sid=155">Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux</a></font></center><br>
+</font></td>
+              </tr>
+            </tbody></table></td>
+        </tr>
+      </tbody></table></td>
+  </tr>
+</tbody></table>
+<table width="150" height="6" border="0" cellpadding="0" cellspacing="0" background="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/block-bottom.gif">
+  <tbody><tr>
+    <td></td>
+  </tr>
+</tbody></table>
+<table width="150" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/7px.gif" width="7" height="7"></td>
+  </tr>
+</tbody></table>
+<table width="150" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/block-top.gif" width="150" height="6"></td>
+  </tr>
+</tbody></table>
+<table width="150" height="23" border="0" cellpadding="0" cellspacing="0" background="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/block-title.gif">
+  <tbody><tr>
+    <td><table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tbody><tr>
+          <td><font class="block-title"><strong>Votos del Artículo</strong></font></td>
+        </tr>
+      </tbody></table></td>
+  </tr>
+</tbody></table>
+<table width="150" border="0" cellpadding="1" cellspacing="0" bgcolor="757575">
+  <tbody><tr>
+    <td><table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="eaf4f9">
+        <tbody><tr>
+          <td><table width="100%" border="0" cellspacing="0" cellpadding="4">
+              <tbody><tr>
+                <td><font class="content"><center>Puntuación Promedio: <b>4.17</b><br>votos: <b>505</b><br><br><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/stars-4.gif" border="1"></center><br><form action="http://www.ajpdsoft.com/modules.php?name=news" method="post"><center>Por favor tómate un segundo y vota por este artículo:</center><br><input type="hidden" name="sid" value="155"><input type="hidden" name="op" value="rate_article"><input type="radio" name="score" value="5"> <img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/stars-5.gif" border="0" alt="Excelente" title="Excelente"><br><input type="radio" name="score" value="4"> <img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/stars-4.gif" border="0" alt="Muy Bueno" title="Muy Bueno"><br><input type="radio" name="score" value="3"> <img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/stars-3.gif" border="0" alt="Bueno" title="Bueno"><br><input type="radio" name="score" value="2"> <img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/stars-2.gif" border="0" alt="Regular" title="Regular"><br><input type="radio" name="score" value="1"> <img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/stars-1.gif" border="0" alt="Malo" title="Malo"><br><br><center><input type="submit" value="¡Grabar mi Voto!"></center></form><br></font></td>
+              </tr>
+            </tbody></table></td>
+        </tr>
+      </tbody></table></td>
+  </tr>
+</tbody></table>
+<table width="150" height="6" border="0" cellpadding="0" cellspacing="0" background="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/block-bottom.gif">
+  <tbody><tr>
+    <td></td>
+  </tr>
+</tbody></table>
+<table width="150" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/7px.gif" width="7" height="7"></td>
+  </tr>
+</tbody></table>
+<table width="150" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/block-top.gif" width="150" height="6"></td>
+  </tr>
+</tbody></table>
+<table width="150" height="23" border="0" cellpadding="0" cellspacing="0" background="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/block-title.gif">
+  <tbody><tr>
+    <td><table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tbody><tr>
+          <td><font class="block-title"><strong>Opciones</strong></font></td>
+        </tr>
+      </tbody></table></td>
+  </tr>
+</tbody></table>
+<table width="150" border="0" cellpadding="1" cellspacing="0" bgcolor="757575">
+  <tbody><tr>
+    <td><table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="eaf4f9">
+        <tbody><tr>
+          <td><table width="100%" border="0" cellspacing="0" cellpadding="4">
+              <tbody><tr>
+                <td><font class="content"><br>&nbsp;<img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/print.gif" border="0" alt="Versión Imprimible" title="Versión Imprimible" width="16" height="11">&nbsp;&nbsp;<a href="http://www.ajpdsoft.com/modules.php?name=news&file=print&sid=155">Versión Imprimible</a><br><br>&nbsp;<img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/friend.gif" border="0" alt="Enviar a un Amigo" title="Enviar a un Amigo" width="16" height="11">&nbsp;&nbsp;<a href="http://www.ajpdsoft.com/modules.php?name=news&file=friend&op=FriendSend&sid=155">Enviar a un Amigo</a><br><br>
+</font></td>
+              </tr>
+            </tbody></table></td>
+        </tr>
+      </tbody></table></td>
+  </tr>
+</tbody></table>
+<table width="150" height="6" border="0" cellpadding="0" cellspacing="0" background="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/block-bottom.gif">
+  <tbody><tr>
+    <td></td>
+  </tr>
+</tbody></table>
+</td></tr></tbody></table>
+<div class="fb-like fb_iframe_widget" data-href="https://www.facebook.com/proyectoajpdsoft" data-send="true" data-layout="button_count" data-width="450" data-show-faces="false" data-font="verdana" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=&amp;font=verdana&amp;href=https%3A%2F%2Fwww.facebook.com%2Fproyectoajpdsoft&amp;layout=button_count&amp;locale=es_ES&amp;sdk=joey&amp;send=true&amp;show_faces=false&amp;width=450"><span style="vertical-align: bottom; width: 192px; height: 20px;"><iframe name="f14d4e5d6c" width="450px" height="1000px" frameborder="0" allowtransparency="true" scrolling="no" title="fb:like Facebook Social Plugin" style="border: none; visibility: visible; width: 192px; height: 20px;" src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/like.html" class=""></iframe></span></div> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 
+
+	<iframe id="twitter-widget-1" scrolling="no" frameborder="0" allowtransparency="true" src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/follow_button.1392079123(1).html" class="twitter-follow-button twitter-follow-button" title="Twitter Follow Button" data-twttr-rendered="true" style="width: 234px; height: 20px;"></iframe>
+
+	<script>!function(d,s,id){
+	  var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+	  if(!d.getElementById(id)){
+	  js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);
+	  }
+	  }
+	  (document, 'script', 'twitter-wjs');</script>	  
+	  
+ &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <div class="fb-follow fb_iframe_widget" data-href="https://www.facebook.com/proyectoajpdsoft" data-show-faces="false" data-width="450" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=&amp;href=https%3A%2F%2Fwww.facebook.com%2Fproyectoajpdsoft&amp;locale=es_ES&amp;sdk=joey&amp;show_faces=false&amp;width=450"><span style="vertical-align: bottom; width: 450px; height: 20px;"><iframe name="f302d19c5" width="450px" height="1000px" frameborder="0" allowtransparency="true" scrolling="no" title="fb:follow Facebook Social Plugin" style="border: none; visibility: visible; width: 450px; height: 20px;" src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/follow.html" class=""></iframe></span></div></td></tr></tbody></table>
+<table width="100%" border="0" cellspacing="0" cellpadding="7">
+<tbody><tr>
+<td><table width="100%" height="12" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td width="7"><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/story-TL.gif" width="7" height="12" align="middle"></td>
+<td background="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/story-T.gif"><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/7px.gif" width="7" height="7"></td>
+<td width="7"><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/story-TR.gif" width="7" height="12" align="middle"></td>
+</tr>
+</tbody></table>
+<table width="100%" border="0" cellpadding="0" cellspacing="1" bgcolor="757575">
+<tbody><tr>
+<td bgcolor="eaf4f9"><table width="100%" border="0" cellspacing="0" cellpadding="4">
+<tbody><tr>
+<td><div align="justify"><font class="small">
+<font class="footmsg">
+</font></font></div></td>
+</tr>
+</tbody></table></td>
+</tr>
+</tbody></table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td width="7"><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/story-BL.gif" width="7" height="22"></td>
+<td height="22" background="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/story-B.gif"><table width="100%" border="0" align="center" cellpadding="2" cellspacing="0">
+<tbody><tr>
+<td><div align="center"><font class="small">Este sitio web <b>NO CONTIENE</b> malware, todos los programas con código fuente  <a href="http://www.ajpdsoft.com/modules.php?name=Downloads">aquí</a>. Autor: Alonso Javier Pérez Díaz <a href="https://plus.google.com/105224752118155793261?rel=author">Google+</a> <a href="https://plus.google.com/117287085489520648443" rel="publisher">Síguenos en Google+</a><font></font></font></div></td>
+</tr>
+</tbody></table></td>
+<td width="7"><img src="./Comandos Linux y ejemplos de utilización, comandos básicos GNU Linux Proyecto AjpdSoft_files/story-BR.gif" width="7" height="22"></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+
+</body></html>

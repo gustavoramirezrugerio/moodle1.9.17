@@ -1,0 +1,122 @@
+/* linuxtotal.com.mx, sergio.gonzalez.duran@gmail.com
+   Este y todos los programas de linuxtotal.com.mx estan
+	 bajo la licencia GPL */
+
+* { padding:0; margin:0; }
+
+body { color:black; background-color:#d0d0d0; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:small; }
+a { text-decoration:none;  }
+code { font-size:10pt; font-weight:bold }
+
+#envoltura { color:#000; background-color:#fff; width:985px; margin:5px auto 5px auto; }
+#encabezado_arriba { height:96px; padding:2px; text-align:center;}
+#encabezado { color:white; background-color:#336633;color:#336633; padding:2px 0 0 10px;}
+#encabezado p { color:white; font-size:85%; font-weight:bold; letter-spacing:1px; }
+
+#menu { background-color:#336633; text-align:right; height:16px}
+#menu li { display:inline; list-style-type:none; margin:0 5px 0 0; border-left:8px solid #99cc00; width:100%;}
+#menu a { text-decoration:none; color:white; background-color:#336633; }
+#menu a:hover { text-decoration:none; color: #99cc00; background-color:#003366; }
+
+#camino { font-size:80%; background-color:#d0d0d0; padding:0 0 0 5px;  }
+
+#encabezado_abajo { color:#000; background-color:#fff; height:100px; border:0px solid; overflow:hidden}
+
+#cuerpo_arriba  { color:#000; background-color:#fff; height:780px; border:0px solid; position:relative; border-bottom:0px solid; border-bottom-color:#336633;}
+#cuerpo_abajo   { color:#000; background-color:#fff; height:1130px; border:0px solid; border-top:4px solid; border-top-color:#336633; }
+#cuerpo_enmedio { color:#000; background-color:#fff; height:50px; border:0px solid; margin:10px 0 10px 0}
+
+.cuerpo_abajo_div {width:370px; height:1010px; float:left; padding:2px;
+                   border-right:4px solid; border-right-color:#336633;
+                   border-top:4px solid; border-top-color:#336633; overflow:hidden}
+
+#comandos { margin:1px 0 1px 0; height:150px; background-color:#e0e0e0; font-size:85%; border:1px solid #336633; }
+
+.tit_1 { color:#f00; font-size:14pt; font-weight:bolder }
+.tit_2 { color:#f00; font-size:12pt; font-weight:bold; }
+.tit_3 { color:#f00; font-size:10pt; font-weight:bold; }
+.lineas { color:#336633;  }
+
+.formulario { display:none; position:absolute; background-color:#f4f4f4; border:2px solid #444444; left:2px; top:3px; overflow:hidden; z-index:1000 !important }
+.barra      { display:block; border-bottom:1px solid #444444; cursor:move }
+
+/* ---- */
+#menup { background-color:white; color:black; height:16px; margin:0 0 2px 0; }
+#menup li { display:inline; list-style-type:none ; border-left:8px solid #99cc00; width:100%;}
+#menup ul { padding:0; text-align:left;}
+#menup a { text-decoration:none; color:white; background-color:#336633; }
+#menup a:hover { text-decoration:none; color: #99cc00; background-color:#003366; }
+
+#cuerpo     { padding:1px 5px 2px 5px;}
+#cuerpo h1  { color:#0000ff; font-size:22px; }
+#cuerpo h2  { color:#0000ff; font-size:115%; margin:0 0 5px 0}
+#cuerpo h3  { color:#ff0000; font-size:80% }
+#cuerpo h4  { font-size:70%; margin:4px 0 4px 0; text-align:justify; font-weight:normal; }
+#cuerpo h5  { color:#0000ff; font-size:100%; font-weight:bold; }
+#cuerpo hr  { color:#336633; border:1px solid; margin:3px 0 3px 0;} 
+#cuerpo p   { text-align:justify; margin-bottom:5px; }
+#cuerpo ul  { padding:2px 0 3px 20px; text-align:justify;  }
+#cuerpo table { border:0 }
+#cuerpo th  { border:1px solid #000000; background-color:#9acd32; padding:0 0 1px 0; }
+#cuerpo td  { border:0px solid #000000; padding-left:1px}
+
+#cuerpoi    { float:left;  width:180px; margin:0 0 2px 0}
+#cuerpoi th { border:0; }
+#cuerpoi td { border:0; }
+
+#cuerpod    { float:right; width:750px; }
+#cuerpod li { list-style-image:url('../imagenes/bg.png'); margin:0 6px 0 0; }
+#cuerpod td { border:1px solid; }
+
+#contenidoizquierdo    { float:left; width:630px; }
+#contenidoizquierdo li { list-style-image:url('../imagenes/bg.png'); margin:0 6px 0 0; }
+#contenidoizquierdo td { border:1px solid; }
+#contenidoderecho    { float:right;  width:335px; margin:0 0 2px 0}
+#contenidoderecho th { border:0; }
+#contenidoderecho td { border:0; }
+
+#cuerpodi   { float:left; width:595px; padding-right:5px; }
+#cuerpodd   { float:right; width:150px; }
+#cuerpodd th { border:0; }
+#cuerpodd td { border:0; }
+
+#e { background-color:#d0d0d0; width:100%; font-family: 'Courier New,Courier,monospace';
+     font-size:90%; margin-bottom:5px; overflow:auto;}
+
+.e { background-color:#d0d0d0; width:100%; font-family: 'Courier New,Courier,monospace';
+     font-size:9pt; margin-bottom:5px; padding:2px; overflow:auto;}
+		 
+#pie { clear:both; color:white; background-color:#336633; padding:2px 0 2px 0; 
+       letter-spacing:1px; font-size:8pt; text-align:center;}
+
+#registros    { overflow:auto; border-bottom:1px solid #000;
+                border-left:1px solid #000; border-right:1px solid #000; border:0}
+#registros td { border:0;  padding-right:0px; }
+
+#titulos      {  border-top:1px solid #000; border-left:1px solid #000; border-right:1px solid #000; border:0 }
+#titulos span { cursor:pointer }
+
+#indice { float:left; margin:1px 4px 1px 0; background-color:#e0e0e0; 
+          font-size:85%; border:2px solid #336633;  }
+
+
+#enlaces { margin:1px 4px 1px 0; background-color:#e0e0e0;
+	    font-size:85%; border:1px solid #336633; }
+
+
+#pp { font-size:80%; text-align:center; }
+
+#verdatos {display:block; position:absolute; height:250px; width:350px; left:200px; top:95px;
+           border:1px solid #000; background:#f7ff9e; overflow:auto}
+			 
+.t1 { font-family:'Courier New',Courier,monospace; font-size:10pt;  }
+.t2 { font-family:Verdana, Arial, Helvetica, sans-serif; }
+.t3 { font-family:'Courier New',Courier,monospace; color:#0000ff; }
+.t4 { font-size:70%; color:#336633; font-weight:normal; }
+
+.mas      { cursor:pointer; font-size:80% }
+.masinfo  { position:relative; background-color:#9acd32; padding:0 3px 0 3px; 
+            height:80px; width:700px;  border:2px solid #336633; text-align:justify; }
+.masinfoc { display:none; }
+
+.sinbordes { border:0 }

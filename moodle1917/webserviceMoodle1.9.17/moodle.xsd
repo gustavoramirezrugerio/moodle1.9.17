@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://webServices.moodle.gestor.mx" xmlns:tns="http://webServices.moodle.gestor.mx">
+
+	<xsd:complexType name="usuario">
+		<xsd:sequence>
+			<xsd:element name="id" type="xsd:long" />
+			<xsd:element name="idnumber" type="xsd:long" nillable="true" />
+			<xsd:element name="username" type="xsd:string" nillable="true" />
+			<xsd:element name="email" type="xsd:string" nillable="true" />
+			<xsd:element name="firstname" type="xsd:string" nillable="true" />
+			<xsd:element name="lastname" nillable="true" type="xsd:string" />
+			<xsd:element name="country" nillable="true" type="xsd:string" />
+			<xsd:element name="city" nillable="true" type="xsd:string" />
+			<xsd:element name="description" nillable="true" type="xsd:string" />
+			<xsd:element name="institution" nillable="true" type="xsd:string" />
+			<xsd:element name="phone1" nillable="true" type="xsd:string" />
+			<xsd:element name="address" nillable="true" type="xsd:string" />
+			<xsd:element name="password" nillable="true" type="xsd:string" />
+			<xsd:element name="estado" nillable="true" type="xsd:string" />
+			<xsd:element name="timemodified" nillable="true" type="xsd:string" />
+			<xsd:element name="picture" nillable="true" type="xsd:string" />
+			<xsd:element name="lastip" nillable="true" type="xsd:string" />
+			<xsd:element name="colonia" nillable="true" type="xsd:string" />
+			<xsd:element name="municipio" nillable="true" type="xsd:string" />
+			<xsd:element name="fecha_nacimiento" nillable="true" type="xsd:string" />
+			<xsd:element name="rol" type="tns:rol" nillable="true" />
+		</xsd:sequence>
+	</xsd:complexType>
+	
+
+	<xsd:complexType name="categoria">
+		<xsd:sequence>
+			<xsd:element name="id" type="xsd:long" />
+			<xsd:element name="name" type="xsd:string" nillable="true" />
+			<xsd:element name="description" type="xsd:string" nillable="true" />
+			<xsd:element name="parent" type="xsd:long" nillable="true" />
+			<xsd:element name="sortorder" type="xsd:long" nillable="true" />
+			<xsd:element name="visible" type="xsd:long" nillable="true" />
+			<xsd:element name="categorias" nillable="true" maxOccurs="unbounded" type="tns:categoria" />
+			<xsd:element name="cursos" type="tns:curso" nillable="true" maxOccurs="unbounded" />
+			<xsd:element name="ERROR" type="xsd:string" nillable="true" />
+			<xsd:element name="CERTIFICADO" type="xsd:string" nillable="true" />
+		</xsd:sequence>
+	</xsd:complexType>
+
+
+
+	<xsd:complexType name="institucion">
+		<xsd:sequence>
+			<xsd:element name="id" type="xsd:long" />
+			<xsd:element name="nombre" type="xsd:string" />
+			<xsd:element name="url" type="xsd:string" />
+			<xsd:element name="categoria" type="tns:categoria" />
+		</xsd:sequence>
+	</xsd:complexType>
+	
+	
+	<xsd:complexType name="curso">
+		<xsd:sequence>
+			<xsd:element name="id" type="xsd:long" />
+			<!-- <xsd:element name="idnumber" type="xsd:long" nillable="true" /> -->
+			<xsd:element name="fullname" type="xsd:string" nillable="true" />
+			<xsd:element name="shortname" type="xsd:string" nillable="true" />
+			<xsd:element name="summary" type="xsd:string" nillable="true" />
+			<xsd:element name="category" type="xsd:long" nillable="true" />
+			<xsd:element name="sortorder" type="xsd:long" nillable="true" />
+			<xsd:element name="wwwroot" type="xsd:string" nillable="true" />
+			<xsd:element name="grupos" type="tns:grupo" nillable="true" maxOccurs="unbounded" />
+			<!-- xsd:element name="chats" type="tns:chat" nillable="true" maxOccurs="unbounded" /-->
+			<xsd:element name="urlportada" type="xsd:string" nillable="true" />
+			<xsd:element name="urlcurso" type="xsd:string" nillable="true" />
+			<xsd:element name="secciones" type="tns:secciones" nillable="true" maxOccurs="unbounded" />
+			<xsd:element name="id_areaConocimientos" type="xsd:long" nillable="true" />
+			<xsd:element name="id_materia_siael" type="xsd:long" nillable="false" />
+			<xsd:element name="creditos" type="xsd:long" nillable="false" />
+			<!-- TODO Obtener datos generales del curso para configurar aperturas y cierres -->
+			<xsd:element name="apertura" type="xsd:string" nillable="true" />
+			<xsd:element name="cierre" type="xsd:string" nillable="true" />
+			<!-- Fechas de matriculacion del curso -->
+			<xsd:element name="enrolstartdate" type="xsd:string" nillable="true" />
+			<xsd:element name="enrolenddate" type="xsd:string" nillable="true" />
+			
+
+			<xsd:element name="startdate" type="xsd:string" nillable="true" />
+			<xsd:element name="visible" type="xsd:long" nillable="true" />
+
+
+			<xsd:element name="archivo" type="xsd:string" nillable="true" />
+			<xsd:element name="id_destino" type="xsd:string" nillable="true" />
+			
+			
+			<xsd:element name="secciones" type="tns:secciones" nillable="true" maxOccurs="unbounded" />
+			<xsd:element name="semanas" type="tns:semanas" nillable="true" maxOccurs="unbounded" />
+			<xsd:element name="elementos" type="tns:elementos" nillable="true" maxOccurs="unbounded" />
+			<xsd:element name="numsections" type="xsd:string" nillable="true" />
+			
+		</xsd:sequence>
+	</xsd:complexType>
+
+
+	<xsd:complexType name="semanas">
+		<xsd:sequence>
+			<xsd:element name="id" type="xsd:long" />
+			<xsd:element name="course" type="xsd:string"  nillable="true" />
+			<xsd:element name="summary" type="xsd:string"  nillable="true" />
+			<xsd:element name="sequence" type="xsd:string"  nillable="true" />
+			<xsd:element name="visible" type="xsd:string"  nillable="true" />
+			<xsd:element name="section" type="xsd:string"  nillable="true" />			
+		</xsd:sequence>
+	</xsd:complexType>
+	
+
+	<xsd:complexType name="elementos">
+		<xsd:sequence>
+			<xsd:element name="id" type="xsd:long" />
+			<xsd:element name="cm" type="xsd:string"  nillable="true" />
+			<xsd:element name="mod" type="xsd:string"  nillable="true" />
+			<xsd:element name="section" type="xsd:string"  nillable="true" />
+			<xsd:element name="visible" type="xsd:string"  nillable="true" />
+			<xsd:element name="groupmode" type="xsd:string"  nillable="true" />
+			<xsd:element name="groupingid" type="xsd:string"  nillable="true" />
+			<xsd:element name="groupmembersonly" type="xsd:string"  nillable="true" />
+			<xsd:element name="extra" type="xsd:string"  nillable="true" />
+			<xsd:element name="name" type="xsd:string"  nillable="true" />			
+			<xsd:element name="id_gestor" type="xsd:string" nillable="true" />
+		</xsd:sequence>
+	</xsd:complexType>
+
+
+
+
+
+	<xsd:complexType name="actividades">
+		<xsd:sequence>
+			<xsd:element name="id" type="xsd:long" />
+			<xsd:element name="idnumber" type="xsd:long" nillable="true" />
+			<xsd:element name="fullname" type="xsd:string" nillable="true" />
+			<xsd:element name="shortname" type="xsd:string" nillable="true" />
+			<xsd:element name="summary" type="xsd:string" nillable="true" />
+			<xsd:element name="category" type="xsd:long" nillable="true" />
+			<xsd:element name="sortorder" type="xsd:long" nillable="true" />
+			<xsd:element name="wwwroot" type="xsd:string" nillable="true" />
+			<xsd:element name="grupos" type="tns:grupo" nillable="true" maxOccurs="unbounded" />
+			<!--xsd:element name="cursos" type="tns:actividades" nillable="true" maxOccurs="unbounded" /-->
+		</xsd:sequence>
+	</xsd:complexType>
+
+
+	<xsd:complexType name="seccion">
+		<xsd:sequence>
+			<xsd:element name="id" type="xsd:string" />
+			<xsd:element name="summary" type="xsd:string" nillable="true" />
+		</xsd:sequence>
+	</xsd:complexType>
+
+
+	<xsd:complexType name="secciones">
+		<xsd:sequence>
+			<xsd:element name="id" type="xsd:string"  nillable="true" />
+			<xsd:element name="cm" type="xsd:string"  nillable="true" />
+			<xsd:element name="mod" type="xsd:string"  nillable="true" />
+			<xsd:element name="section" type="xsd:string"  nillable="true" />
+			<xsd:element name="visible" type="xsd:string"  nillable="true" />
+			<xsd:element name="groupmode" type="xsd:string"  nillable="true" />
+			<xsd:element name="groupingid" type="xsd:string"  nillable="true" />
+			<xsd:element name="groupmembersonly" type="xsd:string"  nillable="true" />
+			<xsd:element name="extra" type="xsd:string"  nillable="true" />
+			<xsd:element name="name" type="xsd:string"  nillable="true" />
+		</xsd:sequence>
+	</xsd:complexType>
+
+
+
+	<xsd:complexType name="menuRecursosActividades">
+		<xsd:sequence>
+			<xsd:element name="actividades" type="tns:recursos" nillable="true" maxOccurs="unbounded" />
+			<xsd:element name="recursos" type="tns:recursos" nillable="true" maxOccurs="unbounded" />
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="recursos">
+		<xsd:sequence>
+			<xsd:element name="clave" type="xsd:string"  nillable="true" />
+			<xsd:element name="valor" type="xsd:string"  nillable="true" />
+		</xsd:sequence>
+	</xsd:complexType>
+
+
+
+	<xsd:complexType name="recursos">
+		<xsd:sequence>
+			<xsd:element name="clave" type="xsd:string"  nillable="true" />
+			<xsd:element name="valor" type="xsd:string"  nillable="true" />
+		</xsd:sequence>
+	</xsd:complexType>
+
+
+
+
+
+
+	<xsd:complexType name="grupo">
+		<xsd:sequence>
+			<xsd:element name="id" type="xsd:long" />
+			<xsd:element name="courseid" type="xsd:long" nillable="true" />
+			<xsd:element name="name" type="xsd:string" nillable="true" />
+			<xsd:element name="description" type="xsd:string" nillable="true" />
+			<xsd:element name="nume" type="xsd:long" nillable="true" />
+			<xsd:element name="car" type="xsd:string" nillable="true" />
+			<xsd:element name="usuarios" type="tns:usuario" nillable="true" maxOccurs="unbounded" />
+		</xsd:sequence>
+	</xsd:complexType>
+	
+	
+	
+
+	<xsd:complexType name="rolasing">
+		<xsd:sequence>
+			<xsd:element name="id" type="xsd:long" />
+			<xsd:element name="roleid" type="xsd:long" nillable="true" />
+			<xsd:element name="contextid" type="xsd:long" nillable="true" />
+			<xsd:element name="userid" type="xsd:long" nillable="true" />
+			<xsd:element name="hidden" type="xsd:long" nillable="true" />
+			<xsd:element name="timestart" type="xsd:long" nillable="true" />
+			<xsd:element name="timeend" type="xsd:long" nillable="true" />
+			<xsd:element name="timemodified" type="xsd:long" nillable="true" />
+			<xsd:element name="modifierid" type="xsd:long" nillable="true" />
+			<xsd:element name="enrol" type="xsd:long" nillable="true" />
+			<xsd:element name="sortorder" type="xsd:long" nillable="true" />
+		</xsd:sequence>
+	</xsd:complexType>
+
+
+	<xsd:complexType name="rol">
+		<xsd:sequence>
+			<xsd:element name="id" type="xsd:long" />
+			<xsd:element name="name" type="xsd:string" nillable="true" />
+			<xsd:element name="shortname" type="xsd:string" nillable="true" />
+			<xsd:element name="description" type="xsd:string" nillable="true" />
+		</xsd:sequence>
+	</xsd:complexType>
+
+
+	<xsd:complexType name="encuestas">
+		<xsd:sequence>
+			<xsd:element name="encuestas" type="tns:cursoModulos" nillable="true" maxOccurs="unbounded" />
+		</xsd:sequence>
+	</xsd:complexType>
+	
+
+	<xsd:complexType name="cursoModulos">
+		<xsd:sequence>
+			<xsd:element name="id" type="xsd:long" />
+			<xsd:element name="course" type="xsd:long" nillable="true" />
+			<xsd:element name="module" type="xsd:long" nillable="true" />
+			<xsd:element name="instance" type="xsd:long" nillable="true" />
+			<xsd:element name="section" type="xsd:long" nillable="true" />
+			<xsd:element name="idnumber" nillable="true" type="xsd:long" />
+			<xsd:element name="added" nillable="true" type="xsd:long" />
+			<xsd:element name="visible" nillable="true" type="xsd:long" />
+			<xsd:element name="type" type="xsd:string" nillable="true" />
+			<xsd:element name="assignmenttype" type="xsd:string" nillable="true" />
+			<xsd:element name="id_gestor" type="xsd:string" nillable="true" />
+			<xsd:element name="text" type="xsd:string" nillable="true" />
+			<xsd:element name="reference" type="xsd:string" nillable="true" />
+			<xsd:element name="eliminado" type="xsd:string" nillable="true" />
+			<xsd:element name="content" type="xsd:string" nillable="true" />
+			<xsd:element name="description" type="xsd:string" nillable="true" />
+			<xsd:element name="chat" type="tns:chat" nillable="true" />
+			<xsd:element name="type" type="xsd:string" nillable="true" />
+			<xsd:element name="name" type="xsd:string" nillable="true" />
+			<xsd:element name="intro" type="xsd:string" nillable="true" />
+			<xsd:element name="summary" type="xsd:string" nillable="true" />
+			<xsd:element name="url" type="xsd:string" nillable="true" />
+			<xsd:element name="idAA" type="xsd:string" nillable="true" />
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="bloque">
+		<xsd:sequence>
+			<xsd:element name="id" type="xsd:long" />
+			<xsd:element name="blockid" type="xsd:long" nillable="true" />
+			<xsd:element name="pageid" type="xsd:string" nillable="true" />
+			<xsd:element name="pagetype" type="xsd:string" nillable="true" />
+			<xsd:element name="position " type="xsd:string" nillable="true" />
+			<xsd:element name="weight" nillable="true" type="xsd:string" />
+			<xsd:element name="visible" nillable="true" type="xsd:string" />
+			<xsd:element name="configdata" nillable="true" type="xsd:string" />
+
+		</xsd:sequence>
+	</xsd:complexType>
+
+
+	<xsd:complexType name="chat">
+		<xsd:sequence>
+			<xsd:element name="id" type="xsd:long" />
+			<xsd:element name="name" type="xsd:string" nillable="true" />
+			<xsd:element name="course" type="xsd:long" nillable="true" />
+			<xsd:element name="intro" type="xsd:string" nillable="true" />
+			<xsd:element name="section" type="xsd:long" nillable="true" />
+			<xsd:element name="content" type="xsd:string" nillable="true" />
+			<xsd:element name="reference" type="xsd:string" nillable="true" />
+			<xsd:element name="type" type="xsd:string" nillable="true" />
+			<xsd:element name="summary" type="xsd:string" nillable="true" />
+			<xsd:element name="description" type="xsd:string" nillable="true" />
+			
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<!--xsd:complexType name="calificaciones">
+		<xsd:sequence>
+			<xsd:element name="id" type="xsd:long" />
+			<xsd:element name="itemid" type="xsd:long" nillable="true" />
+			<xsd:element name="userid" type="xsd:long" nillable="true" />
+			<xsd:element name="finalgrade" type="xsd:long" nillable="true" />
+		</xsd:sequence>
+	</xsd:complexType-->
+	
+	    <xsd:complexType name="calificaciones">
+        <xsd:sequence>
+            <xsd:element name="curso" type="tns:curso" nillable="true"/>
+            <xsd:element name="actividades" nillable="true">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="actividad" maxOccurs="unbounded" nillable="true">
+                            <xsd:complexType>
+                                <xsd:sequence>
+                                    <xsd:element name="id" type="xsd:long" nillable="true" />
+                                    <xsd:element name="itemname" type="xsd:string" nillable="true" />
+                                    <xsd:element name="itemtype" type="xsd:string" nillable="true" />
+                                    <xsd:element name="itemmodule" type="xsd:string" nillable="true" />
+                                    <xsd:element name="sortorder" type="xsd:string" nillable="true" />
+                                    <xsd:element name="grademax" type="xsd:string" nillable="true" />
+                                </xsd:sequence>
+                            </xsd:complexType>
+                        </xsd:element>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="calificacion" nillable="true" maxOccurs="unbounded">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="usuario" type="tns:usuario" nillable="true"/>
+                        <xsd:element name="grade" maxOccurs="unbounded" nillable="true">
+                            <xsd:complexType>
+                                <xsd:sequence>
+                                    <xsd:element name="id" type="xsd:long" nillable="true"/>
+                                    <xsd:element name="itemid" type="xsd:long" nillable="true"/>
+                                    <xsd:element name="rawgrademax" type="xsd:string" nillable="true"/>
+                                    <xsd:element name="rawgrademin" type="xsd:string" nillable="true"/>
+                                    <xsd:element name="rawgrade" type="xsd:string" nillable="true"/>
+                                    <xsd:element name="finalgrade" type="xsd:string" nillable="true"/>
+                                    <xsd:element name="timecreated" type="xsd:long" nillable="true"/>
+                                    <xsd:element name="timemodified" type="xsd:long" nillable="true"/>
+                                    <xsd:element name="usermodified" type="tns:usuario" nillable="true"/>
+                                </xsd:sequence>
+                            </xsd:complexType>
+                        </xsd:element>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+
+
+
+
+	<xsd:complexType name="foro">
+		<xsd:sequence>
+			<xsd:element name="id" type="xsd:long" />
+			<xsd:element name="type" type="xsd:string" nillable="true" />
+			<xsd:element name="course" type="xsd:long" nillable="true" />
+			<xsd:element name="name" type="xsd:string" nillable="true" />
+			<xsd:element name="intro" type="xsd:string" nillable="true" />
+		</xsd:sequence>
+	</xsd:complexType>
+
+
+
+	<xsd:complexType name="listaUsuarios">
+		<xsd:sequence>
+			<xsd:element name="usuarios" type="tns:usuario"  nillable="true" maxOccurs="unbounded" />
+		</xsd:sequence>
+	</xsd:complexType>
+
+
+	<xsd:complexType name="tiposencuestas">
+		<xsd:sequence>
+			<xsd:element name="tiposencuestas" type="tns:tiposencuestascurso" nillable="true" maxOccurs="unbounded" />
+		</xsd:sequence>
+	</xsd:complexType>
+
+
+
+	<xsd:complexType name="tiposencuestascurso">
+		<xsd:sequence>
+			<xsd:element name="id" type="xsd:long" />
+			<xsd:element name="course" type="xsd:long" nillable="true" />
+			<xsd:element name="section" type="xsd:long" nillable="true" />
+			<xsd:element name="summary" type="xsd:string" nillable="true" />
+			<xsd:element name="sequence" type="xsd:string" nillable="true" />
+			<xsd:element name="visible" type="xsd:long" nillable="true" />
+		</xsd:sequence>
+	</xsd:complexType>
+
+
+
+
+
+
+
+</xsd:schema>
+
+

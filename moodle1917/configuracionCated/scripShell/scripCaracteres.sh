@@ -1,0 +1,97 @@
+#! /bin/bash
+echo 'Iniciamos ScripReemplazar caracteres'
+directorioFisico='/mnt/home2/httpd/html/reemplazar/'
+#Creamos una copia de Seguridad del archivo
+#tar -zcvf nombre-archivo.tar.gz nombre-directorio
+#tar -cf archivoVER2.tar /mnt/home2/httpd/html/pluginsCated/
+tar -cf date.tar ${directorioFisico}
+
+
+date > ${directorioFisico}
+
+tar cvf pepe.tar ${directorioFisico}
+
+if [ $? -eq 0 ];then
+    # comprimimos el archivo
+    gzip /home/pepe.tar
+    if [ $? -eq 0 ];then 	
+        echo "Backup realizado con éxito consulta /home/backup/log_copia para mas informacion"
+    else
+        echo "Ha habido un problema al comprimir el archivo"
+    fi
+else 
+    echo "Se ha producido un error" 
+fi
+
+
+
+
+
+<<COMMENT1
+cd ${directorioFisico}
+grep -lr -e 'à' * | xargs sed -i 's/à/á/g' ${directorioFisico}*.txt
+grep -lr -e 'è' * | xargs sed -i 's/è/é/g' ${directorioFisico}*.txt
+grep -lr -e 'ì' * | xargs sed -i 's/ì/í/g' ${directorioFisico}*.txt
+grep -lr -e 'ò' * | xargs sed -i 's/ò/ó/g' ${directorioFisico}*.txt
+grep -lr -e 'ù' * | xargs sed -i 's/ù/ú/g' ${directorioFisico}*.txt
+
+grep -lr -e 'À' * | xargs sed -i 's/À/Á/g' ${directorioFisico}*.txt
+grep -lr -e 'È' * | xargs sed -i 's/È/É/g' ${directorioFisico}*.txt
+grep -lr -e 'Ì' * | xargs sed -i 's/Ì/Í/g' ${directorioFisico}*.txt
+grep -lr -e 'Ò' * | xargs sed -i 's/Ò/Ó/g' ${directorioFisico}*.txt
+grep -lr -e 'Ù' * | xargs sed -i 's/Ù/Ú/g' ${directorioFisico}*.txt
+
+grep -lr -e 'Ã±' * | xargs sed -i 's/Ã±/ñ/g' ${directorioFisico}*.txt
+
+#Agregamos las entidades HTML http://ascii.cl/es/codigos-html.htm
+grep -lr -e '"' * | xargs sed -i 's/"/\&quot;/g' ${directorioFisico}*.txt
+grep -lr -e '&' * | xargs sed -i 's/&/\&amp;/g' ${directorioFisico}*.txt
+
+grep -lr -e '<' * | xargs sed -i 's/</\&lt;/g' ${directorioFisico}*.txt
+grep -lr -e '>' * | xargs sed -i 's/>/\&gt;/g' ${directorioFisico}*.txt
+
+grep -lr -e '¡' * | xargs sed -i 's/¡/\&iexcl;/g' ${directorioFisico}*.txt
+grep -lr -e '¢' * | xargs sed -i 's/¢/\&cent;/g' ${directorioFisico}*.txt
+grep -lr -e '£' * | xargs sed -i 's/£/\&pound;/g' ${directorioFisico}*.txt
+grep -lr -e '¦' * | xargs sed -i 's/¦/\&brvbar;/g' ${directorioFisico}*.txt
+grep -lr -e '©' * | xargs sed -i 's/©/\&copy;/g' ${directorioFisico}*.txt
+grep -lr -e 'ª' * | xargs sed -i 's/ª/\&ordf;/g' ${directorioFisico}*.txt
+grep -lr -e '®' * | xargs sed -i 's/®/\&reg;/g' ${directorioFisico}*.txt
+
+grep -lr -e '°' * | xargs sed -i 's/°/\&deg;/g' ${directorioFisico}*.txt
+grep -lr -e '±' * | xargs sed -i 's/±/\&plusmn;/g' ${directorioFisico}*.txt
+grep -lr -e '²' * | xargs sed -i 's/²/\&sup2;/g' ${directorioFisico}*.txt
+grep -lr -e '³' * | xargs sed -i 's/³/\&sup3;/g' ${directorioFisico}*.txt
+grep -lr -e '´' * | xargs sed -i 's/´/\&acute;/g' ${directorioFisico}*.txt
+grep -lr -e 'µ' * | xargs sed -i 's/µ/\&micro;/g' ${directorioFisico}*.txt
+grep -lr -e '¶' * | xargs sed -i 's/¶/\&para;/g' ${directorioFisico}*.txt
+grep -lr -e '¼' * | xargs sed -i 's/¼/\&frac14;/g' ${directorioFisico}*.txt
+grep -lr -e '½' * | xargs sed -i 's/½/\&frac12;/g' ${directorioFisico}*.txt
+grep -lr -e '¾' * | xargs sed -i 's/¾/\&frac34;/g' ${directorioFisico}*.txt
+grep -lr -e '¿' * | xargs sed -i 's/¿/\&iquest;/g' ${directorioFisico}*.txt
+
+grep -lr -e 'Á' * | xargs sed -i 's/Á/\&Aacute;/g' ${directorioFisico}*.txt
+grep -lr -e 'É' * | xargs sed -i 's/É/\&Eacute;/g' ${directorioFisico}*.txt
+grep -lr -e 'Í' * | xargs sed -i 's/Í/\&Iacute;/g' ${directorioFisico}*.txt
+grep -lr -e 'Ó' * | xargs sed -i 's/Ó/\&Oacute;/g' ${directorioFisico}*.txt
+grep -lr -e 'Ú' * | xargs sed -i 's/Ú/\&Uacute;/g' ${directorioFisico}*.txt
+
+grep -lr -e 'á' * | xargs sed -i 's/á/\&aacute;/g' ${directorioFisico}*.txt
+grep -lr -e 'é' * | xargs sed -i 's/é/\&eacute;/g' ${directorioFisico}*.txt
+grep -lr -e 'í' * | xargs sed -i 's/í/\&iacute;/g' ${directorioFisico}*.txt
+grep -lr -e 'ó' * | xargs sed -i 's/ó/\&oacute;/g' ${directorioFisico}*.txt
+grep -lr -e 'ú' * | xargs sed -i 's/ú/\&uacute;/g' ${directorioFisico}*.txt
+
+# http://librosweb.es/xhtml/capitulo_3/codificacion_de_caracteres.html
+grep -lr -e 'ñ' * | xargs sed -i 's/ñ/\&ntilde;/g' ${directorioFisico}*.txt
+grep -lr -e 'Ñ' * | xargs sed -i 's/Ñ/\&Ntilde;/g' ${directorioFisico}*.txt
+grep -lr -e '€' * | xargs sed -i 's/€/\&euro;/g' ${directorioFisico}*.txt
+
+grep -lr -e '®' * | xargs sed -i 's/®/\&reg;/g' ${directorioFisico}*.txt
+grep -lr -e '®' * | xargs sed -i 's/®/\&reg;/g' ${directorioFisico}*.txt
+COMMENT1
+
+echo 'Finalizamos ScripReemplazar caracteres'
+
+
+

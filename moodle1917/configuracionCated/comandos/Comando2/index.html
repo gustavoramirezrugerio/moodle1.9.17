@@ -1,0 +1,1933 @@
+<!DOCTYPE html>
+<!-- saved from url=(0082)http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/ -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Noticias, reseñas y tutoriales sobre Linux (no sólo Ubuntu) y Software Libre. Todo lo necesario para abandonar Windows y Mac e instalar Linux.">
+    <meta name="author" content="elav, alaintm">
+    <meta name="keywords" content="gnu, linux, tips, manual, howto, desdelinux, usemoslinux, descargar, instalar, software libre, ubuntu, mint, fedora, arch, debian">
+    <meta name="google-site-verification" content="DtStCVPf09rA79gMf2SO6k24G88GKgcJ7iuh-QM2O9I">
+    <!--<base href="http://blog.desdelinux.net/wp-content/themes/dlinux_3col_new/">--><base href=".">
+    <title>  Tips: Más de 400 comandos para GNU/Linux que deberías conocer :D</title>
+
+    <link href="http://feeds.feedburner.com/UsemosLinux" rel="alternate" title="RSS de Desde Linux y Usemos Linux" type="application/rss+xml">
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://blog.desdelinux.net/wp-content/themes/dlinux_3col_new/ico/apple-touch-icon-144-precomposed.png?0edce3">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://blog.desdelinux.net/wp-content/themes/dlinux_3col_new/ico/apple-touch-icon-114-precomposed.png?0edce3">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://blog.desdelinux.net/wp-content/themes/dlinux_3col_new/ico/apple-touch-icon-72-precomposed.png?0edce3">
+    <link rel="apple-touch-icon-precomposed" href="http://blog.desdelinux.net/wp-content/themes/dlinux_3col_new/ico/apple-touch-icon-57-precomposed.png?0edce3">
+    <link rel="shortcut icon" href="http://blog.desdelinux.net/wp-content/themes/dlinux_3col_new/ico/favicon.ico?0edce3">
+
+    <!-- Estilos -->
+    <link href="http://blog.desdelinux.net/wp-content/themes/dlinux_3col_new/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://blog.desdelinux.net/wp-content/themes/dlinux_3col_new/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="http://blog.desdelinux.net/wp-content/themes/dlinux_3col_new/style.css" rel="stylesheet" media="screen">
+
+        <!--[if lt IE 9]>
+        <script src="js/html5.js"></script>
+        <![endif]-->
+    
+    <link rel="stylesheet" id="jetpack-subscriptions-css" href="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/subscriptions.css" type="text/css" media="all">
+<link rel="stylesheet" id="cptchStylesheet-css" href="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="ace_responsive-css" href="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/ace-video-container.css" type="text/css" media="all">
+<link rel="stylesheet" id="socialcountplus-style-css" href="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/counter.css" type="text/css" media="all">
+<link rel="stylesheet" id="YoutubeShortcodeMargenn-css" href="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/youtube-shortcode.css" type="text/css" media="all">
+<link rel="stylesheet" id="jetpack-widgets-css" href="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/widgets.css" type="text/css" media="all">
+<link rel="canonical" href="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/Tips  Más de 400 comandos para GNU Linux que deberías conocer  D.html">
+<script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><script src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/cb=gapi.loaded_1" async=""></script><script src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/cb=gapi.loaded_0" async=""></script><script type="text/javascript" async="" src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/plusone.js" gapi_processed="true"></script><script type="text/javascript">if (!window["WPAC"]) var WPAC = {};WPAC._Options = {enable:true,debug:false,selectorCommentForm:"#commentform",selectorCommentsContainer:"#comments",selectorCommentPagingLinks:"#comments [class^='nav-'] a",selectorRespondContainer:"#respond",selectorErrorContainer:"p:parent",popupCornerRadius:5,popupMarginTop:10,popupWidth:30,popupPadding:5,popupFadeIn:400,popupFadeOut:400,popupTimeout:3000,popupBackgroundColorLoading:"#000",popupTextColorLoading:"#fff",popupBackgroundColorSuccess:"#008000",popupTextColorSuccess:"#fff",popupBackgroundColorError:"#f00",popupTextColorError:"#fff",popupOpacity:70,popupTextAlign:"center",popupTextFontSize:"Default font size",popupZindex:1000,scrollSpeed:500,autoUpdateIdleTime:0,textPosted:"Tu comentario ha sido publicado. ¡Gracias!",textPostedUnapproved:"Tu comentario ha sido enviado y está pendiente de moderación. ¡Gracias!",textReloadPage:"Recargando página. Espera, por favor&hellip;",textPostComment:"Enviando tu comentario. Espera, por favor&hellip;",textRefreshComments:"Loading comments. Please wait&hellip;",textUnknownError:"Algo fue mal, tu comentario no ha sido publicado.",selectorPostContainer:"",commentPagesUrlRegex:"",asyncLoadTrigger:"DomReady",disableUrlUpdate:false,commentsEnabled:true,version:"0.20.0"};WPAC._Callbacks = {"beforeSelectElements": function(dom) {},"beforeUpdateComments": function(newDom) {},"afterUpdateComments": function(newDom) {},"beforeSubmitComment": function() {}};</script><style type="text/css"></style>
+<!--Plugin WP Missed Schedule 2013.1231.2013 Active - Tag 6707293c0218e2d8b7aa38d418ffa608-->
+
+<!-- This site is patched which an important unfixed problem since WordPress 2.5+ to 3.9+ -->
+
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="Tips: Más de 400 comandos para GNU/Linux que deberías conocer :D">
+<meta property="og:url" content="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/">
+<meta property="og:description" content="Me he encontrado en la Wiki de GUTL este completo listado con más de 400 comandos para GNU/Linux con su respectiva explicación, y los quiero compartir con ustedes para complementar este excelente a...">
+<meta property="article:published_time" content="2012-03-15T23:16:54+00:00">
+<meta property="article:modified_time" content="2012-08-27T13:51:53+00:00">
+<meta property="article:author" content="http://blog.desdelinux.net/author/elav/">
+<meta property="og:site_name" content="Desde Linux">
+<meta property="og:image" content="http://blog.desdelinux.net/wp-content/uploads/2011/10/terminal.jpg">
+<meta name="twitter:site" content="@jetpack">
+<meta name="twitter:image:src" content="http://blog.desdelinux.net/wp-content/uploads/2011/10/terminal.jpg?w=640">
+<meta name="twitter:card" content="summary_large_image">
+    <!-- Final del Head -->
+    <link rel="stylesheet" type="text/css" id="gravatar-card-css" href="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/hovercard.css"><link rel="stylesheet" type="text/css" id="gravatar-card-services-css" href="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/services.css"></head>
+    <body style="">
+        <div class="container-fluid wrapper">
+            <div class="row-fluid">
+                <div class="span12">
+                    <header>
+                        <!-- Logotipo -->
+                            <div class="row-fluid">
+                                <div id="logo" class="span5">
+                                    <a href="http://blog.desdelinux.net/" alt="DesdeLinux" title="DesdeLinux"><img src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/logo.png"></a>
+                                    <h1 class="hide">desdelinux.net</h1>
+                                </div>
+                                <nav id="extrabar">
+                                    <ul>
+                                        <li><a href="http://blog.desdelinux.net/wp-content/themes/dlinux_3col_new/#panel" data-toggle="modal">Acceso</a></li>
+                                        <li><a href="http://blog.desdelinux.net/wp-content/themes/dlinux_3col_new/#donaciones" data-toggle="modal">Donaciones</a>
+                                        </li><li><a href="http://blog.desdelinux.net/wp-content/themes/dlinux_3col_new/#redes" data-toggle="modal">Síguenos</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                                <div class="searchinput visible-desktop">
+                                    <form method="get" class="form-search pull-right" action="http://blog.desdelinux.net/"> <input type="text" class="text inputblur" value="" name="s"> </form>                                </div>
+                            </div>
+
+                        <div class="site-balloon" id="site-balloon" style="display: none;">
+                            <div class="balloon-text">¡Hola! Bienvenido a Desde Linux. ¿Acaso estás harto de los pantallazos azules y los virus? Entonces, no dudes en migrar a Linux. Si recién empiezas, te recomendamos pasar por nuestra sección para <a href="http://blog.desdelinux.net/guia-para-principiantes-en-linux/">Novatos</a>. En caso de que estés buscando una <a href="http://blog.desdelinux.net/distribuciones/">Distribución</a> Linux, tenemos guías para ayudarte a elegir la mejor. También contamos con un listado de <a href="http://blog.desdelinux.net/programas/">Programas</a> para reemplazar a los que usabas en Windows. No olvides utilizar la barra aquí debajo para obtener ayuda adicional.
+                            <div class="close" title="Cerrar" href="#" onclick="this.parentNode.parentNode.style.display = &#39;none&#39;"></div></div>
+                        </div>
+                        <!-- Barra de navegación superior -->
+                        <nav class="navbar navbar-inverse">
+                            <div class="navbar-inner">
+                                <div class="container-fluid">
+                                    <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                    <div class="nav-collapse collapse">
+                                        <ul class="nav">
+                                            <!--<li><a href="/">Inicio</a></li>-->
+                                            <li><a href="http://blog.desdelinux.net/nosotros/" title="Quiénes somos y hacia dónde vamos">Nosotros</a></li>
+                                            <li><a href="http://blog.desdelinux.net/programas/" title="Alternativas a los programas de Windows">Aplicaciones</a></li>
+                                            <li><a href="http://blog.desdelinux.net/distribuciones/" title="¿Qué son? ¿Cuál es la mejor para mi?">Distribuciones</a></li>
+                                            <li><a href="http://blog.desdelinux.net/comunidades/" title="Únete a las comunidades de software libre de tu país">Comunidades</a></li>
+                                            <li><a href="http://blog.desdelinux.net/guia-para-principiantes-en-linux/" title="¿Recién empiezas a migrar hacia Linux?">Guía Principiantes</a></li>
+                                            <li><a href="http://foro.desdelinux.net/" title="El lugar ideal para obtener ayuda">Foros</a></li>
+                                            <li><a href="http://blog.desdelinux.net/wp-content/uploads/2013/10/Guia_Redactores.pdf?b68c9b&0edce3&0edce3" title="¿Con ganas de publicar en Desde Linux?">Participar</a></li>
+                                            <li><a href="http://paste.desdelinux.net/" title="Repositorio de código de la comunidad de Desde Linux">Paste</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav> <!-- Fin de la barra de navegación superior -->
+                    </header>
+                </div>
+            </div> <!-- Fin del HEADER -->
+
+                        
+            <div class="row-fluid"> <!-- Contenido del blog (artículos y sidebar) -->
+                <div class="span12"> <!-- Sección de los artículos --> 
+<!--<div class="post-link next-post-link"><a href="http://blog.desdelinux.net/ya-participaste-de-la-encuesta-de-usuarios-de-ubuntu/">&laquo;</a></div>-->
+<div class="span8"> 
+	<article class="post-7886 post type-post status-publish format-standard hentry category-linux category-recomendados category-redes-servidores category-tutoriales tag-comandos tag-terminal tag-tips articulos clearfix"> 
+		 
+		 
+		<article class="post-7886 post type-post status-publish format-standard hentry category-linux category-recomendados category-redes-servidores category-tutoriales tag-comandos tag-terminal tag-tips"> 
+			<div class="info-top row-fluid"> 
+				<div class="span1 avatar-post hidden-phone"><img alt="elav" src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/elav_avatar-48x48.jpg" class="avatar avatar-48 photo" height="48" width="48"></div> 
+				<div class="span8 "> 
+					<ul> 
+						<li><a href="http://blog.desdelinux.net/author/elav/" class="tooltips" data-original-title="+ Artículos del autor"><i class="icon-user"></i> elav</a></li> 
+						<li class="tooltips" data-original-title="15 marzo, 2012, 6:16 PM"><i class="icon-time"></i> Hace 2 años</li> 
+						<br>
+						<li><a href="http://blog.desdelinux.net/wp-content/themes/dlinux_3col_new/#"><i class="icon-folder-open"></i></a><a href="http://blog.desdelinux.net/linux/" title="Ver todas las entradas en GNU/Linux" rel="category tag">GNU/Linux</a>, <a href="http://blog.desdelinux.net/recomendados/" title="Ver todas las entradas en Recomendados" rel="category tag">Recomendados</a>, <a href="http://blog.desdelinux.net/redes-servidores/" title="Ver todas las entradas en Redes/Servidores" rel="category tag">Redes/Servidores</a>, <a href="http://blog.desdelinux.net/tutoriales/" title="Ver todas las entradas en Tutoriales/Manuales/Tips" rel="category tag">Tutoriales/Manuales/Tips</a></li> 
+					</ul> 
+				</div> 
+				<div class="span3"> 
+					<ul class="pull-right"> 
+						<li><a href="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/Tips  Más de 400 comandos para GNU Linux que deberías conocer  D.html" class="comments tooltips" rel="tooltip" data-original-title="Veces leídos"><i class="icon-eye-open"></i> 68568</a></li> 
+						<li><a href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/#comments" class="comments tooltips" rel="tooltip" data-original-title="Total de Comentarios"><i class="icon-comment"></i> 104 </a></li> 
+					</ul> 
+				</div> 
+			</div> 
+			 
+			 
+			 
+			 
+			 
+			<h2 class="title-single"><a href="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/Tips  Más de 400 comandos para GNU Linux que deberías conocer  D.html" rel="bookmark" title="Tips: Más de 400 comandos para GNU/Linux que deberías conocer :D">Tips: Más de 400 comandos para GNU/Linux que deberías conocer :D</a></h2> 
+			<p>Me he encontrado en la <a title="Artículo Original" href="http://gutl.jovenclub.cu/wiki/comandos/inicio" target="_blank">Wiki de GUTL</a> este completo listado con <strong>más de 400 comandos</strong> para <strong>GNU/Linux</strong> con su respectiva explicación, y los quiero compartir con ustedes para complementar <a title="Aprende a prescindir del entorno gráfico" href="http://blog.desdelinux.net/wp-content/themes/dlinux_3col_new/aprende-a-prescindir-del-entorno-grafico/" target="_blank">este excelente artículo</a> que escribió mi colega para aprender a vivir con la consola.</p>
+<h2>Indice:</h2>
+<ol>
+<li><strong><a title="Información del Sistema" href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/#info">Información del Sistema</a></strong></li>
+<li><strong><a title="Apagar (Reiniciar o Cerrar Sesión)" href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/#apagar">Apagar (Reiniciar o Cerrar Sesión)</a></strong></li>
+<li><a title="Archivos y Directorios" href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/#archi"><strong>Archivos y Directorios</strong></a></li>
+<li><a title="Encontrar archivos" href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/#encontrar"><strong>Encontrar archivos</strong></a></li>
+<li><a title="Montando un sistema de ficheros" href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/#montar"><strong>Montando un sistema de ficheros</strong></a></li>
+<li><a title="Montando un sistema de ficheros" href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/#espacio"><strong>Espacio de Disco</strong></a></li>
+<li><a title="Usuarios y Grupos" href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/#usuarios"><strong>Usuarios y Grupos</strong></a></li>
+<li><a title="Permisos en Ficheros (Usa ”+” para colocar permisos y ”-” para eliminar)" href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/#pfiche"><strong>Permisos en Ficheros (Usa ”+” para colocar permisos y ”-” para eliminar)</strong></a></li>
+<li><a title="Permisos en Ficheros (Usa ”+” para colocar permisos y ”-” para eliminar)" href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/#afiche"><strong>Atributos especiales en ficheros (Usa ”+” para colocar permisos y ”-” para eliminar)</strong></a></li>
+<li><a title="Archivos y Ficheros comprimidos" href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/#arfiche"><strong>Archivos y Ficheros comprimidos</strong></a></li>
+<li><a title="Paquetes RPM (Red Hat, Fedora y similares)" href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/#rpm"><strong>Paquetes RPM (Red Hat, Fedora y similares)</strong></a></li>
+<li><a title="Actualizador de paquetes YUM (Red Hat, Fedora y similares)" href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/#yum"><strong>Actualizador de paquetes YUM (Red Hat, Fedora y similares)</strong></a></li>
+<li><a title="Paquetes Deb (Debian, Ubuntu y derivados)" href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/#deb"><strong>Paquetes Deb (Debian, Ubuntu y derivados)</strong></a></li>
+<li><a title="Actualizador de paquetes APT (Debian, Ubuntu y derivados)" href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/#apt"><strong>Actualizador de paquetes APT (Debian, Ubuntu y derivados)</strong></a></li>
+<li><a title="Ver el contenido de un fichero" href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/#cont"><strong>Ver el contenido de un fichero</strong></a></li>
+<li><a title="Manipulación de texto" href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/#texto"><strong>Manipulación de texto</strong></a></li>
+<li><a title="Establecer caracter y conversión de ficheros" href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/#estable"><strong>Establecer caracter y conversión de ficheros</strong></a></li>
+<li><a title="Análisis del sistema de ficheros" href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/#analisis"><strong>Análisis del sistema de ficheros</strong></a></li>
+<li><a title="Formatear un sistema de ficheros" href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/#format"><strong>Formatear un sistema de ficheros</strong></a></li>
+<li><a title="Trabajo con la SWAP" href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/#swap"><strong>Trabajo con la SWAP</strong></a></li>
+<li><a title="Salvas (Backup)" href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/#backup"><strong>Salvas (Backup)</strong></a></li>
+<li><a title="CD-ROM" href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/#cdrom"><strong>CD-ROM</strong></a></li>
+<li><a title="Trabajo con la RED ( LAN y Wi-Fi)" href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/#red"><strong>Trabajo con la RED ( LAN y Wi-Fi)</strong></a></li>
+<li><a title="Redes de Microsoft Windows (SAMBA)" href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/#samba"><strong>Redes de Microsoft Windows (SAMBA)</strong></a></li>
+<li><a title="Tablas IP (CORTAFUEGOS)" href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/#iptable"><strong>Tablas IP (CORTAFUEGOS)</strong></a></li>
+<li><a title="Tablas IP (CORTAFUEGOS)" href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/#monitor"><strong>Monitoreando y depurando</strong></a></li>
+<li><a title="Tablas IP (CORTAFUEGOS)" href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/#otros"><strong>Otros comandos útiles</strong></a></li>
+</ol>
+<h2><a name="info"></a>Información del sistema</h2>
+<ol>
+<li>
+<div><strong>arch</strong>: mostrar la arquitectura de la máquina (1).</div>
+</li>
+<li>
+<div><strong>uname -m</strong>: mostrar la arquitectura de la máquina (2).</div>
+</li>
+<li>
+<div><strong>uname -r</strong>: mostrar la versión del kernel usado.</div>
+</li>
+<li>
+<div><strong>dmidecode -q</strong>: mostrar los componentes (hardware) del sistema.</div>
+</li>
+<li>
+<div><strong>hdparm -i /dev/hda</strong>: mostrar las características de un disco duro.</div>
+</li>
+<li>
+<div><strong>hdparm -tT /dev/sda</strong>: realizar prueba de lectura en un disco duro.</div>
+</li>
+<li>
+<div><strong>cat /proc/cpuinfo</strong>: mostrar información de la CPU.</div>
+</li>
+<li>
+<div><strong>cat /proc/interrupts</strong>: mostrar las interrupciones.</div>
+</li>
+<li>
+<div><strong>cat /proc/meminfo</strong>: verificar el uso de memoria.</div>
+</li>
+<li>
+<div><strong>cat /proc/swaps</strong>: mostrar ficheros swap.</div>
+</li>
+<li>
+<div><strong>cat /proc/version</strong>: mostrar la versión del kernel.</div>
+</li>
+<li>
+<div><strong>cat /proc/net/dev</strong>: mostrar adaptadores de red y estadísticas.</div>
+</li>
+<li>
+<div><strong>cat /proc/mounts</strong>: mostrar el sistema de ficheros montado.</div>
+</li>
+<li>
+<div><strong>lspci -tv</strong>: mostrar los dispositivos PCI.</div>
+</li>
+<li>
+<div><strong>lsusb -tv</strong>: mostrar los dispositivos USB.</div>
+</li>
+<li>
+<div><strong>date</strong>: mostrar la fecha del sistema.</div>
+</li>
+<li>
+<div><strong>cal 2011</strong>: mostrar el almanaque de 2011.</div>
+</li>
+<li>
+<div><strong>cal 07 2011</strong>: mostrar el almanaque para el mes julio de 2011.</div>
+</li>
+<li>
+<div><strong>date 041217002011.00</strong>: colocar (declarar, ajustar) fecha y hora.</div>
+</li>
+<li>
+<div><strong>clock -w</strong>: guardar los cambios de fecha en la BIOS.</div>
+</li>
+</ol>
+<h2><a name="apagar"></a>Apagar (Reiniciar Sistema o Cerrar Sesión)</h2>
+<ol>
+<li>
+<div><strong>shutdown -h now</strong>: apagar el sistema (1).</div>
+</li>
+<li>
+<div><strong>init 0</strong>: apagar el sistema (2).</div>
+</li>
+<li>
+<div><strong>telinit 0</strong>: apagar el sistema (3).</div>
+</li>
+<li>
+<div><strong>halt</strong>: apagar el sistema (4).</div>
+</li>
+<li>
+<div><strong>shutdown -h hours:minutes &amp;</strong>: apagado planificado del sistema.</div>
+</li>
+<li>
+<div><strong>shutdown -c</strong>: cancelar un apagado planificado del sistema.</div>
+</li>
+<li>
+<div><strong>shutdown -r now</strong>: reiniciar (1).</div>
+</li>
+<li>
+<div><strong>reboot</strong>: reiniciar (2).</div>
+</li>
+<li>
+<div><strong>logout</strong>: cerrar sesión.</div>
+</li>
+</ol>
+<h2><a name="archi"></a>Archivos y Directorios</h2>
+<ol>
+<li>
+<div><strong>cd /home</strong>: entrar en el directorio “home”.</div>
+</li>
+<li>
+<div><strong>cd ..</strong>: retroceder un nivel.</div>
+</li>
+<li>
+<div><strong>cd ../..</strong>: retroceder 2 niveles.</div>
+</li>
+<li>
+<div><strong>cd:</strong> ir al directorio raíz.</div>
+</li>
+<li>
+<div><strong>cd ~user1</strong>: ir al directorio user1.</div>
+</li>
+<li>
+<div><strong>cd -</strong>: ir (regresar) al directorio anterior.</div>
+</li>
+<li>
+<div><strong>pwd</strong>: mostrar el camino del directorio de trabajo.</div>
+</li>
+<li>
+<div><strong>ls</strong>: ver los ficheros de un directorio.</div>
+</li>
+<li>
+<div><strong>ls -F</strong>: ver los ficheros de un directorio.</div>
+</li>
+<li>
+<div><strong>ls -l</strong>: mostrar los detalles de ficheros y carpetas de un directorio.</div>
+</li>
+<li>
+<div><strong>ls -a</strong>: mostrar los ficheros ocultos.</div>
+</li>
+<li>
+<div><strong>ls *[0-9]</strong>*: mostrar los ficheros y carpetas que contienen números.</div>
+</li>
+<li>
+<div><strong>tree</strong>: mostrar los ficheros y carpetas en forma de árbol comenzando por la raíz.(1)</div>
+</li>
+<li>
+<div><strong>lstree</strong>: mostrar los ficheros y carpetas en forma de árbol comenzando por la raíz.(2)</div>
+</li>
+<li>
+<div><strong>mkdir dir1</strong>: crear una carpeta o directorio con nombre ‘dir1′.</div>
+</li>
+<li>
+<div><strong>mkdir dir1 dir2</strong>: crear dos carpetas o directorios simultáneamente (Crear dos directorios a la vez).</div>
+</li>
+<li>
+<div><strong>mkdir -p /tmp/dir1/dir2</strong>: crear un árbol de directorios.</div>
+</li>
+<li>
+<div><strong>rm -f file1</strong>: borrar el fichero llamado ‘file1′.</div>
+</li>
+<li>
+<div><strong>rmdir dir1</strong>: borrar la carpeta llamada ‘dir1′.</div>
+</li>
+<li>
+<div><strong>rm -rf dir1</strong>: eliminar una carpeta llamada ‘dir1′ con su contenido de forma recursiva. (Si lo borro recursivo estoy diciendo que es con su contenido).</div>
+</li>
+<li>
+<div><strong>rm -rf dir1 dir2</strong>: borrar dos carpetas (directorios) con su contenido de forma recursiva.</div>
+</li>
+<li>
+<div><strong>mv dir1 new_dir</strong>: renombrar o mover un fichero o carpeta (directorio).</div>
+</li>
+<li>
+<div><strong>cp file1</strong>: copiar un fichero.</div>
+</li>
+<li>
+<div><strong>cp file1 file2</strong>: copiar dos ficheros al unísono.</div>
+</li>
+<li>
+<div><strong>cp dir /* .</strong>: copiar todos los ficheros de un directorio dentro del directorio de trabajo actual.</div>
+</li>
+<li>
+<div><strong>cp -a /tmp/dir1 .</strong>: copiar un directorio dentro del directorio actual de trabajo.</div>
+</li>
+<li>
+<div><strong>cp -a dir1</strong>: copiar un directorio.</div>
+</li>
+<li>
+<div><strong>cp -a dir1 dir2</strong>: copiar dos directorio al unísono.</div>
+</li>
+<li>
+<div><strong>ln -s file1 lnk1</strong>: crear un enlace simbólico al fichero o directorio.</div>
+</li>
+<li>
+<div><strong>ln file1 lnk1</strong>: crear un enlace físico al fichero o directorio.</div>
+</li>
+<li>
+<div><strong>touch -t 0712250000 file1</strong>: modificar el tiempo real (tiempo de creación) de un fichero o directorio.</div>
+</li>
+<li>
+<div><strong>file file1</strong>: salida (volcado en pantalla) del tipo mime de un fichero texto.</div>
+</li>
+<li>
+<div><strong>iconv -l</strong>: listas de cifrados conocidos.</div>
+</li>
+<li>
+<div><strong>iconv -f fromEncoding -t toEncoding inputFile &gt; outputFile</strong>: crea una nueva forma del fichero de entrada asumiendo que está codificado en fromEncoding y convirtiéndolo a ToEncoding.</div>
+</li>
+<li>
+<div><strong>find . -maxdepth 1 -name *.jpg -print -exec convert ”{}” -resize 80×60 “thumbs/{}” \;</strong>: agrupar ficheros redimensionados en el directorio actual y enviarlos a directorios en vistas de miniaturas (requiere convertir desde ImagemagicK).</div>
+</li>
+</ol>
+<h2><a name="encontrar"></a>Encontrar archivos</h2>
+<ol>
+<li>
+<div><strong>find / -name file1</strong>: buscar fichero y directorio a partir de la raíz del sistema.</div>
+</li>
+<li>
+<div><strong>find / -user user1</strong>: buscar ficheros y directorios pertenecientes al usuario ‘user1′.</div>
+</li>
+<li>
+<div><strong>find /home/user1 -name \*.bin</strong>: buscar ficheros con extensión ‘. bin’ dentro del directorio ‘/ home/user1′.</div>
+</li>
+<li>
+<div><strong>find /usr/bin -type f -atime +100</strong>: buscar ficheros binarios no usados en los últimos 100 días.</div>
+</li>
+<li>
+<div><strong>find /usr/bin -type f -mtime -10</strong>: buscar ficheros creados o cambiados dentro de los últimos 10 días.</div>
+</li>
+<li>
+<div><strong>find / -name \*.rpm -exec chmod 755 ‘{}’ \;</strong>: buscar ficheros con extensión ‘.rpm’ y modificar permisos.</div>
+</li>
+<li>
+<div><strong>find / -xdev -name \*.rpm</strong>: Buscar ficheros con extensión ‘.rpm’ ignorando los dispositivos removibles como cdrom, pen-drive, etc.…</div>
+</li>
+<li>
+<div><strong>locate \*.ps</strong>: encuentra ficheros con extensión ‘.ps’ ejecutados primeramente con el command ‘updatedb’.</div>
+</li>
+<li>
+<div><strong>whereis halt</strong>: mostrar la ubicación de un fichero binario, de ayuda o fuente. En este caso pregunta dónde está el comando ‘halt’.</div>
+</li>
+<li>
+<div><strong>which halt</strong>: mostrar la senda completa (el camino completo) a un binario / ejecutable.</div>
+</li>
+</ol>
+<h2><a name="montar"></a>Montando un sistema de ficheros</h2>
+<ol>
+<li>
+<div><strong>mount /dev/hda2 /mnt/hda2</strong>: montar un disco llamado hda2. Verifique primero la existencia del directorio ‘/ mnt/hda2′; si no está, debe crearlo.</div>
+</li>
+<li>
+<div><strong>umount /dev/hda2</strong>: desmontar un disco llamado hda2. Salir primero desde el punto ‘/ mnt/hda2.</div>
+</li>
+<li>
+<div><strong>fuser -km /mnt/hda2</strong>: forzar el desmontaje cuando el dispositivo está ocupado.</div>
+</li>
+<li>
+<div><strong>umount -n /mnt/hda2</strong>: correr el desmontaje sin leer el fichero /etc/mtab. Útil cuando el fichero es de solo lectura o el disco duro está lleno.</div>
+</li>
+<li>
+<div><strong>mount /dev/fd0 /mnt/floppy</strong>: montar un disco flexible (floppy).</div>
+</li>
+<li>
+<div><strong>mount /dev/cdrom /mnt/cdrom</strong>: montar un cdrom / dvdrom.</div>
+</li>
+<li>
+<div><strong>mount /dev/hdc /mnt/cdrecorder</strong>: montar un cd regrabable o un dvdrom.</div>
+</li>
+<li>
+<div><strong>mount /dev/hdb /mnt/cdrecorder</strong>: montar un cd regrabable / dvdrom (un dvd).</div>
+</li>
+<li>
+<div><strong>mount -o loop file.iso /mnt/cdrom</strong>: montar un fichero o una imagen iso.</div>
+</li>
+<li>
+<div><strong>mount -t vfat /dev/hda5 /mnt/hda5</strong>: montar un sistema de ficheros FAT32.</div>
+</li>
+<li>
+<div><strong>mount /dev/sda1 /mnt/usbdisk</strong>: montar un usb pen-drive o una memoria (sin especificar el tipo de sistema de ficheros).</div>
+</li>
+</ol>
+<h2><a name="espacio"></a>Espacio de Disco</h2>
+<ol>
+<li>
+<div><strong>df -h</strong>: mostrar una lista de las particiones montadas.</div>
+</li>
+<li>
+<div><strong>ls -lSr |more</strong>: mostrar el tamaño de los ficheros y directorios ordenados por tamaño.</div>
+</li>
+<li>
+<div><strong>du -sh dir1</strong>: Estimar el espacio usado por el directorio ‘dir1′.</div>
+</li>
+<li>
+<div><strong>du -sk * | sort -rn</strong>: mostrar el tamaño de los ficheros y directorios ordenados por tamaño.</div>
+</li>
+<li>
+<div><strong>rpm -q -a –qf ‘%10{SIZE}t%{NAME}n’ | sort -k1,1n</strong>: mostrar el espacio usado por los paquetes rpm instalados organizados por tamaño (Fedora, Redhat y otros).</div>
+</li>
+<li>
+<div><strong>dpkg-query -W -f=’${Installed-Size;10}t${Package}n’ | sort -k1,1n</strong>: mostrar el espacio usado por los paquetes instalados, organizados por tamaño (Ubuntu, Debian y otros).</div>
+</li>
+</ol>
+<h2><a name="usuarios"></a>Usuarios y Grupos</h2>
+<ol>
+<li>
+<div><strong>groupadd nombre_del_grupo</strong>: crear un nuevo grupo.</div>
+</li>
+<li>
+<div><strong>groupdel nombre_del_grupo</strong>: borrar un grupo.</div>
+</li>
+<li>
+<div><strong>groupmod -n nuevo_nombre_del_grupo viejo_nombre_del_grupo</strong>: renombrar un grupo.</div>
+</li>
+<li>
+<div><strong>useradd -c “Name Surname ” -g admin -d /home/user1 -s /bin/bash user1</strong>: Crear un nuevo usuario perteneciente al grupo “admin”.</div>
+</li>
+<li>
+<div><strong>useradd user1</strong>: crear un nuevo usuario.</div>
+</li>
+<li>
+<div><strong>userdel -r user1</strong>: borrar un usuario (‘-r’ elimina el directorio Home).</div>
+</li>
+<li>
+<div><strong>usermod -c “User <acronym title="File Transfer Protocol">FTP</acronym>” -g system -d /ftp/user1 -s /bin/nologin user1</strong>: cambiar los atributos del usuario.</div>
+</li>
+<li>
+<div><strong>passwd</strong>: cambiar contraseña.</div>
+</li>
+<li>
+<div><strong>passwd user1</strong>: cambiar la contraseña de un usuario (solamente por root).</div>
+</li>
+<li>
+<div><strong>chage -E 2011-12-31 user1</strong>: colocar un plazo para la contraseña del usuario. En este caso dice que la clave expira el 31 de diciembre de 2011.</div>
+</li>
+<li>
+<div><strong>pwck</strong>: chequear la sintaxis correcta el formato de fichero de ‘/etc/passwd’ y la existencia de usuarios.</div>
+</li>
+<li>
+<div><strong>grpck</strong>: chequear la sintaxis correcta y el formato del fichero ‘/etc/group’ y la existencia de grupos.</div>
+</li>
+<li>
+<div><strong>newgrp group_name</strong>: registra a un nuevo grupo para cambiar el grupo predeterminado de los ficheros creados recientemente.</div>
+</li>
+</ol>
+<h2><a name="pfiche"></a>Permisos en Ficheros (Usa ”+” para colocar permisos y ”-” para eliminar)</h2>
+<ol>
+<li>
+<div><strong>ls -lh</strong>: Mostrar permisos.</div>
+</li>
+<li>
+<div><strong>ls /tmp | pr -T5 -W$COLUMNS</strong>: dividir la terminal en 5 columnas.</div>
+</li>
+<li>
+<div><strong>chmod ugo+rwx directory1</strong>: colocar permisos de lectura ®, escritura (w) y ejecución(x) al propietario (u), al grupo (g) y a otros (o) sobre el directorio ‘directory1′.</div>
+</li>
+<li>
+<div><strong>chmod go-rwx directory1</strong>: quitar permiso de lectura ®, escritura (w) y (x) ejecución al grupo (g) y otros (o) sobre el directorio ‘directory1′.</div>
+</li>
+<li>
+<div><strong>chown user1 file1</strong>: cambiar el dueño de un fichero.</div>
+</li>
+<li>
+<div><strong>chown -R user1 directory1</strong>: cambiar el propietario de un directorio y de todos los ficheros y directorios contenidos dentro.</div>
+</li>
+<li>
+<div><strong>chgrp group1 file1</strong>: cambiar grupo de ficheros.</div>
+</li>
+<li>
+<div><strong>chown user1:group1 file1</strong>: cambiar usuario y el grupo propietario de un fichero.</div>
+</li>
+<li>
+<div><strong>find / -perm -u+s</strong>: visualizar todos los ficheros del sistema con SUID configurado.</div>
+</li>
+<li>
+<div><strong>chmod u+s /bin/file1</strong>: colocar el bit SUID en un fichero binario. El usuario que corriendo ese fichero adquiere los mismos privilegios como dueño.</div>
+</li>
+<li>
+<div><strong>chmod u-s /bin/file1</strong>: deshabilitar el bit SUID en un fichero binario.</div>
+</li>
+<li>
+<div><strong>chmod g+s /home/public</strong>: colocar un bit SGID en un directorio –similar al SUID pero por directorio.</div>
+</li>
+<li>
+<div><strong>chmod g-s /home/public</strong>: desabilitar un bit SGID en un directorio.</div>
+</li>
+<li>
+<div><strong>chmod o+t /home/public</strong>: colocar un bit STIKY en un directorio. Permite el borrado de ficheros solamente a los dueños legítimos.</div>
+</li>
+<li>
+<div><strong>chmod o-t /home/public</strong>: desabilitar un bit STIKY en un directorio.</div>
+</li>
+</ol>
+<h2><a name="afiche"></a>Atributos especiales en ficheros (Usa ”+” para colocar permisos y ”-” para eliminar)</h2>
+<ol>
+<li>
+<div><strong>chattr +a file1</strong>: permite escribir abriendo un fichero solamente modo append.</div>
+</li>
+<li>
+<div><strong>chattr +c file1</strong>: permite que un fichero sea comprimido / descomprimido automaticamente.</div>
+</li>
+<li>
+<div><strong>chattr +d file1</strong>: asegura que el programa ignore borrar los ficheros durante la copia de seguridad.</div>
+</li>
+<li>
+<div><strong>chattr +i file1</strong>: convierte el fichero en invariable, por lo que no puede ser eliminado, alterado, renombrado, ni enlazado.</div>
+</li>
+<li>
+<div><strong>chattr +s file1</strong>: permite que un fichero sea borrado de forma segura.</div>
+</li>
+<li>
+<div><strong>chattr +S file1</strong>: asegura que un fichero sea modificado, los cambios son escritos en modo synchronous como con sync.</div>
+</li>
+<li>
+<div><strong>chattr +u file1</strong>: te permite recuperar el contenido de un fichero aún si este está cancelado.</div>
+</li>
+<li>
+<div><strong>lsattr</strong>: mostrar atributos especiales.</div>
+</li>
+</ol>
+<h2><a name="arfiche"></a>Archivos y Ficheros comprimidos</h2>
+<ol>
+<li>
+<div><strong>bunzip2 file1.bz2</strong>: descomprime in fichero llamado ‘file1.bz2′.</div>
+</li>
+<li>
+<div><strong>bzip2 file1</strong>: comprime un fichero llamado ‘file1′.</div>
+</li>
+<li>
+<div><strong>gunzip file1.gz</strong>: descomprime un fichero llamado ‘file1.gz’.</div>
+</li>
+<li>
+<div><strong>gzip file1</strong>: comprime un fichero llamado ‘file1′.</div>
+</li>
+<li>
+<div><strong>gzip -9 file1</strong>: comprime con compresión máxima.</div>
+</li>
+<li>
+<div><strong>rar a file1.rar test_file</strong>: crear un fichero rar llamado ‘file1.rar’.</div>
+</li>
+<li>
+<div><strong>rar a file1.rar file1 file2 dir1</strong>: comprimir ‘file1′, ‘file2′ y ‘dir1′ simultáneamente.</div>
+</li>
+<li>
+<div><strong>rar x file1.rar</strong>: descomprimir archivo rar.</div>
+</li>
+<li>
+<div><strong>unrar x file1.rar</strong>: descomprimir archivo rar.</div>
+</li>
+<li>
+<div><strong>tar -cvf archive.tar file1</strong>: crear un tarball descomprimido.</div>
+</li>
+<li>
+<div><strong>tar -cvf archive.tar file1 file2 dir1</strong>: crear un archivo conteniendo ‘file1′, ‘file2′ y’dir1′.</div>
+</li>
+<li>
+<div><strong>tar -tf archive.tar</strong>: mostrar los contenidos de un archivo.</div>
+</li>
+<li>
+<div><strong>tar -xvf archive.tar</strong>: extraer un tarball.</div>
+</li>
+<li>
+<div><strong>tar -xvf archive.tar -C /tmp</strong>: extraer un tarball en / tmp.</div>
+</li>
+<li>
+<div><strong>tar -cvfj archive.tar.bz2 dir1</strong>: crear un tarball comprimido dentro de bzip2.</div>
+</li>
+<li>
+<div><strong>tar -xvfj archive.tar.bz2</strong>: descomprimir un archivo tar comprimido en bzip2</div>
+</li>
+<li>
+<div><strong>tar -cvfz archive.tar.gz dir1</strong>: crear un tarball comprimido en gzip.</div>
+</li>
+<li>
+<div><strong>tar -xvfz archive.tar.gz</strong>: descomprimir un archive tar comprimido en gzip.</div>
+</li>
+<li>
+<div><strong>zip file1.zip file1</strong>: crear un archivo comprimido en zip.</div>
+</li>
+<li>
+<div><strong>zip -r file1.zip file1 file2 dir1</strong>: comprimir, en zip, varios archivos y directorios de forma simultánea.</div>
+</li>
+<li>
+<div><strong>unzip file1.zip</strong>: descomprimir un archivo zip.</div>
+</li>
+</ol>
+<h2><a name="rpm"></a>Paquetes RPM (Red Hat, Fedora y similares)</h2>
+<ol>
+<li>
+<div><strong>rpm -ivh package.rpm</strong>: instalar un paquete rpm.</div>
+</li>
+<li>
+<div><strong>rpm -ivh –nodeeps package.rpm</strong>: instalar un paquete rpm ignorando las peticiones de dependencias.</div>
+</li>
+<li>
+<div><strong>rpm -U package.rpm</strong>: actualizar un paquete rpm sin cambiar la configuración de los ficheros.</div>
+</li>
+<li>
+<div><strong>rpm -F package.rpm</strong>: actualizar un paquete rpm solamente si este está instalado.</div>
+</li>
+<li>
+<div><strong>rpm -e package_name.rpm</strong>: eliminar un paquete rpm.</div>
+</li>
+<li>
+<div><strong>rpm -qa</strong>: mostrar todos los paquetes rpm instalados en el sistema.</div>
+</li>
+<li>
+<div><strong>rpm -qa | grep httpd</strong>: mostrar todos los paquetes rpm con el nombre “httpd”.</div>
+</li>
+<li>
+<div><strong>rpm -qi package_name</strong>: obtener información en un paquete específico instalado.</div>
+</li>
+<li>
+<div><strong>rpm -qg “System Environment/Daemons”</strong>: mostar los paquetes rpm de un grupo software.</div>
+</li>
+<li>
+<div><strong>rpm -ql package_name</strong>: mostrar lista de ficheros dados por un paquete rpm instalado.</div>
+</li>
+<li>
+<div><strong>rpm -qc package_name</strong>: mostrar lista de configuración de ficheros dados por un paquete rpm instalado.</div>
+</li>
+<li>
+<div><strong>rpm -q package_name –whatrequires</strong>: mostrar lista de dependencias solicitada para un paquete rpm.</div>
+</li>
+<li>
+<div><strong>rpm -q package_name –whatprovides</strong>: mostar la capacidad dada por un paquete rpm.</div>
+</li>
+<li>
+<div><strong>rpm -q package_name –scripts</strong>: mostrar los scripts comenzados durante la instalación /eliminación.</div>
+</li>
+<li>
+<div><strong>rpm -q package_name –changelog</strong>: mostar el historial de revisions de un paquete rpm.</div>
+</li>
+<li>
+<div><strong>rpm -qf /etc/httpd/conf/httpd.conf</strong>: verificar cuál paquete rpm pertenece a un fichero dado.</div>
+</li>
+<li>
+<div><strong>rpm -qp package.rpm -l</strong>: mostrar lista de ficheros dados por un paquete rpm que aún no ha sido instalado.</div>
+</li>
+<li>
+<div><strong>rpm –import /media/cdrom/RPM-GPG-KEY</strong>: importar la firma digital de la llave pública.</div>
+</li>
+<li>
+<div><strong>rpm –checksig package.rpm</strong>: verificar la integridad de un paquete rpm.</div>
+</li>
+<li>
+<div><strong>rpm -qa gpg-pubkey</strong>: verificar la integridad de todos los paquetes rpm instalados.</div>
+</li>
+<li>
+<div><strong>rpm -V package_name</strong>: chequear el tamaño del fichero, licencias, tipos, dueño, grupo, chequeo de resumen de MD5 y última modificación.</div>
+</li>
+<li>
+<div><strong>rpm -Va</strong>: chequear todos los paquetes rpm instalados en el sistema. Usar con cuidado.</div>
+</li>
+<li>
+<div><strong>rpm -Vp package.rpm</strong>: verificar un paquete rpm no instalado todavía.</div>
+</li>
+<li>
+<div><strong>rpm2cpio package.rpm | cpio –extract –make-directories *bin</strong>*: extraer fichero ejecutable desde un paquete rpm.</div>
+</li>
+<li>
+<div><strong>rpm -ivh /usr/src/redhat/RPMS/`arch`/package.rpm</strong>: instalar un paquete construido desde una fuente rpm.</div>
+</li>
+<li>
+<div><strong>rpmbuild –rebuild package_name.src.rpm</strong>: construir un paquete rpm desde una fuente rpm.</div>
+</li>
+</ol>
+<h2><a name="yum"></a>Actualizador de paquetes YUM (Red Hat, Fedora y similares)</h2>
+<ol>
+<li>
+<div><strong>yum install package_name</strong>: descargar e instalar un paquete rpm.</div>
+</li>
+<li>
+<div><strong>yum localinstall package_name.rpm</strong>: este instalará un RPM y tratará de resolver todas las dependencies para ti, usando tus repositorios.</div>
+</li>
+<li>
+<div><strong>yum update package_name.rpm</strong>: actualizar todos los paquetes rpm instalados en el sistema.</div>
+</li>
+<li>
+<div><strong>yum update package_name</strong>: modernizar / actualizar un paquete rpm.</div>
+</li>
+<li>
+<div><strong>yum remove package_name</strong>: eliminar un paquete rpm.</div>
+</li>
+<li>
+<div><strong>yum list</strong>: listar todos los paquetes instalados en el sistema.</div>
+</li>
+<li>
+<div><strong>yum search package_name</strong>: Encontrar un paquete en repositorio rpm.</div>
+</li>
+<li>
+<div><strong>yum clean packages</strong>: limpiar un caché rpm borrando los paquetes descargados.</div>
+</li>
+<li>
+<div><strong>yum clean headers</strong>: eliminar todos los ficheros de encabezamiento que el sistema usa para resolver la dependencia.</div>
+</li>
+<li>
+<div><strong>yum clean all</strong>: eliminar desde los paquetes caché y ficheros de encabezado.</div>
+</li>
+</ol>
+<h2><a name="deb"></a>Paquetes Deb (Debian, Ubuntu y derivados)</h2>
+<ol>
+<li>
+<div><strong>dpkg -i package.deb</strong>: instalar / actualizar un paquete deb.</div>
+</li>
+<li>
+<div><strong>dpkg -r package_name</strong>: eliminar un paquete deb del sistema.</div>
+</li>
+<li>
+<div><strong>dpkg -l</strong>: mostrar todos los paquetes deb instalados en el sistema.</div>
+</li>
+<li>
+<div><strong>dpkg -l | grep httpd</strong>: mostrar todos los paquetes deb con el nombre “httpd”</div>
+</li>
+<li>
+<div><strong>dpkg -s package_name</strong>: obtener información en un paquete específico instalado en el sistema.</div>
+</li>
+<li>
+<div><strong>dpkg -L package_name</strong>: mostar lista de ficheros dados por un paquete instalado en el sistema.</div>
+</li>
+<li>
+<div><strong>dpkg –contents package.deb</strong>: mostrar lista de ficheros dados por un paquete no instalado todavía.</div>
+</li>
+<li>
+<div><strong>dpkg -S /bin/ping</strong>: verificar cuál paquete pertenece a un fichero dado.</div>
+</li>
+</ol>
+<h2><a name="apt"></a>Actualizador de paquetes APT (Debian, Ubuntu y derivados)</h2>
+<ol>
+<li>
+<div><strong>apt-get install package_name</strong>: instalar / actualizar un paquete deb.</div>
+</li>
+<li>
+<div><strong>apt-cdrom install package_name</strong>: instalar / actualizar un paquete deb desde un cdrom.</div>
+</li>
+<li>
+<div><strong>apt-get update</strong>: actualizar la lista de paquetes.</div>
+</li>
+<li>
+<div><strong>apt-get upgrade</strong>: actualizar todos los paquetes instalados.</div>
+</li>
+<li>
+<div><strong>apt-get remove package_name</strong>: eliminar un paquete deb del sistema.</div>
+</li>
+<li>
+<div><strong>apt-get check</strong>: verificar la correcta resolución de las dependencias.</div>
+</li>
+<li>
+<div><strong>apt-get clean</strong>: limpiar cache desde los paquetes descargados.</div>
+</li>
+<li>
+<div><strong>apt-cache search searched-package</strong>: retorna lista de paquetes que corresponde a la serie «paquetes buscados».</div>
+</li>
+</ol>
+<h2><a name="cont"></a>Ver el contenido de un fichero</h2>
+<ol>
+<li>
+<div><strong>cat file1</strong>: ver los contenidos de un fichero comenzando desde la primera hilera.</div>
+</li>
+<li>
+<div><strong>tac file1</strong>: ver los contenidos de un fichero comenzando desde la última línea.</div>
+</li>
+<li>
+<div><strong>more file1</strong>: ver el contenido a lo largo de un fichero.</div>
+</li>
+<li>
+<div><strong>less file1</strong>: parecido al commando ‘more’ pero permite salvar el movimiento en el fichero así como el movimiento hacia atrás.</div>
+</li>
+<li>
+<div><strong>head -2 file1</strong>: ver las dos primeras líneas de un fichero.</div>
+</li>
+<li>
+<div><strong>tail -2 file1</strong>: ver las dos últimas líneas de un fichero.</div>
+</li>
+<li>
+<div><strong>tail -f /var/log/messages</strong>: ver en tiempo real qué ha sido añadido al fichero.</div>
+</li>
+</ol>
+<h2><a name="texto"></a>Manipulación de texto</h2>
+<ol>
+<li>
+<div><strong>cat file1 file2 .. | command &lt;&gt; file1_in.txt_or_file1_out.txt</strong>: sintaxis general para la manipulación de texto utilizando PIPE, STDIN y STDOUT.</div>
+</li>
+<li>
+<div><strong>cat file1 | command( sed, grep, awk, grep, etc…) &gt; result.txt</strong>: sintaxis general para manipular un texto de un fichero y escribir el resultado en un fichero nuevo.</div>
+</li>
+<li>
+<div><strong>cat file1 | command( sed, grep, awk, grep, etc…) » result.txt</strong>: sintaxis general para manipular un texto de un fichero y añadir resultado en un fichero existente.</div>
+</li>
+<li>
+<div><strong>grep Aug /var/log/messages</strong>: buscar palabras “Aug” en el fichero ‘/var/log/messages’.</div>
+</li>
+<li>
+<div><strong>grep ^Aug /var/log/messages</strong>: buscar palabras que comienzan con “Aug” en fichero ‘/var/log/messages’</div>
+</li>
+<li>
+<div><strong>grep [0-9] /var/log/messages</strong>: seleccionar todas las líneas del fichero ‘/var/log/messages’ que contienen números.</div>
+</li>
+<li>
+<div><strong>grep Aug -R /var/log/</strong>*: buscar la cadena “Aug” en el directorio ‘/var/log’ y debajo.</div>
+</li>
+<li>
+<div><strong>sed ‘s/stringa1/stringa2/g’ example.txt</strong>: reubicar “string1” con “string2” en ejemplo.txt</div>
+</li>
+<li>
+<div><strong>sed ‘/^$/d’ example.txt</strong>: eliminar todas las líneas en blanco desde el ejemplo.txt</div>
+</li>
+<li>
+<div><strong>sed ‘/ *#/d; /^$/d’ example.txt</strong>: eliminar comentarios y líneas en blanco de ejemplo.txt</div>
+</li>
+<li>
+<div><strong>echo ‘esempio’ | tr ‘[:lower:]‘ ‘[:upper:]‘</strong>: convertir minúsculas en mayúsculas.</div>
+</li>
+<li>
+<div><strong>sed -e ’1d’ result.txt</strong>: elimina la primera línea del fichero ejemplo.txt</div>
+</li>
+<li>
+<div><strong>sed -n ‘/stringa1/p’</strong>: visualizar solamente las líneas que contienen la palabra “string1”.</div>
+</li>
+</ol>
+<h2><a name="estable"></a>Establecer caracter y conversión de ficheros</h2>
+<ol>
+<li>
+<div><strong>dos2unix filedos.txt fileunix.txt</strong>: convertir un formato de fichero texto desde MSDOS a UNIX.</div>
+</li>
+<li>
+<div><strong>unix2dos fileunix.txt filedos.txt</strong>: convertir un formato de fichero de texto desde UNIX a MSDOS.</div>
+</li>
+<li>
+<div><strong>recode ..<acronym title="HyperText Markup Language">HTML</acronym> &lt; page.txt &gt; page.html</strong>: convertir un fichero de texto en html.</div>
+</li>
+<li>
+<div><strong>recode -l | more</strong>: mostrar todas las conversiones de formato disponibles.</div>
+</li>
+</ol>
+<h2><a name="analisis"></a>Análisis del sistema de ficheros</h2>
+<ol>
+<li>
+<div><strong>badblocks -v /dev/hda1</strong>: Chequear los bloques defectuosos en el disco hda1.</div>
+</li>
+<li>
+<div><strong>fsck /dev/hda1</strong>: reparar / chequear la integridad del fichero del sistema Linux en el disco hda1.</div>
+</li>
+<li>
+<div><strong>fsck.ext2 /dev/hda1</strong>: reparar / chequear la integridad del fichero del sistema ext 2 en el disco hda1.</div>
+</li>
+<li>
+<div><strong>e2fsck /dev/hda1</strong>: reparar / chequear la integridad del fichero del sistema ext 2 en el disco hda1.</div>
+</li>
+<li>
+<div><strong>e2fsck -j /dev/hda1</strong>: reparar / chequear la integridad del fichero del sistema ext 3 en el disco hda1.</div>
+</li>
+<li>
+<div><strong>fsck.ext3 /dev/hda1</strong>: reparar / chequear la integridad del fichero del sistema ext 3 en el disco hda1.</div>
+</li>
+<li>
+<div><strong>fsck.vfat /dev/hda1</strong>: reparar / chequear la integridad del fichero sistema fat en el disco hda1.</div>
+</li>
+<li>
+<div><strong>fsck.msdos /dev/hda1</strong>: reparar / chequear la integridad de un fichero del sistema dos en el disco hda1.</div>
+</li>
+<li>
+<div><strong>dosfsck /dev/hda1</strong>: reparar / chequear la integridad de un fichero del sistema dos en el disco hda1.</div>
+</li>
+</ol>
+<h2><a name="format"></a>Formatear un sistema de ficheros</h2>
+<ol>
+<li>
+<div><strong>mkfs /dev/hda1</strong>: crear un fichero de sistema tipo Linux en la partición hda1.</div>
+</li>
+<li>
+<div><strong>mke2fs /dev/hda1</strong>: crear un fichero de sistema tipo Linux ext 2 en hda1.</div>
+</li>
+<li>
+<div><strong>mke2fs -j /dev/hda1</strong>: crear un fichero de sistema tipo Linux ext3 (periódico) en la partición hda1.</div>
+</li>
+<li>
+<div><strong>mkfs -t vfat 32 -F /dev/hda1</strong>: crear un fichero de sistema FAT32 en hda1.</div>
+</li>
+<li>
+<div><strong>fdformat -n /dev/fd0</strong>: formatear un disco flooply.</div>
+</li>
+<li>
+<div><strong>mkswap /dev/hda3</strong>: crear un fichero de sistema swap.</div>
+</li>
+</ol>
+<h2><a name="swap"></a>Trabajo con la SWAP</h2>
+<ol>
+<li>
+<div><strong>mkswap /dev/hda3</strong>: crear fichero de sistema swap.</div>
+</li>
+<li>
+<div><strong>swapon /dev/hda3</strong>: activando una nueva partición swap.</div>
+</li>
+<li>
+<div><strong>swapon /dev/hda2 /dev/hdb3</strong>: activar dos particiones swap.</div>
+</li>
+</ol>
+<h2><a name="backup"></a>Salvas (Backup)</h2>
+<ol>
+<li>
+<div><strong>dump -0aj -f /tmp/home0.bak /home</strong>: hacer una salva completa del directorio ‘/home’.</div>
+</li>
+<li>
+<div><strong>dump -1aj -f /tmp/home0.bak /home</strong>: hacer una salva incremental del directorio ‘/home’.</div>
+</li>
+<li>
+<div><strong>restore -if /tmp/home0.bak</strong>: restaurando una salva interactivamente.</div>
+</li>
+<li>
+<div><strong>rsync -rogpav –delete /home /tmp</strong>: sincronización entre directorios.</div>
+</li>
+<li>
+<div><strong>rsync -rogpav -e ssh –delete /home ip_address:/tmp</strong>: rsync a través del túnel <acronym title="Secure Shell">SSH</acronym>.</div>
+</li>
+<li>
+<div><strong>rsync -az -e ssh –delete ip_addr:/home/public /home/local</strong>: sincronizar un directorio local con un directorio remoto a través de ssh y de compresión.</div>
+</li>
+<li>
+<div><strong>rsync -az -e ssh –delete /home/local ip_addr:/home/public</strong>: sincronizar un directorio remoto con un directorio local a través de ssh y de compresión.</div>
+</li>
+<li>
+<div><strong>dd bs=1M if=/dev/hda | gzip | ssh user@ip_addr ‘dd of=hda.gz’</strong>: hacer una salva de un disco duro en un host remoto a través de ssh.</div>
+</li>
+<li>
+<div><strong>dd if=/dev/sda of=/tmp/file1</strong>: salvar el contenido de un disco duro a un fichero. (En este caso el disco duro es “sda” y el fichero “file1”).</div>
+</li>
+<li>
+<div><strong>tar -Puf backup.tar /home/user</strong>: hacer una salva incremental del directorio ‘/home/user’.</div>
+</li>
+<li>
+<div><strong>( cd /tmp/local/ &amp;&amp; tar c . ) | ssh -C user@ip_addr ‘cd /home/share/ &amp;&amp; tar x -p’</strong>: copiar el contenido de un directorio en un directorio remoto a través de ssh.</div>
+</li>
+<li>
+<div><strong>( tar c /home ) | ssh -C user@ip_addr ‘cd /home/backup-home &amp;&amp; tar x -p’</strong>: copiar un directorio local en un directorio remoto a través de ssh.</div>
+</li>
+<li>
+<div><strong>tar cf – . | (cd /tmp/backup ; tar xf – )</strong>: copia local conservando las licencias y enlaces desde un directorio a otro.</div>
+</li>
+<li>
+<div><strong>find /home/user1 -name ‘*.txt’ | xargs cp -av –target-directory=/home/backup/ –parents</strong>: encontrar y copiar todos los ficheros con extensión ‘.txt’ de un directorio a otro.</div>
+</li>
+<li>
+<div><strong>find /var/log -name ‘*.log’ | tar cv –files-from=- | bzip2 &gt; log.tar.bz2</strong>: encontrar todos los ficheros con extensión ‘.log’ y hacer un archivo bzip.</div>
+</li>
+<li>
+<div><strong>dd if=/dev/hda of=/dev/fd0 bs=512 count=1</strong>: hacer una copia del MRB (Master Boot Record) a un disco floppy.</div>
+</li>
+<li>
+<div><strong>dd if=/dev/fd0 of=/dev/hda bs=512 count=1</strong>: restaurar la copia del MBR (Master Boot Record) salvada en un floppy.</div>
+</li>
+</ol>
+<h2><a name="cdrom"></a>CD-ROM</h2>
+<ol>
+<li>
+<div><strong>cdrecord -v gracetime=2 dev=/dev/cdrom -eject blank=fast -force</strong>: limpiar o borrar un cd regrabable.</div>
+</li>
+<li>
+<div><strong>mkisofs /dev/cdrom &gt; cd.iso</strong>: crear una imagen iso de cdrom en disco.</div>
+</li>
+<li>
+<div><strong>mkisofs /dev/cdrom | gzip &gt; cd_iso.gz</strong>: crear una imagen comprimida iso de cdrom en disco.</div>
+</li>
+<li>
+<div><strong>mkisofs -J -allow-leading-dots -R -V “Label CD” -iso-level 4 -o ./cd.iso data_cd</strong>: crear una imagen iso de un directorio.</div>
+</li>
+<li>
+<div><strong>cdrecord -v dev=/dev/cdrom cd.iso</strong>: quemar una imagen iso.</div>
+</li>
+<li>
+<div><strong>gzip -dc cd_iso.gz | cdrecord dev=/dev/cdrom -</strong>: quemar una imagen iso comprimida.</div>
+</li>
+<li>
+<div><strong>mount -o loop cd.iso /mnt/iso</strong>: montar una imagen iso.</div>
+</li>
+<li>
+<div><strong>cd-paranoia -B</strong>: llevar canciones de un cd a ficheros wav.</div>
+</li>
+<li>
+<div><strong>cd-paranoia – ”-3”</strong>: llevar las 3 primeras canciones de un cd a ficheros wav.</div>
+</li>
+<li>
+<div><strong>cdrecord –scanbus</strong>: escanear bus para identificar el canal scsi.</div>
+</li>
+<li>
+<div><strong>dd if=/dev/hdc | md5sum</strong>: hacer funcionar un md5sum en un dispositivo, como un CD.</div>
+</li>
+</ol>
+<h2><a name="red"></a>Trabajo con la RED ( <acronym title="Local Area Network">LAN</acronym> y Wi-Fi)</h2>
+<ol>
+<li>
+<div><strong>ifconfig eth0</strong>: mostrar la configuración de una tarjeta de red Ethernet.</div>
+</li>
+<li>
+<div><strong>ifup eth0</strong>: activar una interface ‘eth0′.</div>
+</li>
+<li>
+<div><strong>ifdown eth0</strong>: deshabilitar una interface ‘eth0′.</div>
+</li>
+<li>
+<div><strong>ifconfig eth0 192.168.1.1 netmask 255.255.255.0</strong>: configurar una dirección IP.</div>
+</li>
+<li>
+<div><strong>ifconfig eth0 promisc</strong>: configurar ‘eth0′en modo común para obtener los paquetes (sniffing).</div>
+</li>
+<li>
+<div><strong>dhclient eth0</strong>: activar la interface ‘eth0′ en modo dhcp.</div>
+</li>
+<li>
+<div><strong>route -n</strong>: mostrar mesa de recorrido.</div>
+</li>
+<li>
+<div><strong>route add -net 0/0 gw IP_Gateway</strong>: configurar entrada predeterminada.</div>
+</li>
+<li>
+<div><strong>route add -net 192.168.0.0 netmask 255.255.0.0 gw 192.168.1.1</strong>: configurar ruta estática para buscar la red ’192.168.0.0/16′.</div>
+</li>
+<li>
+<div><strong>route del 0/0 gw IP_gateway</strong>: eliminar la ruta estática.</div>
+</li>
+<li>
+<div><strong>echo “1” &gt; /proc/sys/net/ipv4/ip_forward</strong>: activar el recorrido ip.</div>
+</li>
+<li>
+<div><strong>hostname</strong>: mostrar el nombre del host del sistema.</div>
+</li>
+<li>
+<div><strong>host <a title="http://www.example.com" href="http://www.example.com/" rel="nofollow">www.example.com</a></strong>: buscar el nombre del host para resolver el nombre a una dirección ip(1).</div>
+</li>
+<li>
+<div><strong>nslookup <a title="http://www.example.com" href="http://www.example.com/" rel="nofollow">www.example.com</a></strong>: buscar el nombre del host para resolver el nombre a una direccióm ip y viceversa(2).</div>
+</li>
+<li>
+<div><strong>ip link show</strong>: mostar el estado de enlace de todas las interfaces.</div>
+</li>
+<li>
+<div><strong>mii-tool eth0</strong>: mostar el estado de enlace de ‘eth0′.</div>
+</li>
+<li>
+<div><strong>ethtool eth0</strong>: mostrar las estadísticas de tarjeta de red ‘eth0′.</div>
+</li>
+<li>
+<div><strong>netstat -tup</strong>: mostrar todas las conexiones de red activas y sus PID.</div>
+</li>
+<li>
+<div><strong>netstat -tupl</strong>: mostrar todos los servicios de escucha de red en el sistema y sus PID.</div>
+</li>
+<li>
+<div><strong>tcpdump tcp port 80</strong>: mostrar todo el tráfico <acronym title="Hyper Text Transfer Protocol">HTTP</acronym>.</div>
+</li>
+<li>
+<div><strong>iwlist scan</strong>: mostrar las redes inalámbricas.</div>
+</li>
+<li>
+<div><strong>iwconfig eth1</strong>: mostrar la configuración de una tarjeta de red inalámbrica.</div>
+</li>
+<li>
+<div><strong>whois <a title="http://www.example.com" href="http://www.example.com/" rel="nofollow">www.example.com</a></strong>: buscar en base de datos Whois.</div>
+</li>
+</ol>
+<h2><a name="samba"></a>Redes de Microsoft Windows (SAMBA)</h2>
+<ol>
+<li>
+<div><strong>nbtscan ip_addr</strong>: resolución de nombre de red bios.</div>
+</li>
+<li>
+<div><strong>nmblookup -A ip_addr</strong>: resolución de nombre de red bios.</div>
+</li>
+<li>
+<div><strong>smbclient -L ip_addr/hostname</strong>: mostrar acciones remotas de un host en windows.</div>
+</li>
+</ol>
+<h2><a name="iptable"></a>Tablas IP (CORTAFUEGOS)</h2>
+<ol>
+<li>
+<div><strong>iptables -t filter -L</strong>: mostrar todas las cadenas de la tabla de filtro.</div>
+</li>
+<li>
+<div><strong>iptables -t nat -L</strong>: mostrar todas las cadenas de la tabla nat.</div>
+</li>
+<li>
+<div><strong>iptables -t filter -F</strong>: limpiar todas las reglas de la tabla de filtro.</div>
+</li>
+<li>
+<div><strong>iptables -t nat -F</strong>: limpiar todas las reglas de la tabla nat.</div>
+</li>
+<li>
+<div><strong>iptables -t filter -X</strong>: borrar cualquier cadena creada por el usuario.</div>
+</li>
+<li>
+<div><strong>iptables -t filter -A INPUT -p tcp –dport telnet -j ACCEPT</strong>: permitir las conexiones telnet para entar.</div>
+</li>
+<li>
+<div><strong>iptables -t filter -A OUTPUT -p tcp –dport http -j DROP</strong>: bloquear las conexiones <acronym title="Hyper Text Transfer Protocol">HTTP</acronym> para salir.</div>
+</li>
+<li>
+<div><strong>iptables -t filter -A FORWARD -p tcp –dport pop3 -j ACCEPT</strong>: permitir las conexiones <acronym title="Post Office Protocol">POP</acronym> a una cadena delantera.</div>
+</li>
+<li>
+<div><strong>iptables -t filter -A INPUT -j LOG –log-prefix “DROP INPUT”</strong>: registrando una cadena de entrada.</div>
+</li>
+<li>
+<div><strong>iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE</strong>: configurar un PAT (Puerto de traducción de dirección) en eth0, ocultando los paquetes de salida forzada.</div>
+</li>
+<li>
+<div><strong>iptables -t nat -A PREROUTING -d 192.168.0.1 -p tcp -m tcp –dport 22 -j DNAT –to-destination 10.0.0.2:22</strong>: redireccionar los paquetes diriguidos de un host a otro.</div>
+</li>
+</ol>
+<h2><a name="monitor"></a>Monitoreando y depurando</h2>
+<ol>
+<li>
+<div><strong>top</strong>: mostrar las tareas de linux usando la mayoría cpu.</div>
+</li>
+<li>
+<div><strong>ps -eafw</strong>: muestra las tareas Linux.</div>
+</li>
+<li>
+<div><strong>ps -e -o pid,args –forest</strong>: muestra las tareas Linux en un modo jerárquico.</div>
+</li>
+<li>
+<div><strong>pstree</strong>: mostrar un árbol sistema de procesos.</div>
+</li>
+<li>
+<div><strong>kill -9 ID_Processo</strong>: forzar el cierre de un proceso y terminarlo.</div>
+</li>
+<li>
+<div><strong>kill -1 ID_Processo</strong>: forzar un proceso para recargar la configuración.</div>
+</li>
+<li>
+<div><strong>lsof -p $$</strong>: mostrar una lista de ficheros abiertos por procesos.</div>
+</li>
+<li>
+<div><strong>lsof /home/user1</strong>: muestra una lista de ficheros abiertos en un camino dado del sistema.</div>
+</li>
+<li>
+<div><strong>strace -c ls &gt;/dev/null</strong>: mostrar las llamadas del sistema hechas y recibidas por un proceso.</div>
+</li>
+<li>
+<div><strong>strace -f -e open ls &gt;/dev/null</strong>: mostrar las llamadas a la biblioteca.</div>
+</li>
+<li>
+<div><strong>watch -n1 ‘cat /proc/interrupts’</strong>: mostrar interrupciones en tiempo real.</div>
+</li>
+<li>
+<div><strong>last reboot</strong>: mostrar historial de reinicio.</div>
+</li>
+<li>
+<div><strong>lsmod</strong>: mostrar el kernel cargado.</div>
+</li>
+<li>
+<div><strong>free -m</strong>: muestra el estado de la RAM en megabytes.</div>
+</li>
+<li>
+<div><strong>smartctl -A /dev/hda</strong>: monitorear la fiabilidad de un disco duro a través de SMART.</div>
+</li>
+<li>
+<div><strong>smartctl -i /dev/hda</strong>: chequear si SMART está activado en un disco duro.</div>
+</li>
+<li>
+<div><strong>tail /var/log/dmesg</strong>: mostrar eventos inherentes al proceso de carga del kernel.</div>
+</li>
+<li>
+<div><strong>tail /var/log/messages</strong>: mostrar los eventos del sistema.</div>
+</li>
+</ol>
+<h2><a name="otros"></a>Otros comandos útiles</h2>
+<ol>
+<li>
+<div><strong>apropos …keyword</strong>: mostrar una lista de comandos que pertenecen a las palabras claves de un programa; son útiles cuando tú sabes qué hace tu programa, pero de sconoces el nombre del comando.</div>
+</li>
+<li>
+<div><strong>man ping</strong>: mostrar las páginas del manual on-line; por ejemplo, en un comando ping, usar la opción ‘-k’ para encontrar cualquier comando relacionado.</div>
+</li>
+<li>
+<div><strong>whatis …keyword</strong>: muestra la descripción de lo que hace el programa.</div>
+</li>
+<li>
+<div><strong>mkbootdisk –device /dev/fd0 `uname -r`</strong>: crear un floppy boteable.</div>
+</li>
+<li>
+<div><strong>gpg -c file1</strong>: codificar un fichero con guardia de seguridad GNU.</div>
+</li>
+<li>
+<div><strong>gpg file1.gpg</strong>: decodificar un fichero con Guardia de seguridad GNU.</div>
+</li>
+<li>
+<div><strong>wget -r <a title="http://www.example.com" href="http://www.example.com/" rel="nofollow">www.example.com</a></strong>: descargar un sitio web completo.</div>
+</li>
+<li>
+<div><strong>wget -c <a title="http://www.example.com/file.iso" href="http://www.example.com/file.iso" rel="nofollow">www.example.com/file.iso</a></strong>: descargar un fichero con la posibilidad de parar la descargar y reanudar más tarde.</div>
+</li>
+<li>
+<div><strong>echo ‘wget -c <a title="http://www.example.com/files.iso" href="http://www.example.com/files.iso" rel="nofollow">www.example.com/files.iso</a>‘ | at 09:00</strong>: Comenzar una descarga a cualquier hora. En este caso empezaría a las 9 horas.</div>
+</li>
+<li>
+<div><strong>ldd /usr/bin/ssh</strong>: mostrar las bibliotecas compartidas requeridas por el programa ssh.</div>
+</li>
+<li>
+<div><strong>alias hh=’history’</strong>: colocar un alias para un commando –hh= Historial.</div>
+</li>
+<li>
+<div><strong>chsh</strong>: cambiar el comando Shell.</div>
+</li>
+<li>
+<div><strong>chsh –list-shells</strong>: es un comando adecuado para saber si tienes que hacer remoto en otra terminal.</div>
+</li>
+<li>
+<div><strong>who -a</strong>: mostrar quien está registrado, e imprimir hora del último sistema de importación, procesos muertos, procesos de registro de sistema, procesos activos producidos por init, funcionamiento actual y últimos cambios del reloj del sistema.</div>
+</li>
+</ol>
+ 
+			<div class="info row-fluid"> 
+				<div class="span9 tags"> 
+					<ul> 
+						<li><a href="http://blog.desdelinux.net/wp-content/themes/dlinux_3col_new/#"><i class="icon-tags"></i> </a><a href="http://blog.desdelinux.net/tag/comandos/" rel="tag">Comandos</a>, <a href="http://blog.desdelinux.net/tag/terminal/" rel="tag">Terminal</a>, <a href="http://blog.desdelinux.net/tag/tips/" rel="tag">Tips</a></li> 
+					</ul> 
+				</div> 
+				<div class="span3"> 
+					<ul class="pull-right"> 
+						<li><a href="http://www.facebook.com/sharer/sharer.php?u=http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/" onclick="window.open(&#39;http://www.facebook.com/sharer/sharer.php?u=http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/&#39;, &#39;Comparte en Facebook ...&#39;, &#39;width=450,height=300, left=&#39;+(screen.availWidth/2-225)+&#39;,top=&#39;+(screen.availHeight/2-150)+&#39;&#39;);return false;" class="comments tooltips" rel="tooltip" data-original-title="Comparte en Facebook"><i class="icon-facebook"></i></a></li> 
+						<li><a href="http://twitter.com/home?status=http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/" onclick="window.open(&#39;http://twitter.com/home?status=http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/&#39;, &#39;Comparte en Twitter ...&#39;, &#39;width=450,height=300, left=&#39;+(screen.availWidth/2-225)+&#39;,top=&#39;+(screen.availHeight/2-150)+&#39;&#39;);return false;" class="comments tooltips" rel="tooltip" data-original-title="Comparte en Twitter"><i class="icon-twitter"></i></a></li> 
+						<li><a href="https://plus.google.com/share?url=http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/" onclick="window.open(&#39;https://plus.google.com/share?url=http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/&#39;, &#39;Comparte en G+ ...&#39;, &#39;width=450,height=300, left=&#39;+(screen.availWidth/2-225)+&#39;,top=&#39;+(screen.availHeight/2-150)+&#39;&#39;);return false;" class="comments tooltips" rel="tooltip" data-original-title="Comparte en G+"><i class="icon-gplus"></i></a></li> 
+					</ul> 
+				</div> 
+			</div> 
+			 
+		</article> 
+	</article> 
+	<div id="comments"> 
+		<div id="bottom" class="related-posts"> 
+			<h3>Artículos relacionados</h3>			<ul class="list-related-posts">
+							<li><a href="http://blog.desdelinux.net/wallpapers-lleno-de-comandos-para-usuarios-de-gnulinux/" rel="bookmark" title="Enlace permanente a Wallpapers lleno de comandos para usuarios de GNU/Linux">Wallpapers lleno de comandos para usuarios de GNU/Linux</a></li>
+							<li><a href="http://blog.desdelinux.net/con-el-terminal-ejemplos-con-el-comando-find/" rel="bookmark" title="Enlace permanente a Con el terminal: Ejemplos con el comando Find">Con el terminal: Ejemplos con el comando Find</a></li>
+							<li><a href="http://blog.desdelinux.net/comandos-peligrosos-en-gnulinux/" rel="bookmark" title="Enlace permanente a Comandos peligrosos en GNU/Linux">Comandos peligrosos en GNU/Linux</a></li>
+							<li><a href="http://blog.desdelinux.net/como-borrar-el-historial-de-comandos-en-linux/" rel="bookmark" title="Enlace permanente a Cómo borrar el historial de comandos en Linux">Cómo borrar el historial de comandos en Linux</a></li>
+							<li><a href="http://blog.desdelinux.net/9-comandos-combinaciones-muy-divertidos-e-inutiles-de-linux/" rel="bookmark" title="Enlace permanente a 9 comandos+combinaciones muy divertidas e inútiles de Linux">9 comandos+combinaciones muy divertidas e inútiles de Linux</a></li>
+						</ul>
+ 
+		</div> 
+		<hr> 
+		<div class="row-fluid"> 
+			<div class="span12 "> 
+				<div class="row-fluid info-author"> 
+					<div class="span7 author"> 
+						<span class="pull-left"><img alt="elav" src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/elav_avatar-45x45.jpg" class="avatar avatar-45 photo" height="45" width="45"></span> 
+						<p><strong>elav</strong>: <a href="http://elav.desdelinux.net/">Blog Personal</a> » <a href="http://www.twitter.com/elavdeveloper">Twitter</a> » <a href="https://plus.google.com/u/0/118419653942662184045/posts">G+</a> »
+
+Usuario de <b>ArchLinux</b>. Informático, melómano, <b>blogger</b> y <b>diseñador web</b>. Administrador y <b>Fundador</b> de <b>DesdeLinux.net</b>. </p> 
+					</div> 
+					<div class="span5"> 
+						<h3 class="pull-right">
+							<a href="http://blog.desdelinux.net/author/elav/" class="tooltips" data-original-title="+ Artículos del autor">+ Artículos de este autor</a></h3> 
+					</div> 
+				</div> 
+				<hr> 
+			</div> 
+		</div> 
+		
+
+<!--Formulario de comentario al principio
+################################################################################# -->
+
+								<div id="respond" class="comment-respond">
+				<h3 id="reply-title" class="comment-reply-title">No olvides dejar tu comentario <small><a rel="nofollow" id="cancel-comment-reply-link" href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/#respond" style="display:none;">cancelar</a></small></h3>
+									<form action="http://blog.desdelinux.net/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+																			<span class="help-block alert alert-info">Tu dirección de correo electrónico no será publicada.</span>							<label for="author">Nombre<span class="required"> [Requerido]</span></label> <input id="author" name="author" type="text" value="" class="input-xlarge" aria-required="true">
+<label for="email">Correo<span class="required"> [Requerido]</span></label> <input id="email" name="email" type="text" value="" class="input-xlarge" aria-required="true">
+<label for="url">Website</label><input id="url" name="url" type="text" value="" class="input-xlarge">
+												<p class="comment-form-comment"><label for="comment">Comentario</label> <textarea id="comment" name="comment" cols="45" rows="8" aria-required="true"></textarea></p>						<p class="form-allowed-tags">Puedes usar las siguientes etiquetas y atributos <abbr title="HyperText Markup Language">HTML</abbr>:  <code>&lt;a href="" title=""&gt; &lt;abbr title=""&gt; &lt;acronym title=""&gt; &lt;b&gt; &lt;blockquote cite=""&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=""&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=""&gt; &lt;strike&gt; &lt;strong&gt; </code></p>						<p class="form-submit">
+							<input name="submit" type="submit" id="submit" value="Publicar comentario">
+							<input type="hidden" name="comment_post_ID" value="7886" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+						</p>
+						<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="f9acf5f882"></p>
+	<p class="comment-form-ant-spm" style="clear: both; display: none;">
+		<strong>Current <span style="display:none;">day</span> <span style="display:none;">month</span> <span style="display:inline;">ye@r</span></strong> <span class="required">*</span>
+		<input type="hidden" name="ant-spm-a" id="ant-spm-a" value="2014">
+		<input type="text" name="ant-spm-q" id="ant-spm-q" size="30" value="20">
+	</p>
+	
+	<p class="comment-form-ant-spm-2" style="display: none;">
+		<strong>Leave this field empty</strong> <span class="required">*</span>
+		<input type="text" name="ant-spm-e-email-url" id="ant-spm-e-email-url" size="30" value="">
+	</p>
+	<!-- BEGIN: subscribe to comments reloaded --><p><label for="subscribe-reloaded"><input style="width:30px" type="checkbox" name="subscribe-reloaded" id="subscribe-reloaded" value="yes"> Notificarme los nuevos comentarios por correo electrónico. También puedes <a href="http://blog.desdelinux.net/comment-subscriptions?srp=7886&sra=s">suscribirte</a> sin comentar.</label></p><!-- END: subscribe to comments reloaded --><p class="comment-subscription-form"><input type="checkbox" name="subscribe_comments" id="subscribe_comments" value="subscribe" style="width: auto; -moz-appearance: checkbox; -webkit-appearance: checkbox;"> <label class="subscribe-label" id="subscribe-label" for="subscribe_comments">Recibir un email con los siguientes comentarios a esta entrada.</label></p><p class="comment-subscription-form"><input type="checkbox" name="subscribe_blog" id="subscribe_blog" value="subscribe" style="width: auto; -moz-appearance: checkbox; -webkit-appearance: checkbox;"> <label class="subscribe-label" id="subscribe-blog-label" for="subscribe_blog">Recibir un email con cada nuevo post.</label></p>					</form>
+							</div><!-- #respond -->
+			
+<!-- Final del Formulario de comentario al principio
+################################################################################# -->
+
+<!--Mostrar comentarios anteriores y siguientes
+################################################################################# -->
+
+			<div class="navigation">
+				<div class="nav-previous"></div>
+				<div class="nav-next"><a href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/comment-page-2/#comments">Comentarios recientes <span class="meta-nav">→</span></a></div>
+			</div> <!-- .navigation -->
+
+<!-- Fin Mostrar comentarios anteriores y siguientes
+################################################################################ -->
+
+			<ol class="commentlist">
+					<li class="comment even thread-even depth-1" id="li-comment-12678">
+		<div class="comment-body row-fluid">
+			<div class="span12">
+				<div class="comment-author vcard span1">
+					<img alt="" src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/81cd937af714f6324d53fb144e135f00" class="avatar avatar-45 photo grav-hashed grav-hijack" height="45" width="45" id="grav-81cd937af714f6324d53fb144e135f00-0">					<span class="label lector">lector</span>
+				</div>
+				<div id="comment-12678" class="comment-meta commentmetadata span11 alpha">
+                    <cite>dbillyx</cite><span class="fn"> | <a href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/comment-page-1/#comment-12678"> Hace 2 años</a> | <img src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/chrome.png" title="Google Chrome 17.0.963.78" style="border:0px;vertical-align:middle;" alt="Google Chrome 17.0.963.78"><img src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/linux.png" title="GNU/Linux" style="border:0px;vertical-align:middle;" alt="GNU/Linux"></span>
+					<div class="comment-body"><p>excelente aporte… gracias…</p>
+</div>
+					<div class="reply">
+						<a class="comment-reply-link" href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/?replytocom=12678#respond" onclick="return addComment.moveForm(&quot;comment-12678&quot;, &quot;12678&quot;, &quot;respond&quot;, &quot;7886&quot;)">Responder</a>					</div>
+				</div>
+			</div>
+		</div>
+	</li>
+<!-- #comment-## -->
+	<li class="comment byuser comment-author-diazepan odd alt thread-odd thread-alt depth-1" id="li-comment-12680">
+		<div class="comment-body row-fluid">
+			<div class="span12">
+				<div class="comment-author vcard span1">
+					<img alt="" src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/fdfce4697e69d4798f7385d211c23e85" class="avatar avatar-45 photo grav-hashed grav-hijack" height="45" width="45" id="grav-fdfce4697e69d4798f7385d211c23e85-0">					<span class="label redactor">redactor</span>
+				</div>
+				<div id="comment-12680" class="comment-meta commentmetadata span11 alpha">
+                    <cite>diazepan</cite><span class="fn"> | <a href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/comment-page-1/#comment-12680"> Hace 2 años</a> | <img src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/srwareiron.png" title="SRWare Iron 17.0.1000.0" style="border:0px;vertical-align:middle;" alt="SRWare Iron 17.0.1000.0"><img src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/debian.png" title="Debian GNU/Linux" style="border:0px;vertical-align:middle;" alt="Debian GNU/Linux"></span>
+					<div class="comment-body"><p>Directo a favoritos como se dice.</p>
+</div>
+					<div class="reply">
+						<a class="comment-reply-link" href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/?replytocom=12680#respond" onclick="return addComment.moveForm(&quot;comment-12680&quot;, &quot;12680&quot;, &quot;respond&quot;, &quot;7886&quot;)">Responder</a>					</div>
+				</div>
+			</div>
+		</div>
+	</li>
+<!-- #comment-## -->
+	<li class="comment even thread-even depth-1" id="li-comment-12681">
+		<div class="comment-body row-fluid">
+			<div class="span12">
+				<div class="comment-author vcard span1">
+					<img alt="jamin-samuel" src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/jamin-samuel_avatar_1375752694-45x45.jpg" class="avatar avatar-45 photo" height="45" width="45">					<span class="label lector">lector</span>
+				</div>
+				<div id="comment-12681" class="comment-meta commentmetadata span11 alpha">
+                    <cite>Jamin Samuel</cite><span class="fn"> | <a href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/comment-page-1/#comment-12681"> Hace 2 años</a> | <img src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/chrome.png" title="Google Chrome 17.0.963.79" style="border:0px;vertical-align:middle;" alt="Google Chrome 17.0.963.79"><img src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/linux.png" title="GNU/Linux x64" style="border:0px;vertical-align:middle;" alt="GNU/Linux x64"></span>
+					<div class="comment-body"><p>Santo dios :O ahora es lo que me falta aprender :D graaaaaacias por este aporte ;)</p>
+</div>
+					<div class="reply">
+						<a class="comment-reply-link" href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/?replytocom=12681#respond" onclick="return addComment.moveForm(&quot;comment-12681&quot;, &quot;12681&quot;, &quot;respond&quot;, &quot;7886&quot;)">Responder</a>					</div>
+				</div>
+			</div>
+		</div>
+	</li>
+<!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-12685">
+		<div class="comment-body row-fluid">
+			<div class="span12">
+				<div class="comment-author vcard span1">
+					<img alt="" src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/56a477046038a2f60fe19110b801dbb0" class="avatar avatar-45 photo grav-hashed grav-hijack" height="45" width="45" id="grav-56a477046038a2f60fe19110b801dbb0-0">					<span class="label lector">lector</span>
+				</div>
+				<div id="comment-12685" class="comment-meta commentmetadata span11 alpha">
+                    <cite>kik1n</cite><span class="fn"> | <a href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/comment-page-1/#comment-12685"> Hace 2 años</a> | <img src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/chrome.png" title="Google Chrome 17.0.963.79" style="border:0px;vertical-align:middle;" alt="Google Chrome 17.0.963.79"><img src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/linux.png" title="GNU/Linux" style="border:0px;vertical-align:middle;" alt="GNU/Linux"></span>
+					<div class="comment-body"><p>Gracias por el aporte :D</p>
+</div>
+					<div class="reply">
+						<a class="comment-reply-link" href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/?replytocom=12685#respond" onclick="return addComment.moveForm(&quot;comment-12685&quot;, &quot;12685&quot;, &quot;respond&quot;, &quot;7886&quot;)">Responder</a>					</div>
+				</div>
+			</div>
+		</div>
+	</li>
+<!-- #comment-## -->
+	<li class="comment even thread-even depth-1" id="li-comment-12686">
+		<div class="comment-body row-fluid">
+			<div class="span12">
+				<div class="comment-author vcard span1">
+					<img alt="" src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/3b80641cf2207e0a980cff7d2ab8e360" class="avatar avatar-45 photo grav-hashed grav-hijack" height="45" width="45" id="grav-3b80641cf2207e0a980cff7d2ab8e360-0">					<span class="label lector">lector</span>
+				</div>
+				<div id="comment-12686" class="comment-meta commentmetadata span11 alpha">
+                    <cite>eldelantero</cite><span class="fn"> | <a href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/comment-page-1/#comment-12686"> Hace 2 años</a> | <img src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/firefox.png" title="Firefox 10.0.2" style="border:0px;vertical-align:middle;" alt="Firefox 10.0.2"><img src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/ubuntu-1.png" title="Ubuntu" style="border:0px;vertical-align:middle;" alt="Ubuntu"></span>
+					<div class="comment-body"><p>Excelente!!</p>
+</div>
+					<div class="reply">
+						<a class="comment-reply-link" href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/?replytocom=12686#respond" onclick="return addComment.moveForm(&quot;comment-12686&quot;, &quot;12686&quot;, &quot;respond&quot;, &quot;7886&quot;)">Responder</a>					</div>
+				</div>
+			</div>
+		</div>
+	</li>
+<!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-12691">
+		<div class="comment-body row-fluid">
+			<div class="span12">
+				<div class="comment-author vcard span1">
+					<img alt="" src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/7c6147ff31d7e8a5cf3ad9b62701db01" class="avatar avatar-45 photo grav-hashed grav-hijack" height="45" width="45" id="grav-7c6147ff31d7e8a5cf3ad9b62701db01-0">					<span class="label lector">lector</span>
+				</div>
+				<div id="comment-12691" class="comment-meta commentmetadata span11 alpha">
+                    <cite>pandev92</cite><span class="fn"> | <a href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/comment-page-1/#comment-12691"> Hace 2 años</a> | <img src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/stainless.png" title="Stainless 0.8" style="border:0px;vertical-align:middle;" alt="Stainless 0.8"><img src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/mac-3.png" title="Mac OS X 10.6.8" style="border:0px;vertical-align:middle;" alt="Mac OS X 10.6.8"></span>
+					<div class="comment-body"><p>Ahora mismo los guardo en mi grandísima memoria XD</p>
+</div>
+					<div class="reply">
+						<a class="comment-reply-link" href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/?replytocom=12691#respond" onclick="return addComment.moveForm(&quot;comment-12691&quot;, &quot;12691&quot;, &quot;respond&quot;, &quot;7886&quot;)">Responder</a>					</div>
+				</div>
+			</div>
+		</div>
+	</li>
+<!-- #comment-## -->
+	<li class="comment byuser comment-author-mauricio even thread-even depth-1" id="li-comment-12695">
+		<div class="comment-body row-fluid">
+			<div class="span12">
+				<div class="comment-author vcard span1">
+					<img alt="mauricio" src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/mauricio_avatar-45x45.jpg" class="avatar avatar-45 photo" height="45" width="45">					<span class="label usuario">usuario</span>
+				</div>
+				<div id="comment-12695" class="comment-meta commentmetadata span11 alpha">
+                    <cite><a href="http://ruinasdelamemoria.blogspot.com/" rel="external nofollow" class="url">mauricio</a></cite><span class="fn"> | <a href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/comment-page-1/#comment-12695"> Hace 2 años</a> | <img src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/firefox.png" title="Firefox 9.0.1" style="border:0px;vertical-align:middle;" alt="Firefox 9.0.1"><img src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/archlinux.png" title="Arch Linux" style="border:0px;vertical-align:middle;" alt="Arch Linux"></span>
+					<div class="comment-body"><p>Enorme post!! directo a favoritos.</p>
+</div>
+					<div class="reply">
+						<a class="comment-reply-link" href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/?replytocom=12695#respond" onclick="return addComment.moveForm(&quot;comment-12695&quot;, &quot;12695&quot;, &quot;respond&quot;, &quot;7886&quot;)">Responder</a>					</div>
+				</div>
+			</div>
+		</div>
+	</li>
+<!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-12704">
+		<div class="comment-body row-fluid">
+			<div class="span12">
+				<div class="comment-author vcard span1">
+					<img alt="" src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/fbf692a709939f9f2f5b7e6699b5da2e" class="avatar avatar-45 photo grav-hashed grav-hijack" height="45" width="45" id="grav-fbf692a709939f9f2f5b7e6699b5da2e-0">					<span class="label lector">lector</span>
+				</div>
+				<div id="comment-12704" class="comment-meta commentmetadata span11 alpha">
+                    <cite>ren434</cite><span class="fn"> | <a href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/comment-page-1/#comment-12704"> Hace 2 años</a> | <img src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/firefox.png" title="Firefox 10" style="border:0px;vertical-align:middle;" alt="Firefox 10"><img src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/chakra.png" title="Chakra Linux" style="border:0px;vertical-align:middle;" alt="Chakra Linux"></span>
+					<div class="comment-body"><p>Gracias por el aporte, se lo mandare a un amigo que esta deseoso aprender. Y también lo guardare para mi por supuesto.</p>
+</div>
+					<div class="reply">
+						<a class="comment-reply-link" href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/?replytocom=12704#respond" onclick="return addComment.moveForm(&quot;comment-12704&quot;, &quot;12704&quot;, &quot;respond&quot;, &quot;7886&quot;)">Responder</a>					</div>
+				</div>
+			</div>
+		</div>
+	</li>
+<!-- #comment-## -->
+	<li class="comment even thread-even depth-1" id="li-comment-12707">
+		<div class="comment-body row-fluid">
+			<div class="span12">
+				<div class="comment-author vcard span1">
+					<img alt="" src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/f4a1ad030f1a0fd3c02ebd740fafe425" class="avatar avatar-45 photo grav-hashed grav-hijack" height="45" width="45" id="grav-f4a1ad030f1a0fd3c02ebd740fafe425-0">					<span class="label lector">lector</span>
+				</div>
+				<div id="comment-12707" class="comment-meta commentmetadata span11 alpha">
+                    <cite>vicky</cite><span class="fn"> | <a href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/comment-page-1/#comment-12707"> Hace 2 años</a> | <img src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/chrome.png" title="Google Chrome 17.0.963.79" style="border:0px;vertical-align:middle;" alt="Google Chrome 17.0.963.79"><img src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/linux.png" title="GNU/Linux" style="border:0px;vertical-align:middle;" alt="GNU/Linux"></span>
+					<div class="comment-body"><p>Wow, directo a favoritos , muchas gracias.</p>
+<p>Uno de mis programas favoritos de consola es ncdu muestra el espacio ocupado por cada carpeta, muy bueno cuando se quiere limpiar un poco el disco duro.  También me gusta mucho ranger, un gestor de archivos muy fácil de usar.</p>
+</div>
+					<div class="reply">
+						<a class="comment-reply-link" href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/?replytocom=12707#respond" onclick="return addComment.moveForm(&quot;comment-12707&quot;, &quot;12707&quot;, &quot;respond&quot;, &quot;7886&quot;)">Responder</a>					</div>
+				</div>
+			</div>
+		</div>
+	</li>
+<!-- #comment-## -->
+<!-- #comment-## -->
+	<li class="comment byuser comment-author-hugo odd alt thread-odd thread-alt depth-1" id="li-comment-12709">
+		<div class="comment-body row-fluid">
+			<div class="span12">
+				<div class="comment-author vcard span1">
+					<img alt="" src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/166a53e8a840856e67642488036be55d" class="avatar avatar-45 photo grav-hashed grav-hijack" height="45" width="45" id="grav-166a53e8a840856e67642488036be55d-0">					<span class="label usuario">usuario</span>
+				</div>
+				<div id="comment-12709" class="comment-meta commentmetadata span11 alpha">
+                    <cite>Hugo</cite><span class="fn"> | <a href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/comment-page-1/#comment-12709"> Hace 2 años</a> | <img src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/firefox.png" title="Firefox 10.0.2" style="border:0px;vertical-align:middle;" alt="Firefox 10.0.2"><img src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/win-2.png" title="Windows XP" style="border:0px;vertical-align:middle;" alt="Windows XP"></span>
+					<div class="comment-body"><p>Elav, he notado que las listas numeradas reinician después del 9, pero esto no ocurre en la Wiki. Es intencional, o tuviste alguna dificultad al transportar la información?</p>
+<p>A propósito, agregué algunos comandos más al listado y estructuré un poco el formato del artículo en la Wiki.</p>
+</div>
+					<div class="reply">
+						<a class="comment-reply-link" href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/?replytocom=12709#respond" onclick="return addComment.moveForm(&quot;comment-12709&quot;, &quot;12709&quot;, &quot;respond&quot;, &quot;7886&quot;)">Responder</a>					</div>
+				</div>
+			</div>
+		</div>
+	</li>
+<ul class="children">
+	<li class="comment byuser comment-author-elav bypostauthor even depth-2" id="li-comment-12715">
+		<div class="comment-body row-fluid">
+			<div class="span12">
+				<div class="comment-author vcard span1">
+					<img alt="" src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/6ca2cbf2108bfeaee9596ff1e28fb329" class="avatar avatar-45 photo grav-hashed grav-hijack" height="45" width="45" id="grav-6ca2cbf2108bfeaee9596ff1e28fb329-0">					<span class="label autor">autor</span>
+				</div>
+				<div id="comment-12715" class="comment-meta commentmetadata span11 alpha">
+                    <cite><a href="http://www.desdelinux.net/" rel="external nofollow" class="url">elav &lt;° Linux</a></cite><span class="fn"> | <a href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/comment-page-1/#comment-12715"> Hace 2 años</a> | <img src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/firefox.png" title="Firefox 11" style="border:0px;vertical-align:middle;" alt="Firefox 11"><img src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/debian.png" title="Debian GNU/Linux" style="border:0px;vertical-align:middle;" alt="Debian GNU/Linux"></span>
+					<div class="comment-body"><p>Upsss. Ni me había percatado de eso. Déjame revisar el código HTML del post para ver que onda con esto. No puedo creer que WordPress solo acepte 9 items en las listas…</p>
+</div>
+					<div class="reply">
+						<a class="comment-reply-link" href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/?replytocom=12715#respond" onclick="return addComment.moveForm(&quot;comment-12715&quot;, &quot;12715&quot;, &quot;respond&quot;, &quot;7886&quot;)">Responder</a>					</div>
+				</div>
+			</div>
+		</div>
+	</li>
+<!-- #comment-## -->
+	<li class="comment byuser comment-author-elav bypostauthor odd alt depth-2" id="li-comment-12721">
+		<div class="comment-body row-fluid">
+			<div class="span12">
+				<div class="comment-author vcard span1">
+					<img alt="" src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/6ca2cbf2108bfeaee9596ff1e28fb329" class="avatar avatar-45 photo grav-hashed grav-hijack" height="45" width="45" id="grav-6ca2cbf2108bfeaee9596ff1e28fb329-1">					<span class="label autor">autor</span>
+				</div>
+				<div id="comment-12721" class="comment-meta commentmetadata span11 alpha">
+                    <cite><a href="http://www.desdelinux.net/" rel="external nofollow" class="url">elav &lt;° Linux</a></cite><span class="fn"> | <a href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/comment-page-1/#comment-12721"> Hace 2 años</a> | <img src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/firefox.png" title="Firefox 11" style="border:0px;vertical-align:middle;" alt="Firefox 11"><img src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/debian.png" title="Debian GNU/Linux" style="border:0px;vertical-align:middle;" alt="Debian GNU/Linux"></span>
+					<div class="comment-body"><p>Esto me tiene fundido. Con razón no me había percatado, pues en el editor de WordPress, salen bien las numeraciones. O_O</p>
+</div>
+					<div class="reply">
+						<a class="comment-reply-link" href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/?replytocom=12721#respond" onclick="return addComment.moveForm(&quot;comment-12721&quot;, &quot;12721&quot;, &quot;respond&quot;, &quot;7886&quot;)">Responder</a>					</div>
+				</div>
+			</div>
+		</div>
+	</li>
+<ul class="children">
+	<li class="comment byuser comment-author-hugo even depth-3" id="li-comment-12826">
+		<div class="comment-body row-fluid">
+			<div class="span12">
+				<div class="comment-author vcard span1">
+					<img alt="" src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/166a53e8a840856e67642488036be55d" class="avatar avatar-45 photo grav-hashed grav-hijack" height="45" width="45" id="grav-166a53e8a840856e67642488036be55d-1">					<span class="label usuario">usuario</span>
+				</div>
+				<div id="comment-12826" class="comment-meta commentmetadata span11 alpha">
+                    <cite>Hugo</cite><span class="fn"> | <a href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/comment-page-1/#comment-12826"> Hace 2 años</a> | <img src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/firefox.png" title="Firefox 10.0.2" style="border:0px;vertical-align:middle;" alt="Firefox 10.0.2"><img src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/linux.png" title="GNU/Linux" style="border:0px;vertical-align:middle;" alt="GNU/Linux"></span>
+					<div class="comment-body"><p>Hmm… en ese caso el problema aparentemente es de estilos. Deja ver…</p>
+<p>OK, en el archivo “themes/arras/css/base.css” busca esta línea:<br>
+<code><br>
+.entry-content ul, .entry-content ol { margin: 0 20px; padding: 0 0 1.5em; }<br>
+</code></p>
+<p>Y modifícala para que quede así:<br>
+<code><br>
+.entry-content ul, .entry-content ol { margin: 0 20px; padding: 0 0 1.5em 0.5em; }<br>
+</code></p>
+<p>Eso debería resolver el problema (al menos para listados de dos dígitos), pero evidentemente no te puedo dar garantías de éxito.</p>
+</div>
+					<div class="reply">
+						<a class="comment-reply-link" href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/?replytocom=12826#respond" onclick="return addComment.moveForm(&quot;comment-12826&quot;, &quot;12826&quot;, &quot;respond&quot;, &quot;7886&quot;)">Responder</a>					</div>
+				</div>
+			</div>
+		</div>
+	</li>
+<ul class="children">
+	<li class="comment byuser comment-author-elav bypostauthor odd alt depth-4" id="li-comment-12842">
+		<div class="comment-body row-fluid">
+			<div class="span12">
+				<div class="comment-author vcard span1">
+					<img alt="" src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/6ca2cbf2108bfeaee9596ff1e28fb329" class="avatar avatar-45 photo grav-hashed grav-hijack" height="45" width="45" id="grav-6ca2cbf2108bfeaee9596ff1e28fb329-2">					<span class="label autor">autor</span>
+				</div>
+				<div id="comment-12842" class="comment-meta commentmetadata span11 alpha">
+                    <cite><a href="http://www.desdelinux.net/" rel="external nofollow" class="url">elav &lt;° Linux</a></cite><span class="fn"> | <a href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/comment-page-1/#comment-12842"> Hace 2 años</a> | <img src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/firefox.png" title="Firefox 11" style="border:0px;vertical-align:middle;" alt="Firefox 11"><img src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/debian.png" title="Debian GNU/Linux" style="border:0px;vertical-align:middle;" alt="Debian GNU/Linux"></span>
+					<div class="comment-body"><p>Gracias colega. Mañana pruebo eso :D</p>
+</div>
+					<div class="reply">
+						<a class="comment-reply-link" href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/?replytocom=12842#respond" onclick="return addComment.moveForm(&quot;comment-12842&quot;, &quot;12842&quot;, &quot;respond&quot;, &quot;7886&quot;)">Responder</a>					</div>
+				</div>
+			</div>
+		</div>
+	</li>
+<ul class="children">
+	<li class="comment byuser comment-author-hugo even depth-5" id="li-comment-12851">
+		<div class="comment-body row-fluid">
+			<div class="span12">
+				<div class="comment-author vcard span1">
+					<img alt="" src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/166a53e8a840856e67642488036be55d" class="avatar avatar-45 photo grav-hashed grav-hijack" height="45" width="45" id="grav-166a53e8a840856e67642488036be55d-2">					<span class="label usuario">usuario</span>
+				</div>
+				<div id="comment-12851" class="comment-meta commentmetadata span11 alpha">
+                    <cite>Hugo</cite><span class="fn"> | <a href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/comment-page-1/#comment-12851"> Hace 2 años</a> | <img src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/firefox.png" title="Firefox 11.0" style="border:0px;vertical-align:middle;" alt="Firefox 11.0"><img src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/linux.png" title="GNU/Linux" style="border:0px;vertical-align:middle;" alt="GNU/Linux"></span>
+					<div class="comment-body"><p>No hay de que, ojalá funcione.</p>
+<p>Mañana estare en la Univ hasta cerca de mediodía, pero si tienes algún problema escríbeme a gmx.</p>
+</div>
+					<div class="reply">
+											</div>
+				</div>
+			</div>
+		</div>
+	</li>
+<!-- #comment-## -->
+	<li class="comment byuser comment-author-hugo odd alt depth-5" id="li-comment-13016">
+		<div class="comment-body row-fluid">
+			<div class="span12">
+				<div class="comment-author vcard span1">
+					<img alt="" src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/166a53e8a840856e67642488036be55d" class="avatar avatar-45 photo grav-hashed grav-hijack" height="45" width="45" id="grav-166a53e8a840856e67642488036be55d-3">					<span class="label usuario">usuario</span>
+				</div>
+				<div id="comment-13016" class="comment-meta commentmetadata span11 alpha">
+                    <cite>Hugo</cite><span class="fn"> | <a href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/comment-page-1/#comment-13016"> Hace 2 años</a> | <img src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/firefox.png" title="Firefox 11.0" style="border:0px;vertical-align:middle;" alt="Firefox 11.0"><img src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/win-2.png" title="Windows XP" style="border:0px;vertical-align:middle;" alt="Windows XP"></span>
+					<div class="comment-body"><p>Bueno, por fin pudiste hacer la prueba?</p>
+</div>
+					<div class="reply">
+											</div>
+				</div>
+			</div>
+		</div>
+	</li>
+<!-- #comment-## -->
+	<li class="comment byuser comment-author-elav bypostauthor even depth-5" id="li-comment-13018">
+		<div class="comment-body row-fluid">
+			<div class="span12">
+				<div class="comment-author vcard span1">
+					<img alt="" src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/6ca2cbf2108bfeaee9596ff1e28fb329" class="avatar avatar-45 photo grav-hashed grav-hijack" height="45" width="45" id="grav-6ca2cbf2108bfeaee9596ff1e28fb329-3">					<span class="label autor">autor</span>
+				</div>
+				<div id="comment-13018" class="comment-meta commentmetadata span11 alpha">
+                    <cite><a href="http://www.desdelinux.net/" rel="external nofollow" class="url">elav &lt;° Linux</a></cite><span class="fn"> | <a href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/comment-page-1/#comment-13018"> Hace 2 años</a> | <img src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/firefox.png" title="Firefox 11" style="border:0px;vertical-align:middle;" alt="Firefox 11"><img src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/debian.png" title="Debian GNU/Linux" style="border:0px;vertical-align:middle;" alt="Debian GNU/Linux"></span>
+					<div class="comment-body"><p>Realmente no. Ahora mismo lo voy a hacer con el Arras que tengo local :D</p>
+</div>
+					<div class="reply">
+											</div>
+				</div>
+			</div>
+		</div>
+	</li>
+<!-- #comment-## -->
+	<li class="comment byuser comment-author-elav bypostauthor odd alt depth-5" id="li-comment-13019">
+		<div class="comment-body row-fluid">
+			<div class="span12">
+				<div class="comment-author vcard span1">
+					<img alt="" src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/6ca2cbf2108bfeaee9596ff1e28fb329" class="avatar avatar-45 photo grav-hashed grav-hijack" height="45" width="45" id="grav-6ca2cbf2108bfeaee9596ff1e28fb329-4">					<span class="label autor">autor</span>
+				</div>
+				<div id="comment-13019" class="comment-meta commentmetadata span11 alpha">
+                    <cite><a href="http://www.desdelinux.net/" rel="external nofollow" class="url">elav &lt;° Linux</a></cite><span class="fn"> | <a href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/comment-page-1/#comment-13019"> Hace 2 años</a> | <img src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/firefox.png" title="Firefox 11" style="border:0px;vertical-align:middle;" alt="Firefox 11"><img src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/debian.png" title="Debian GNU/Linux" style="border:0px;vertical-align:middle;" alt="Debian GNU/Linux"></span>
+					<div class="comment-body"><p>Acabo de probar y no funciona :(</p>
+</div>
+					<div class="reply">
+											</div>
+				</div>
+			</div>
+		</div>
+	</li>
+<!-- #comment-## -->
+</ul><!-- .children -->
+<!-- #comment-## -->
+</ul><!-- .children -->
+<!-- #comment-## -->
+</ul><!-- .children -->
+<!-- #comment-## -->
+</ul><!-- .children -->
+<!-- #comment-## -->
+<!-- #comment-## -->
+	<li class="comment even thread-even depth-1" id="li-comment-12714">
+		<div class="comment-body row-fluid">
+			<div class="span12">
+				<div class="comment-author vcard span1">
+					<img alt="" src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/e6ddfb7bb7f46e51a3712a6ada8279f9" class="avatar avatar-45 photo grav-hashed grav-hijack" height="45" width="45" id="grav-e6ddfb7bb7f46e51a3712a6ada8279f9-0">					<span class="label lector">lector</span>
+				</div>
+				<div id="comment-12714" class="comment-meta commentmetadata span11 alpha">
+                    <cite>Kannabix</cite><span class="fn"> | <a href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/comment-page-1/#comment-12714"> Hace 2 años</a> | <img src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/opera-2.png" title="Opera 11.61" style="border:0px;vertical-align:middle;" alt="Opera 11.61"><img src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/win-4.png" title="Windows 7" style="border:0px;vertical-align:middle;" alt="Windows 7"></span>
+					<div class="comment-body"><p>Deberían ver mi piedra rosetta preferida, no puedo vivir sin ella:</p>
+<p><a href="http://cb.vu/unixtoolbox.xhtml" rel="nofollow">http://cb.vu/unixtoolbox.xhtml</a></p>
+</div>
+					<div class="reply">
+						<a class="comment-reply-link" href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/?replytocom=12714#respond" onclick="return addComment.moveForm(&quot;comment-12714&quot;, &quot;12714&quot;, &quot;respond&quot;, &quot;7886&quot;)">Responder</a>					</div>
+				</div>
+			</div>
+		</div>
+	</li>
+<!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-12729">
+		<div class="comment-body row-fluid">
+			<div class="span12">
+				<div class="comment-author vcard span1">
+					<img alt="" src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/5df96e041773f6ae27b6e9982200e09c" class="avatar avatar-45 photo grav-hashed grav-hijack" height="45" width="45" id="grav-5df96e041773f6ae27b6e9982200e09c-0">					<span class="label lector">lector</span>
+				</div>
+				<div id="comment-12729" class="comment-meta commentmetadata span11 alpha">
+                    <cite>rodolfo alejandro</cite><span class="fn"> | <a href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/comment-page-1/#comment-12729"> Hace 2 años</a> | <img src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/firefox.png" title="Firefox 11.0" style="border:0px;vertical-align:middle;" alt="Firefox 11.0"><img src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/linux.png" title="GNU/Linux x64" style="border:0px;vertical-align:middle;" alt="GNU/Linux x64"></span>
+					<div class="comment-body"><p>no estaria mal un archivo al final con todos los comandos para descargar, muy buen post. Eso agiliza todo :)</p>
+</div>
+					<div class="reply">
+						<a class="comment-reply-link" href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/?replytocom=12729#respond" onclick="return addComment.moveForm(&quot;comment-12729&quot;, &quot;12729&quot;, &quot;respond&quot;, &quot;7886&quot;)">Responder</a>					</div>
+				</div>
+			</div>
+		</div>
+	</li>
+<!-- #comment-## -->
+	<li class="comment even thread-even depth-1" id="li-comment-12733">
+		<div class="comment-body row-fluid">
+			<div class="span12">
+				<div class="comment-author vcard span1">
+					<img alt="" src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/4145d1177290e8af7875a3a179edd7c6" class="avatar avatar-45 photo grav-hashed grav-hijack" height="45" width="45" id="grav-4145d1177290e8af7875a3a179edd7c6-0">					<span class="label lector">lector</span>
+				</div>
+				<div id="comment-12733" class="comment-meta commentmetadata span11 alpha">
+                    <cite>Samano</cite><span class="fn"> | <a href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/comment-page-1/#comment-12733"> Hace 2 años</a> | <img src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/chrome.png" title="Google Chrome 17.0.963.79" style="border:0px;vertical-align:middle;" alt="Google Chrome 17.0.963.79"><img src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/linux.png" title="GNU/Linux x64" style="border:0px;vertical-align:middle;" alt="GNU/Linux x64"></span>
+					<div class="comment-body"><p>Gracias elav buen aporte</p>
+</div>
+					<div class="reply">
+						<a class="comment-reply-link" href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/?replytocom=12733#respond" onclick="return addComment.moveForm(&quot;comment-12733&quot;, &quot;12733&quot;, &quot;respond&quot;, &quot;7886&quot;)">Responder</a>					</div>
+				</div>
+			</div>
+		</div>
+	</li>
+<!-- #comment-## -->
+			</ol>
+
+<!--Mostrar comentarios anteriores y siguientes
+################################################################################ -->
+
+			<div class="navigation">
+				<div class="nav-previous"></div>
+				<div class="nav-next"><a href="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/comment-page-2/#comments">Comentarios recientes <span class="meta-nav">→</span></a></div>
+			</div> <!-- .navigation -->
+
+<!-- Fin Mostrar comentarios anteriores y siguientes
+################################################################################ --> 
+	</div> 
+</div> <!-- Aquí termina la sección de los artículos -->   
+<div class="span4"> <div class="row-fluid"> <section id="sidebar"> <div class="widget"> <h2>Redes Sociales</h2> <div class="widget_social"> <div> <div> <div class="rss-img"></div> <div class="soc-mbt-text"> <div class="follower-rss"> <span id="rss_count">Un montón de lectores</span> </div> Vía <a href="http://feeds.feedburner.com/usemoslinux" rel="nofollow" title="Leenos todos los días a través de RSS">RSS</a> o <a href="http://feedburner.google.com/fb/a/mailverify?uri=UsemosLinux" rel="nofollow" target="_blank" title="Leenos todos los días en tu mail">E-mail</a> </div> </div> <div> <div class="twitter-img"></div> <div class="soc-mbt-text"> <div class="follower-twitter">13.120 seguidores</div> <a href="https://twitter.com/usemoslinux" rel="nofollow" target="_blank" title="Seguí nuestros posts a través de Twitter">Síguenos en Twitter</a> </div> </div>	<div> <div class="facebook-img"></div> <div class="soc-mbt-text"> <div class="follower-facebook">10.789 seguidores</div> <a href="https://www.facebook.com/pages/Usemos-Linux/347354768534?ref=hl" rel="nofollow" title="Síguenos en Facebook y participa">Síguenos en Facebook</a> </div> </div> <div class="googleplus-img"></div> <div class="soc-mbt-text"> <div class="follower-googleplus">23.506 seguidores</div> <a href="https://plus.google.com/118183294036119965234/posts" rel="nofollow" title="Síguenos en Google+ y participa">Síguenos en Google+</a> </div> </div> </div>	</div> <div class="widget">  <h2>Acceso</h2> <form action="http://blog.desdelinux.net/wp-login.php" method="post"> <div class="control-group"> <label class="control-label hidden" for="log">Usuario</label> <div class="controls"> <input type="text" name="log" class="span12" placeholder="Usuario..." value=""> </div> </div> <div class="control-group"> <label class="control-label hidden" for="pwd">Contraseña</label> <div class="controls"> <input type="password" name="pwd" placeholder="Contraseña..." class="span12"> </div> </div> <div class="form-access form-inline"> <label for="rememberme" class="checkbox">Recordarme <input type="checkbox" name="rememberme" id="rememberme" value="forever"> </label> <button type="submit" class="btn btn-info">Acceder</button> </div> <div class="options"> <input type="hidden" name="redirect_to" value="/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/"> <a href="http://blog.desdelinux.net/wp-login.php?action=register">Registrarse</a> | <a href="http://blog.desdelinux.net/wp-login.php?action=lostpassword" title="Recupera tu contraseña perdida">¿Has perdido tu contraseña?</a> </div> </form>  </div> <!--Start dynamic_sidebar --> <ul class="widgets"> <li id="blog_subscription-3" class="widget jetpack_subscription_widget"><h2 class="widgettitle"><label for="subscribe-field">Síguenos por email</label></h2>
+
+		<form action="" method="post" accept-charset="utf-8" id="subscribe-blog-blog_subscription-3">
+			<p id="subscribe-text">Escriba su dirección de correo para recibir nuestros artículos por correo.</p><p>Únete a otros 566 suscriptores </p>
+
+			<p id="subscribe-email"><input type="text" name="email" value="Dirección de email" id="subscribe-field" onclick="if ( this.value == &#39;Dirección de email&#39; ) { this.value = &#39;&#39;; }" onblur="if ( this.value == &#39;&#39; ) { this.value = &#39;Dirección de email&#39;; }"></p>
+
+			<p id="subscribe-submit">
+				<input type="hidden" name="action" value="subscribe">
+				<input type="hidden" name="source" value="http://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/">
+				<input type="hidden" name="sub-type" value="widget">
+				<input type="hidden" name="redirect_fragment" value="blog_subscription-3">
+								<input type="submit" value="Subscribir" name="jetpack_subscriptions_widget">
+			</p>
+		</form>
+
+		
+</li>
+<li id="categories-4" class="widget widget_categories"><h2 class="widgettitle">Categorías</h2>
+		<ul>
+	<li class="cat-item cat-item-41"><a href="http://blog.desdelinux.net/apariencia-personalizacion/" title="Todo lo relacionado con la apariencia y la personalización del SO o el Desktop">Apariencia/Personalización</a> (516)
+</li>
+	<li class="cat-item cat-item-34"><a href="http://blog.desdelinux.net/aplicaciones/" title="Ver todas las entradas archivadas en Aplicaciones">Aplicaciones</a> (600)
+</li>
+	<li class="cat-item cat-item-3068"><a href="http://blog.desdelinux.net/archivousemoslinux/" title="Ver todas las entradas archivadas en ArchivoUsemosLinux">ArchivoUsemosLinux</a> (1791)
+</li>
+	<li class="cat-item cat-item-462"><a href="http://blog.desdelinux.net/info-desdelinux/" title="Ver todas las entradas archivadas en DesdeLinux">DesdeLinux</a> (45)
+</li>
+	<li class="cat-item cat-item-403"><a href="http://blog.desdelinux.net/diseno/" title="Ver todas las entradas archivadas en Diseño">Diseño</a> (80)
+</li>
+	<li class="cat-item cat-item-3"><a href="http://blog.desdelinux.net/distros/" title="En esta categoría, irán todas las distribuciones, cualquiera que sea. Las distros se define en los Tags">Distribuciones</a> (370)
+</li>
+	<li class="cat-item cat-item-1"><a href="http://blog.desdelinux.net/linux/" title="Ver todas las entradas archivadas en GNU/Linux">GNU/Linux</a> (1528)
+</li>
+	<li class="cat-item cat-item-288"><a href="http://blog.desdelinux.net/juegos/" title="Ver todas las entradas archivadas en Juegos">Juegos</a> (85)
+</li>
+	<li class="cat-item cat-item-65"><a href="http://blog.desdelinux.net/noticias/" title="Ver todas las entradas archivadas en Noticias">Noticias</a> (521)
+</li>
+	<li class="cat-item cat-item-245"><a href="http://blog.desdelinux.net/otras/" title="Ver todas las entradas archivadas en Otras">Otras</a> (355)
+</li>
+	<li class="cat-item cat-item-25"><a href="http://blog.desdelinux.net/programacion/" title="Ver todas las entradas archivadas en Programación">Programación</a> (89)
+</li>
+	<li class="cat-item cat-item-16"><a href="http://blog.desdelinux.net/recomendados/" title="Ver todas las entradas archivadas en Recomendados">Recomendados</a> (372)
+</li>
+	<li class="cat-item cat-item-365"><a href="http://blog.desdelinux.net/redes-servidores/" title="Ver todas las entradas archivadas en Redes/Servidores">Redes/Servidores</a> (154)
+</li>
+	<li class="cat-item cat-item-149"><a href="http://blog.desdelinux.net/tutoriales/" title="Ver todas las entradas archivadas en Tutoriales/Manuales/Tips">Tutoriales/Manuales/Tips</a> (760)
+</li>
+		</ul>
+</li>
+<li id="recent-comments-4" class="widget widget_recent_comments"><h2 class="widgettitle">Comentarios recientes</h2>
+<ul id="recentcomments"><li class="recentcomments">O_Pixote_O en <a href="http://blog.desdelinux.net/usando-telegram-desde-la-terminal/comment-page-1/#comment-110228">Usando Telegram desde la terminal</a></li><li class="recentcomments">Staff en <a href="http://blog.desdelinux.net/llvmclang-u-mad-gcc/comment-page-1/#comment-110227">LLVM/Clang. U Mad GCC?</a></li><li class="recentcomments">Staff en <a href="http://blog.desdelinux.net/llvmclang-u-mad-gcc/comment-page-1/#comment-110226">LLVM/Clang. U Mad GCC?</a></li><li class="recentcomments">Staff en <a href="http://blog.desdelinux.net/llvmclang-u-mad-gcc/comment-page-1/#comment-110225">LLVM/Clang. U Mad GCC?</a></li><li class="recentcomments">O_Pixote_O en <a href="http://blog.desdelinux.net/usando-telegram-desde-la-terminal/comment-page-1/#comment-110224">Usando Telegram desde la terminal</a></li></ul></li>
+<li id="linkcat-2" class="widget widget_links"><h2 class="widgettitle">Enlaces</h2>
+
+	<ul class="xoxo blogroll">
+<li><a href="http://artescritorio.com/" rel="friend" title="Sitio dedicado a la personalización de tu sistema">Artescritorio</a></li>
+<li><a href="http://hramos.comoj.com/blog/" title="El blog de [|HuGO|]">El blog de [|HuGO|]</a></li>
+<li><a href="http://gespadas.com/" target="_blank">G.Espadas</a></li>
+
+	</ul>
+</li>
+
+ </ul> <!--End dynamic_sidebar--> </section> </div> </div> 
+</div> 
+<div class="post-link previous-post-link"><a href="http://blog.desdelinux.net/ksplash-o-bootsplash-simple-para-debian/">»</a></div>
+</div> <!-- Contenido del blog (artículos y sidebar) --> <footer class="container-fluid"> <div class="row-fluid"> <div class="span4 correo"> <h3>Suscríbete por correo</h3> <div> <form action="http://feedburner.google.com/fb/a/mailverify" method="post" class="form-inline" onsubmit="window.open( &amp; quot; http://feedburner.google.com/fb/a/mailverify?uri=UsemosLinux;loc=es_ES&quot;, &quot;popupwindow&quot;, &quot;scrollbars=yes,width=550,height=520&quot;); return true" target="popupwindow"> <input id="s" class="span8" name="email" placeholder="Correo electrónico..." type="text"> <input name="uri" type="hidden" value="UsemosLinux"><input name="loc" type="hidden" value="es_ES"> <input class="btn btn-info" type="submit" value="Enviar"> <input name="uri" type="hidden" value=""> <input name="loc" type="hidden" value="en_US"> </form> </div> <h3>Acerca de nosotros</h3> <p class="pull-left">Este es un nuevo proyecto que surgió de la fusión de DesdeLinux y UsemosLinux. Hoy día somos uno de los blogs más populares de habla hispana sobre Linux y Software Libre. En nuestras páginas vas a encontrar tutoriales, reseñas y artículos de calidad sin anuncios molestos. Si quieres participar o sugerirnos tu idea, <a href="http://blog.desdelinux.net/wp-content/uploads/2013/10/Guia_Redactores.pdf?b68c9b&0edce3">entérate</a> cómo hacerlo.</p> </div> <div class="span4 facebook hidden-phone"> <h3>Síguenos en Facebook</h3> <div> <iframe allowtransparency="true" frameborder="0" scrolling="no" src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/likebox.html" style="border:none; overflow:hidden; width:293px; height:266px;"></iframe> </div> </div> <div class="twitter hidden-phone hidden-tablet span4"> <h3>Comunidad Google+</h3> <!--Google Plus --> <div class="gplus hidden-phone"> <!-- Place this tag where you want the badge to render. --> <div style="text-indent: 0px; margin: 0px; padding: 0px; background-color: transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 300px; height: 106px; background-position: initial initial; background-repeat: initial initial;" id="___plus_0"><iframe frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 300px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 106px;" tabindex="0" vspace="0" width="100%" id="I0_1392181347185" name="I0_1392181347185" src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/badge.html" data-gapiattached="true" title="+Badge"></iframe></div> <!-- Place this tag after the last badge tag. --> <script type="text/javascript"> window.___gcfg = {lang: 'es-419'}; (function() { var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true; po.src = 'https://apis.google.com/js/plusone.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s); })(); </script> <a href="https://plus.google.com/communities/110075815123635300569"><img src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/comunidad-gplus.png" style="padding:0px;margin:0px" title="Unite a nuestra comunidad en Google+" alt="Comunidad de Usemos Linux en Google+"></a> </div> </div> </div>	</footer> <div class="row-fluid"> <div id="subfooter" class="span12"> <ul> <li><img class="facebook" src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/css3.png" alt="CSS3" title="CSS3"></li> <li><img class="facebook" src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/github.png" alt="Github" title="Github"></li> <li><img class="facebook" src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/html5.png" alt="HTML5" title="HTML5"></li> <li><img class="facebook" src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/opensource.png" alt="Open Source" title="Open Source"></li> <li><img class="facebook" src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/twitter.png" alt="Twitter" title="Twitter"></li> </ul> <p></p><p class="gnutransfer">DesdeLinux y <a href="http://www.desdefirefoxos.net/" title="DesdeFirefoxOS">DesdeFirefoxOS</a> se encuentran felizmente hosteados en <a href="http://gnutransfer.com/" title="GNUTransfer">GNUTransfer</a></p></div> </div> <!-- Ficheros JS --> 
+<!--Plugin WP Missed Schedule 2013.1231.2013 Active - Tag 6707293c0218e2d8b7aa38d418ffa608-->
+
+<!-- This site is patched which an important unfixed problem since WordPress 2.5+ to 3.9+ -->
+
+	<div style="display:none">
+	<div class="grofile-hash-map-753a74300f48f4d5b29377a07ca876f0">
+	</div>
+	<div class="grofile-hash-map-81cd937af714f6324d53fb144e135f00">
+	</div>
+	<div class="grofile-hash-map-fdfce4697e69d4798f7385d211c23e85">
+	</div>
+	<div class="grofile-hash-map-b90d7330f97c911a06dc1d415ad7922a">
+	</div>
+	<div class="grofile-hash-map-56a477046038a2f60fe19110b801dbb0">
+	</div>
+	<div class="grofile-hash-map-3b80641cf2207e0a980cff7d2ab8e360">
+	</div>
+	<div class="grofile-hash-map-7c6147ff31d7e8a5cf3ad9b62701db01">
+	</div>
+	<div class="grofile-hash-map-6c6de2b30871512999c4bf8463c865f9">
+	</div>
+	<div class="grofile-hash-map-fbf692a709939f9f2f5b7e6699b5da2e">
+	</div>
+	<div class="grofile-hash-map-f4a1ad030f1a0fd3c02ebd740fafe425">
+	</div>
+	<div class="grofile-hash-map-166a53e8a840856e67642488036be55d">
+	</div>
+	<div class="grofile-hash-map-6ca2cbf2108bfeaee9596ff1e28fb329">
+	</div>
+	<div class="grofile-hash-map-e6ddfb7bb7f46e51a3712a6ada8279f9">
+	</div>
+	<div class="grofile-hash-map-5df96e041773f6ae27b6e9982200e09c">
+	</div>
+	<div class="grofile-hash-map-4145d1177290e8af7875a3a179edd7c6">
+	</div>
+	</div>
+<script type="text/javascript" src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/jquery.js"></script>
+<script type="text/javascript" src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/anti-spam.js"></script>
+<script type="text/javascript" src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/devicepx-jetpack.js"></script>
+<script type="text/javascript" src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/wp-ajaxify-comments.min.js"></script>
+<script type="text/javascript" src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/gprofiles.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/wpgroho.js"></script>
+
+	<script src="http://stats.wordpress.com/e-201407.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	st_go({v:'ext',j:'1:2.8',blog:'24926886',post:'7886',tz:'-5'});
+	var load_cmc = function(){linktracker_init(24926886,7886,2);};
+	if ( typeof addLoadEvent != 'undefined' ) addLoadEvent(load_cmc);
+	else load_cmc();
+	</script> <script src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/bootstrap.min.js"></script> <script src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/plugins.min.js"></script> <script> jQuery(".tooltips").tooltip(); </script> <!-- Google Analytics -->
+
+<!-- Mensaje visitantes primerizos -->
+<script type="text/javascript">
+  function GetCookie(name) {
+    var arg=name+"=";
+    var alen=arg.length;
+    var clen=document.cookie.length;
+    var i=0;
+    while (i<clen) {
+      var j=i+alen;
+      if (document.cookie.substring(i,j)==arg)
+        return "here";
+      i=document.cookie.indexOf(" ",i)+1;
+      if (i==0) break;
+    }
+    return null;
+  }
+  var visit=GetCookie("dl_first_time");
+  if (visit==null){
+     document.getElementById("site-balloon").style.display = "block";
+     var expire=new Date();
+     expire=new Date(expire.getTime()+7776000000);
+     document.cookie="dl_first_time=here; expires="+expire;
+  } else document.getElementById("site-balloon").style.display = "none";
+</script>
+
+<!-- Google Analytics -->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'UA-12963552-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script> </div><iframe name="oauth2relay738616621" id="oauth2relay738616621" src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/postmessageRelay.html" style="width: 1px; height: 1px; position: absolute; top: -100px;"></iframe>  
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+Database Caching 4/39 queries in 0.142 seconds using disk
+Object Caching 1634/1831 objects using disk
+
+ Served from: blog.desdelinux.net @ 2014-02-11 10:50:03 by W3 Total Cache --><div id="topcontrol hidden-phone" style="position: fixed; bottom: 5px; right: 5px; opacity: 1; cursor: pointer;" title="Ir arriba"><img src="./Tips  Más de 400 comandos para GNU Linux que deberías conocer  D_files/up.png" class="hidden-phone"></div></body></html>

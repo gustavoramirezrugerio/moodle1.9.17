@@ -1,0 +1,3 @@
+#!/bin/sh
+ export HISTTIMEFORMAT="%F %T "
+ history > verHistorialConsola.txt

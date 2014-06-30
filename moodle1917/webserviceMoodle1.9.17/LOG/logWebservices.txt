@@ -1,0 +1,918 @@
+::::::::::::::::::::::::ENTRADA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695
+    [iniciarTiempo] => 1403978194.2997
+    [funcion] => modulocategoriasRegistrarCategoria
+    [name] => Año áé:2014-06-28 12:56:34
+    [description] => Descripcion1403978194
+    [parent] => 71
+    [theme] => standardblue
+)
+
+
+::::::::::::::::::::::::SALIDA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695
+    [iniciarTiempo] => 1403978194.2997
+    [funcion] => modulocategoriasRegistrarCategoria
+    [name] => Año áé:2014-06-28 12:56:34
+    [description] => Descripcion1403978194
+    [parent] => 71
+    [theme] => standardblue
+)
+
+
+::::::::::::::::::::::::ENTRADA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695
+    [iniciarTiempo] => 1403978259.187
+    [funcion] => modulocategoriasRegistrarCategoria
+    [name] => Año áé:2014-06-28 12:57:39
+    [description] => Descripcion1403978259
+    [parent] => 71
+    [theme] => standardblue
+)
+
+
+::::::::::::::::::::::::SALIDA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695
+    [iniciarTiempo] => 1403978259.187
+    [funcion] => modulocategoriasRegistrarCategoria
+    [name] => Año áé:2014-06-28 12:57:39
+    [description] => Descripcion1403978259
+    [parent] => 71
+    [theme] => standardblue
+    [ERROR] => no existe categoria: 71
+)
+
+
+::::::::::::::::::::::::ENTRADA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695
+    [iniciarTiempo] => 1403978332.9174
+    [funcion] => modulocategoriasRegistrarCategoria
+    [name] => Año áé:2014-06-28 12:58:52
+    [description] => Descripcion1403978332
+    [parent] => 72
+    [theme] => standardblue
+)
+
+
+::::::::::::::::::::::::SALIDA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695
+    [iniciarTiempo] => 1403978332.9174
+    [funcion] => modulocategoriasRegistrarCategoria
+    [name] => Año áé:2014-06-28 12:58:52
+    [description] => Descripcion1403978332
+    [parent] => 72
+    [theme] => standardblue
+    [tiempoEjecucion] => 0.007288932800293
+    [retroalimentacionParametros] => Los parametros son correctos 
+)
+
+
+::::::::::::::::::::::::ENTRADA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695
+    [iniciarTiempo] => 1403978407.1557
+    [funcion] => modulocategoriasRegistrarCategoria
+    [description] => Descripcion1403978407
+    [parent] => 72
+    [theme] => standardblue
+)
+
+
+::::::::::::::::::::::::SALIDA: ::::::::::::::::::::::::
+
+Array
+(
+    [ERROR] => ERROR: {"CERTIFICADO":"V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695","iniciarTiempo":1403978407.1557,"funcion":"modulocategoriasRegistrarCategoria","description":"Descripcion1403978407","parent":72,"theme":"standardblue"}
+)
+
+
+::::::::::::::::::::::::ENTRADA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695
+    [iniciarTiempo] => 1403978526.4533
+    [funcion] => modulocategoriasRegistrarCategoria
+    [name] => Año áé:2014-06-28 13:02:06
+    [description] => Descripcion1403978526
+    [parent] => 72
+    [theme] => standardblue
+)
+
+
+::::::::::::::::::::::::SALIDA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695
+    [iniciarTiempo] => 1403978526.4533
+    [funcion] => modulocategoriasRegistrarCategoria
+    [name] => Año áé:2014-06-28 13:02:06
+    [description] => Descripcion1403978526
+    [parent] => 72
+    [theme] => standardblue
+    [tiempoEjecucion] => 0.024585962295532
+    [retroalimentacionParametros] => Los parametros son correctos 
+)
+
+
+::::::::::::::::::::::::ENTRADA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695
+    [iniciarTiempo] => 1403978532.3481
+    [funcion] => modulocategoriasRegistrarCategoria
+    [description] => Descripcion1403978532
+    [parent] => 72
+    [theme] => standardblue
+)
+
+
+::::::::::::::::::::::::SALIDA: ::::::::::::::::::::::::
+
+Array
+(
+    [ERROR] => ERROR: {"CERTIFICADO":"V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695","iniciarTiempo":1403978532.3481,"funcion":"modulocategoriasRegistrarCategoria","description":"Descripcion1403978532","parent":72,"theme":"standardblue"}
+)
+
+
+::::::::::::::::::::::::ENTRADA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695
+    [iniciarTiempo] => 1403978552.1957
+    [funcion] => modulocategoriasRegistrarCategoria
+    [description] => Descripcion1403978552
+    [parent] => 72
+    [theme] => standardblue
+)
+
+
+::::::::::::::::::::::::SALIDA: ::::::::::::::::::::::::
+
+Array
+(
+    [ERROR] => ERROR: {"CERTIFICADO":"V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695","iniciarTiempo":1403978552.1957,"funcion":"modulocategoriasRegistrarCategoria","description":"Descripcion1403978552","parent":72,"theme":"standardblue"}
+)
+
+
+::::::::::::::::::::::::ENTRADA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695
+    [iniciarTiempo] => 1403978553.1975
+    [funcion] => modulocategoriasRegistrarCategoria
+    [description] => Descripcion1403978553
+    [parent] => 72
+    [theme] => standardblue
+)
+
+
+::::::::::::::::::::::::SALIDA: ::::::::::::::::::::::::
+
+Array
+(
+    [ERROR] => ERROR: {"CERTIFICADO":"V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695","iniciarTiempo":1403978553.1975,"funcion":"modulocategoriasRegistrarCategoria","description":"Descripcion1403978553","parent":72,"theme":"standardblue"}
+)
+
+
+::::::::::::::::::::::::ENTRADA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695
+    [iniciarTiempo] => 1403978557.6135
+    [funcion] => modulocategoriasRegistrarCategoria
+    [description] => Descripcion1403978557
+    [parent] => 72
+    [theme] => standardblue
+)
+
+
+::::::::::::::::::::::::SALIDA: ::::::::::::::::::::::::
+
+Array
+(
+    [ERROR] => ERROR: {"CERTIFICADO":"V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695","iniciarTiempo":1403978557.6135,"funcion":"modulocategoriasRegistrarCategoria","description":"Descripcion1403978557","parent":72,"theme":"standardblue"}
+)
+
+
+::::::::::::::::::::::::ENTRADA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695
+    [iniciarTiempo] => 1403978603.9925
+    [funcion] => modulocategoriasRegistrarCategoria
+    [description] => Descripcion1403978603
+    [parent] => 72
+    [theme] => standardblue
+)
+
+
+::::::::::::::::::::::::SALIDA: ::::::::::::::::::::::::
+
+Array
+(
+    [ERROR02] => ERROR: {"CERTIFICADO":"V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695","iniciarTiempo":1403978603.9925,"funcion":"modulocategoriasRegistrarCategoria","description":"Descripcion1403978603","parent":72,"theme":"standardblue"}
+)
+
+
+::::::::::::::::::::::::ENTRADA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695
+    [iniciarTiempo] => 1403978630.0661
+    [funcion] => modulocategoriasRegistrarCategoria
+    [description] => Descripcion1403978630
+    [parent] => 72
+    [theme] => standardblue
+)
+
+
+::::::::::::::::::::::::SALIDA: ::::::::::::::::::::::::
+
+Array
+(
+    [ERROR02] => ERROR: {"CERTIFICADO":"V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695","iniciarTiempo":1403978630.0661,"funcion":"modulocategoriasRegistrarCategoria","description":"Descripcion1403978630","parent":72,"theme":"standardblue"}
+)
+
+
+::::::::::::::::::::::::ENTRADA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695
+    [iniciarTiempo] => 1403978630.8865
+    [funcion] => modulocategoriasRegistrarCategoria
+    [description] => Descripcion1403978630
+    [parent] => 72
+    [theme] => standardblue
+)
+
+
+::::::::::::::::::::::::SALIDA: ::::::::::::::::::::::::
+
+Array
+(
+    [ERROR02] => ERROR: {"CERTIFICADO":"V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695","iniciarTiempo":1403978630.8865,"funcion":"modulocategoriasRegistrarCategoria","description":"Descripcion1403978630","parent":72,"theme":"standardblue"}
+)
+
+
+::::::::::::::::::::::::ENTRADA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695
+    [iniciarTiempo] => 1403978682.5372
+    [funcion] => modulocategoriasRegistrarCategoria
+    [description] => Descripcion1403978682
+    [parent] => 72
+    [theme] => standardblue
+)
+
+
+::::::::::::::::::::::::SALIDA: ::::::::::::::::::::::::
+
+Array
+(
+    [ERROR] => ERROR: Falta proporcionar información
+)
+
+
+::::::::::::::::::::::::ENTRADA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695
+    [iniciarTiempo] => 1403978689.8052
+    [funcion] => modulocategoriasRegistrarCategoria
+    [description] => Descripcion1403978689
+    [parent] => 72
+    [theme] => standardblue
+)
+
+
+::::::::::::::::::::::::SALIDA: ::::::::::::::::::::::::
+
+Array
+(
+    [ERROR] => Falta proporcionar información
+)
+
+
+::::::::::::::::::::::::ENTRADA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695
+    [iniciarTiempo] => 1403978713.1083
+    [funcion] => modulocategoriasRegistrarCategoria
+    [name] => Año áé:2014-06-28 13:05:13
+    [description] => Descripcion1403978713
+    [parent] => 72
+    [theme] => standardblue
+)
+
+
+::::::::::::::::::::::::SALIDA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695
+    [iniciarTiempo] => 1403978713.1083
+    [funcion] => modulocategoriasRegistrarCategoria
+    [name] => Año áé:2014-06-28 13:05:13
+    [description] => Descripcion1403978713
+    [parent] => 72
+    [theme] => standardblue
+    [tiempoEjecucion] => 0.0121750831604
+    [retroalimentacionParametros] => Los parametros son correctos 
+)
+
+
+::::::::::::::::::::::::ENTRADA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695
+    [iniciarTiempo] => 1403978724.9372
+    [funcion] => modulocategoriasRegistrarCategoria
+    [name] => 
+    [description] => Descripcion1403978724
+    [parent] => 72
+    [theme] => standardblue
+)
+
+
+::::::::::::::::::::::::SALIDA: ::::::::::::::::::::::::
+
+Array
+(
+    [ERROR] => Falta proporcionar información
+)
+
+
+::::::::::::::::::::::::ENTRADA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695
+    [iniciarTiempo] => 1403978736.5127
+    [funcion] => modulocategoriasRegistrarCategoria
+    [name] => Año áé:2014-06-28 13:05:36
+    [description] => 
+    [parent] => 72
+    [theme] => standardblue
+)
+
+
+::::::::::::::::::::::::SALIDA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695
+    [iniciarTiempo] => 1403978736.5127
+    [funcion] => modulocategoriasRegistrarCategoria
+    [name] => Año áé:2014-06-28 13:05:36
+    [description] => 
+    [parent] => 72
+    [theme] => standardblue
+    [tiempoEjecucion] => 0.013382911682129
+    [retroalimentacionParametros] => {"description":"No contiene valores"}
+)
+
+
+::::::::::::::::::::::::ENTRADA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695
+    [iniciarTiempo] => 1403978746.7087
+    [funcion] => modulocategoriasRegistrarCategoria
+    [name] => Año áé:2014-06-28 13:05:46
+    [description] => Descripcion1403978746
+    [parent] => 72
+    [theme] => standardblue
+)
+
+
+::::::::::::::::::::::::SALIDA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695
+    [iniciarTiempo] => 1403978746.7087
+    [funcion] => modulocategoriasRegistrarCategoria
+    [name] => Año áé:2014-06-28 13:05:46
+    [description] => Descripcion1403978746
+    [parent] => 72
+    [theme] => standardblue
+    [tiempoEjecucion] => 0.010545969009399
+    [retroalimentacionParametros] => Los parametros son correctos 
+)
+
+
+::::::::::::::::::::::::ENTRADA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695
+    [iniciarTiempo] => 1403978757.4869
+    [funcion] => modulocategoriasRegistrarCategoria
+    [name] => Año áé:2014-06-28 13:05:57
+    [description] => Descripcion1403978757
+    [parent] => 72
+    [theme] => standardblue
+)
+
+
+::::::::::::::::::::::::SALIDA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695
+    [iniciarTiempo] => 1403978757.4869
+    [funcion] => modulocategoriasRegistrarCategoria
+    [name] => Año áé:2014-06-28 13:05:57
+    [description] => Descripcion1403978757
+    [parent] => 72
+    [theme] => standardblue
+    [tiempoEjecucion] => 0.014217853546143
+    [retroalimentacionParametros] => Los parametros son correctos 
+)
+
+
+::::::::::::::::::::::::ENTRADA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695
+    [iniciarTiempo] => 1403978823.4774
+    [funcion] => modulocategoriasRegistrarCategoria
+    [name] => Año áé:2014-06-28 13:07:03
+    [description] => Descripcion1403978823
+    [parent] => 72
+    [theme] => standardblue
+)
+
+
+::::::::::::::::::::::::SALIDA: ::::::::::::::::::::::::
+
+Array
+(
+    [tiempoEjecucion] => 1403978823.4936
+    [retroalimentacionParametros] => Los parametros son correctos 
+)
+
+
+::::::::::::::::::::::::ENTRADA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695
+    [iniciarTiempo] => 1403978897.9378
+    [funcion] => modulocategoriasRegistrarCategoria
+    [name] => Año áé:2014-06-28 13:08:17
+    [description] => Descripcion1403978897
+    [parent] => 72
+    [theme] => standardblue
+)
+
+
+::::::::::::::::::::::::SALIDA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695
+    [iniciarTiempo] => 1403978897.9378
+    [funcion] => modulocategoriasRegistrarCategoria
+    [name] => Año áé:2014-06-28 13:08:17
+    [description] => Descripcion1403978897
+    [parent] => 72
+    [theme] => standardblue
+    [tiempoEjecucion] => 0.013581037521362
+    [retroalimentacionParametros] => Los parametros son correctos 
+)
+
+
+::::::::::::::::::::::::ENTRADA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695
+    [iniciarTiempo] => 1403978995.3183
+    [funcion] => modulocategoriasRegistrarCategoria
+    [name] => Año áé:2014-06-28 13:09:55
+    [description] => Descripcion1403978995
+    [parent] => 72
+    [theme] => standardblue
+)
+
+
+::::::::::::::::::::::::SALIDA: ::::::::::::::::::::::::
+
+Array
+(
+    [identificadorMoodle] => stdClass Object
+        (
+            [name] => Año áé:2014-06-28 13:09:55
+            [description] => Descripcion1403978995
+            [parent] => 72
+            [theme] => standardblue
+            [sortorder] => 999
+            [id] => 182
+            [context] => stdClass Object
+                (
+                    [id] => 233
+                    [contextlevel] => 40
+                    [instanceid] => 182
+                    [path] => /1/3/123/233
+                    [depth] => 4
+                )
+
+        )
+
+    [tiempoEjecucion] => 1403978995.3382
+    [retroalimentacionParametros] => Los parametros son correctos 
+)
+
+
+::::::::::::::::::::::::ENTRADA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695
+    [iniciarTiempo] => 1403979081.0045
+    [funcion] => modulocategoriasRegistrarCategoria
+    [name] => Año áé:2014-06-28 13:11:21
+    [description] => Descripcion1403979081
+    [parent] => 72
+    [theme] => standardblue
+)
+
+
+::::::::::::::::::::::::ENTRADA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695
+    [iniciarTiempo] => 1403979082.3772
+    [funcion] => modulocategoriasRegistrarCategoria
+    [name] => Año áé:2014-06-28 13:11:22
+    [description] => Descripcion1403979082
+    [parent] => 72
+    [theme] => standardblue
+)
+
+
+::::::::::::::::::::::::ENTRADA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695
+    [iniciarTiempo] => 1403979097
+    [funcion] => modulocategoriasRegistrarCategoria
+    [name] => Año áé:2014-06-28 13:11:36
+    [description] => Descripcion1403979096
+    [parent] => 72
+    [theme] => standardblue
+)
+
+
+::::::::::::::::::::::::SALIDA: ::::::::::::::::::::::::
+
+Array
+(
+    [identificadorMoodle] => 185
+    [tiempoEjecucion] => 1403979097.0262
+    [retroalimentacionParametros] => Los parametros son correctos 
+)
+
+
+::::::::::::::::::::::::ENTRADA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695
+    [iniciarTiempo] => 1403979226.5981
+    [funcion] => modulocategoriasRegistrarCategoria
+    [name] => Año áé:2014-06-28 13:13:46
+    [description] => Descripcion1403979226
+    [parent] => 72
+    [theme] => standardblue
+)
+
+
+::::::::::::::::::::::::SALIDA: ::::::::::::::::::::::::
+
+Array
+(
+    [identificadorMoodle] => 186
+    [tiempoEjecucion] => 0.015710115432739
+    [retroalimentacionParametros] => Los parametros son correctos 
+)
+
+
+::::::::::::::::::::::::ENTRADA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695
+    [iniciarTiempo] => 1403979237.7692
+    [funcion] => modulocategoriasRegistrarCategoria
+    [name] => Año áé:2014-06-28 13:13:57
+    [description] => Descripcion1403979237
+    [parent] => 72
+    [theme] => standardblue
+)
+
+
+::::::::::::::::::::::::SALIDA: ::::::::::::::::::::::::
+
+Array
+(
+    [identificadorMoodle] => 187
+    [tiempoEjecucion] => 0.026818990707397
+    [retroalimentacionParametros] => Los parametros son correctos 
+)
+
+
+::::::::::::::::::::::::ENTRADA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695
+    [iniciarTiempo] => 1403979238.5727
+    [funcion] => modulocategoriasRegistrarCategoria
+    [name] => Año áé:2014-06-28 13:13:58
+    [description] => Descripcion1403979238
+    [parent] => 72
+    [theme] => standardblue
+)
+
+
+::::::::::::::::::::::::SALIDA: ::::::::::::::::::::::::
+
+Array
+(
+    [identificadorMoodle] => 188
+    [tiempoEjecucion] => 0.017117977142334
+    [retroalimentacionParametros] => Los parametros son correctos 
+)
+
+
+::::::::::::::::::::::::ENTRADA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695
+    [iniciarTiempo] => 1403979276.0212
+    [funcion] => modulocategoriasRegistrarCategoria
+    [name] => Año áé:2014-06-28 13:14:36
+    [description] => Descripcion1403979276
+    [parent] => 72
+    [theme] => standardblue
+)
+
+
+::::::::::::::::::::::::SALIDA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695
+    [iniciarTiempo] => 1403979276.0212
+    [funcion] => modulocategoriasRegistrarCategoria
+    [name] => Año áé:2014-06-28 13:14:36
+    [description] => Descripcion1403979276
+    [parent] => 72
+    [theme] => standardblue
+    [ERROR] => no existe categoria: 72
+)
+
+
+::::::::::::::::::::::::ENTRADA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695
+    [iniciarTiempo] => 1403979394.6181
+    [funcion] => modulocategoriasRegistrarCategoria
+    [name] => Año áé:2014-06-28 13:16:34
+    [description] => Descripcion1403979394
+    [parent] => 72
+    [theme] => standardblue
+)
+
+
+::::::::::::::::::::::::SALIDA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695
+    [iniciarTiempo] => 1403979394.6181
+    [funcion] => modulocategoriasRegistrarCategoria
+    [name] => Año áé:2014-06-28 13:16:34
+    [description] => Descripcion1403979394
+    [parent] => 72
+    [theme] => standardblue
+    [ERROR] => no existe categoria: 72
+)
+
+
+::::::::::::::::::::::::ENTRADA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695
+    [iniciarTiempo] => 1403979409.1229
+    [funcion] => modulocategoriasRegistrarCategoria
+    [name] => Año áé:2014-06-28 13:16:49
+    [description] => Descripcion1403979409
+    [parent] => 77
+    [theme] => standardblue
+)
+
+
+::::::::::::::::::::::::SALIDA: ::::::::::::::::::::::::
+
+Array
+(
+    [identificadorMoodle] => 189
+    [tiempoEjecucion] => 0.012284994125366
+    [retroalimentacionParametros] => Los parametros son correctos 
+)
+
+
+::::::::::::::::::::::::ENTRADA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695
+    [iniciarTiempo] => 1403979504.7543
+    [funcion] => modulocategoriasRegistrarCategoria
+    [name] => Año áé:2014-06-28 13:18:24
+    [description] => Descripcion1403979504
+    [parent] => 77
+    [theme] => standardblue
+)
+
+
+::::::::::::::::::::::::SALIDA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => No existe certificado
+    [iniciarTiempo] => 1403979504.7543
+    [funcion] => modulocategoriasRegistrarCategoria
+    [name] => Año áé:2014-06-28 13:18:24
+    [description] => Descripcion1403979504
+    [parent] => 77
+    [theme] => standardblue
+)
+
+
+::::::::::::::::::::::::ENTRADA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695
+    [iniciarTiempo] => 1403979523.7556
+    [funcion] => modulocategoriasRegistrarCategoria
+    [name] => Año áé:2014-06-28 13:18:43
+    [description] => Descripcion1403979523
+    [parent] => 77
+    [theme] => standardblue
+)
+
+
+::::::::::::::::::::::::SALIDA: ::::::::::::::::::::::::
+
+Array
+(
+    [identificadorMoodle] => 190
+    [tiempoEjecucion] => 0.023822069168091
+    [retroalimentacionParametros] => Los parametros son correctos 
+)
+
+
+::::::::::::::::::::::::ENTRADA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695
+    [iniciarTiempo] => 1403979557.805
+    [funcion] => modulocategoriasRegistrarCategoria
+    [name] => Año áé:2014-06-28 13:19:17
+    [description] => Descripcion1403979557
+    [parent] => 77
+    [theme] => standardblue
+)
+
+
+::::::::::::::::::::::::SALIDA: ::::::::::::::::::::::::
+
+Array
+(
+    [identificadorMoodle] => 191
+    [tiempoEjecucion] => 0.011992931365967
+    [retroalimentacionParametros] => Los parametros son correctos 
+)
+
+
+::::::::::::::::::::::::ENTRADA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695
+    [iniciarTiempo] => 1403982201.5934
+    [funcion] => modulocategoriasRegistrarCategoria
+    [name] => Año áé:2014-06-28 14:03:21
+    [description] => Descripcion1403982201
+    [parent] => 77
+    [theme] => standardblue
+)
+
+
+::::::::::::::::::::::::SALIDA: ::::::::::::::::::::::::
+
+Array
+(
+    [identificadorMoodle] => 192
+    [tiempoEjecucion] => 0.026538848876953
+    [retroalimentacionParametros] => Los parametros son correctos 
+)
+
+
+::::::::::::::::::::::::ENTRADA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695
+    [iniciarTiempo] => 1403982315.1443
+    [funcion] => modulocategoriasRegistrarCategoria
+    [name] => Año áé:2014-06-28 14:05:15
+    [description] => Descripcion1403982315
+    [parent] => 77
+    [theme] => standardblue
+)
+
+
+::::::::::::::::::::::::SALIDA: ::::::::::::::::::::::::
+
+Array
+(
+    [identificadorMoodle] => 193
+    [tiempoEjecucion] => 0.025255918502808
+    [retroalimentacionParametros] => Los parametros son correctos 
+)
+
+
+::::::::::::::::::::::::ENTRADA: modulocategoriasRegistrarCategoria::::::::::::::::::::::::
+
+Array
+(
+    [CERTIFICADO] => V<_-,Jm!H8.ydF,by3OI7`@>R]%9l9+2394005695
+    [iniciarTiempo] => 1403982315.7728
+    [funcion] => modulocategoriasRegistrarCategoria
+    [name] => Año áé:2014-06-28 14:05:15
+    [description] => Descripcion1403982315
+    [parent] => 77
+    [theme] => standardblue
+)
+
+
+::::::::::::::::::::::::SALIDA: ::::::::::::::::::::::::
+
+Array
+(
+    [identificadorMoodle] => 194
+    [tiempoEjecucion] => 0.012414932250977
+    [retroalimentacionParametros] => Los parametros son correctos 
+)
+
+

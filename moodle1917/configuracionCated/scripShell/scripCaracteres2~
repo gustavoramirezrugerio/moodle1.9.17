@@ -1,0 +1,12 @@
+#!/bin/bash
+declare -A array
+
+array[192.168.1.1]="host1"
+array[192.168.1.2]="host2"
+array[192.168.1.3]="host3"
+array[192.168.1.4]="host4"
+
+for hostname in "${array[@]}"
+do
+   echo $hostname
+done

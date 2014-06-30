@@ -1,0 +1,15 @@
+[24-May-2014 14:33:16 America/Chicago] PHP Notice:  Undefined variable: iniciarTiempo in /var/www/html/moodles/moodle1917/webserviceMoodle1.9.17/classDesarrollo/Principal.php on line 18
+[24-May-2014 14:33:16 America/Chicago] PHP Stack trace:
+[24-May-2014 14:33:16 America/Chicago] PHP   1. {main}() /var/www/html/moodles/moodle1917/webserviceMoodle1.9.17/classDesarrollo/registroUsuarios.php:0
+[24-May-2014 14:33:16 America/Chicago] PHP   2. registrarUsuarios() /var/www/html/moodles/moodle1917/webserviceMoodle1.9.17/classDesarrollo/registroUsuarios.php:13
+[24-May-2014 14:33:16 America/Chicago] PHP   3. Principal::terminarFuncion() /var/www/html/moodles/moodle1917/webserviceMoodle1.9.17/classDesarrollo/registroUsuarios.php:9
+[24-May-2014 14:33:16 America/Chicago] PHP Notice:  Undefined variable: archivo in /var/www/html/moodles/moodle1917/webserviceMoodle1.9.17/classDesarrollo/Principal.php on line 19
+[24-May-2014 14:33:16 America/Chicago] PHP Stack trace:
+[24-May-2014 14:33:16 America/Chicago] PHP   1. {main}() /var/www/html/moodles/moodle1917/webserviceMoodle1.9.17/classDesarrollo/registroUsuarios.php:0
+[24-May-2014 14:33:16 America/Chicago] PHP   2. registrarUsuarios() /var/www/html/moodles/moodle1917/webserviceMoodle1.9.17/classDesarrollo/registroUsuarios.php:13
+[24-May-2014 14:33:16 America/Chicago] PHP   3. Principal::terminarFuncion() /var/www/html/moodles/moodle1917/webserviceMoodle1.9.17/classDesarrollo/registroUsuarios.php:9
+[24-May-2014 14:36:12 America/Chicago] PHP Fatal error:  Using $this when not in object context in /var/www/html/moodles/moodle1917/webserviceMoodle1.9.17/classDesarrollo/Principal.php on line 16
+[24-May-2014 14:36:12 America/Chicago] PHP Stack trace:
+[24-May-2014 14:36:12 America/Chicago] PHP   1. {main}() /var/www/html/moodles/moodle1917/webserviceMoodle1.9.17/classDesarrollo/registroUsuarios.php:0
+[24-May-2014 14:36:12 America/Chicago] PHP   2. registrarUsuarios() /var/www/html/moodles/moodle1917/webserviceMoodle1.9.17/classDesarrollo/registroUsuarios.php:13
+[24-May-2014 14:36:12 America/Chicago] PHP   3. Principal::terminarFuncion() /var/www/html/moodles/moodle1917/webserviceMoodle1.9.17/classDesarrollo/registroUsuarios.php:9
