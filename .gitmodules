@@ -1,3 +1,6 @@
 [submodule "repositorioHtmlJqueryCss"]
 	path = repositorioHtmlJqueryCss
 	url = https://github.com/gustavoramirezrugerio/repositorioHtmlJqueryCss
+[submodule "PRELOAD001"]
+	path = PRELOAD001
+	url = https://github.com/gustavoramirezrugerio/preload
